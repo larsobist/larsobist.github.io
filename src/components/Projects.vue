@@ -1,30 +1,35 @@
 <template>
   <div>
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="rectangle-up" @click="logClick('zphere')">zphere</div>
-      <div class="rectangle" @click="logClick('Circle of Life')">Circle of Life</div>
-      <div class="" @click="logClick('Mobile Apps')">Mobile Apps</div>
-      <div class="big-rectangle" @click="logClick('Bachelorarbeit')">Bachelorarbeit</div>
-      <div class="" @click="logClick('Culino')">Culino</div>
-      <div class="rectangle-up" @click="logClick('Usability')">Usability</div>
-      <div class="" @click="logClick('Lagom')">Lagom</div>
-      <div class="" @click="logClick('buildAR')">BuildAR</div>
-      <div class="" @click="logClick('Runners High')">Runners High</div>
-      <div class="square" @click="logClick('Timeless Treasures')">Timeless Treasures</div>
-      <div class="" @click="logClick('Web Games')">Web Games</div>
-      <div class="" @click="logClick('Save a Turtle')">Save a Turtle</div>
-      <div class="" @click="logClick('eatabroad')">eatabroad</div>
-      <div class="" @click="logClick('e-shop')">e-shop</div>
-      <div class="" @click="logClick('Portfolio')">Portfolio</div>
-      <div class="rectangle" @click="logClick('Upcoming')">Upcoming</div>
+    <div v-if="selectedProject == null">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="rectangle-up" @click="onClick('zphere')">zphere</div>
+        <div class="rectangle" @click="onClick('Circle of Life')">Circle of Life</div>
+        <div class="" @click="onClick('Mobile Apps')">Mobile Apps</div>
+        <div class="big-rectangle" @click="onClick('Bachelorarbeit')">Bachelorarbeit</div>
+        <div class="" @click="onClick('Culino')">Culino</div>
+        <div class="rectangle-up" @click="onClick('Usability')">Usability</div>
+        <div class="" @click="onClick('Lagom')">Lagom</div>
+        <div class="" @click="onClick('buildAR')">BuildAR</div>
+        <div class="" @click="onClick('Runners High')">Runners High</div>
+        <div class="square" @click="onClick('Timeless Treasures')">Timeless Treasures</div>
+        <div class="" @click="onClick('Web Games')">Web Games</div>
+        <div class="" @click="onClick('Save a Turtle')">Save a Turtle</div>
+        <div class="" @click="onClick('eatabroad')">eatabroad</div>
+        <div class="" @click="onClick('e-shop')">e-shop</div>
+        <div class="" @click="onClick('Portfolio')">Portfolio</div>
+        <div class="rectangle" @click="onClick('Upcoming')">Upcoming</div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const logClick = (project) => {
-  console.log(`Clicked on: ${project}`);
+import {selectedProject} from '@/stores/store';
+import {setSelectedProject} from '@/stores/store';
+
+const onClick = (project: string) => {
+  setSelectedProject(project);
 };
 </script>
 
@@ -63,7 +68,8 @@ const logClick = (project) => {
   background-color: orange;
 }
 
-.grid .square { grid-row: span 2;
+.grid .square {
+  grid-row: span 2;
   grid-column: span 2;
   background-color: purple;
 
