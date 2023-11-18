@@ -1,82 +1,82 @@
 <template>
   <div>
     <h2>Projects</h2>
-    <div class="flexbox">
-      <div class="rectangle-up">zphere</div>
-      <div class="rectangle">Circle of Life</div>
-      <div class="">Mobile Apps</div>
-      <div class="big-rectangle">Bachelorarbeit</div>
-      <div class="one-up skip-one">Culino</div>
-      <div class="one-up">buildAR</div>
-      <div class="rectangle-up one-up">Usability Engineering</div>
-      <div class="left">Lagom</div>
-      <div class="square">Timeless Treasures</div>
-      <div class="skip-one">Runners High</div>
-      <div class="">Web Games</div>
-      <div class="">Save a Turtle</div>
-      <div class="one-up">eatabroad</div>
-      <div class="skip-two one-up">e-shop</div>
-      <div class="one-up">Portfolio</div>
-      <div class="rectangle one-up">Upcoming</div>
+    <div class="grid">
+      <div class="rectangle-up" @click="logClick('zphere')">zphere</div>
+      <div class="rectangle" @click="logClick('Circle of Life')">Circle of Life</div>
+      <div class="" @click="logClick('Mobile Apps')">Mobile Apps</div>
+      <div class="big-rectangle" @click="logClick('Bachelorarbeit')">Bachelorarbeit</div>
+      <div class="" @click="logClick('Culino')">Culino</div>
+      <div class="rectangle-up" @click="logClick('Usability')">Usability</div>
+      <div class="" @click="logClick('Lagom')">Lagom</div>
+      <div class="" @click="logClick('buildAR')">BuildAR</div>
+      <div class="" @click="logClick('Runners High')">Runners High</div>
+      <div class="square" @click="logClick('Timeless Treasures')">Timeless Treasures</div>
+      <div class="" @click="logClick('Web Games')">Web Games</div>
+      <div class="" @click="logClick('Save a Turtle')">Save a Turtle</div>
+      <div class="" @click="logClick('eatabroad')">eatabroad</div>
+      <div class="" @click="logClick('e-shop')">e-shop</div>
+      <div class="" @click="logClick('Portfolio')">Portfolio</div>
+      <div class="rectangle" @click="logClick('Upcoming')">Upcoming</div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+const logClick = (project) => {
+  console.log(`Clicked on: ${project}`);
+};
 </script>
 
 <style scoped>
-.flexbox {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  aspect-ratio: 7 / 4; /* Set the desired aspect ratio (1050 / 600) */
-  max-height: 57.14vw; /* Set the height to 57.14% of the viewport width */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0;
+  aspect-ratio: 7 / 4;
+  max-height: 57.14vw;
+  background-color: yellow;
 }
 
-.flexbox div {
-  width: calc((100% / 7) * 1);
+.grid div {
   background: green;
-  height: calc((100% / 4) * 1);
-  padding: 2px;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
 }
 
-.flexbox .rectangle-up {
-  height: calc((100% / 4) * 2);
+.grid .rectangle-up {
+  grid-row: span 2;
   background-color: red;
 }
 
-.flexbox .rectangle {
-  width: calc((100% / 7) * 2);
+.grid .rectangle {
+  grid-column: span 2;
   background-color: aqua;
 }
 
-.flexbox .big-rectangle {
-  width: calc((100% / 7) * 3);
-  height: calc((100% / 4) * 2);
+.grid .big-rectangle {
+  grid-column: span 3;
+  grid-row: span 2;
   background-color: orange;
 }
 
-.flexbox .square {
-  width: calc((100% / 7) * 2);
-  height: calc((100% / 4) * 2);
+.grid .square { grid-row: span 2;
+  grid-column: span 2;
   background-color: purple;
+
 }
 
-.flexbox .one-up {
-  margin-top: calc((100% / 7) * -1);
-}
-
-.flexbox .left {
-  margin-left: calc((100% / 7) * -4);
-}
-
-.flexbox .skip-one {
-  margin-left: calc((100% / 7) * 1);
-}
-
-.flexbox .skip-two {
-  margin-left: calc((100% / 7) * 2);
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    aspect-ratio: 4 / 7;
+    max-height: calc(100vw * 7 / 4);
+    background-color: #333333;
+  }
 }
 
 </style>
