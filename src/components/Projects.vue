@@ -27,22 +27,22 @@
 
 <style scoped>
 .flexbox {
-  background-color: #2ecc71;
-  height: 500px;
-  width: 1000px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  aspect-ratio: 7 / 4; /* Set the desired aspect ratio (1050 / 600) */
+  max-height: 57.14vw; /* Set the height to 57.14% of the viewport width */
 }
 
 .flexbox div {
   width: calc((100% / 7) * 1);
   background: green;
-  height: 25%;
+  height: calc((100% / 4) * 1);
   padding: 2px;
 }
 
 .flexbox .rectangle-up {
-  height: 50%;
+  height: calc((100% / 4) * 2);
   background-color: red;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .flexbox .one-up {
-  margin-top: calc((100% / 4) * -0.5);
+  margin-top: calc((100% / 7) * -1);
 }
 
 .flexbox .left {

@@ -8,11 +8,14 @@ import Skills from "@/components/Skills.vue";
 </script>
 
 <template>
-  <Header/>
-  <About/>
-  <Skills/>
-  <Projects/>
-  <ProjectDetail/>
+
+  <div class="container">
+    <Header/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <ProjectDetail/>
+  </div>
 
   <RouterView />
 </template>
