@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <h2>{{$t('Welcome')}}</h2>
+  <div class="border">
+    <h2>{{$t('Welcome')}}</h2>
+  </div>
+
 </template>
 
 <style scoped>

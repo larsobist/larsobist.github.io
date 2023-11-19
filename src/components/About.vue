@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <h2>{{$t('About')}}</h2>
+  <div class="border">
+    <h2>{{$t('About')}}</h2>
+  </div>
 </template>
 
 <style scoped>

@@ -4,7 +4,10 @@
   "Skills": "Können",
   "Projects": "Projekte",
   "Project-Detail": "Projektdetails",
+
   "Close": "Schließen",
+  "Lightmode": "Helles Design",
+  "Darkmode": "Dunkles Design",
   "Lang-Change-German": "DEU ",
   "Lang-Change-English": "ENG",
 
@@ -15,7 +18,7 @@
   "Culino": "Culino",
   "Usability": "Usability Engineering",
   "Lagom": "Lagom",
-  "buildAR": "buildAR",
+  "BuildAR": "buildAR",
   "Runners-High": "Runner's High",
   "Timeless-Treasures": "Timeless Treasures",
   "Web-Games": "Webspiele",
