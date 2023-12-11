@@ -8,29 +8,27 @@ const onClick = (project: string) => {
 </script>
 
 <template>
-  <div>
     <div class="border" v-if="selectedProject == null">
-      <h2>{{ $t('Projects') }}</h2>
+      <h2>{{ $t('PROJECTS.TITLE') }}</h2>
       <div class="grid">
-        <div class="border rectangle-up" @click="onClick('zphere')">{{ $t('zphere') }}</div>
-        <div class="border rectangle" @click="onClick('Circle of Life')">{{ $t('Circle-of-Life') }}</div>
-        <div class="border " @click="onClick('Mobile Apps')">{{ $t('Mobile-Apps') }}</div>
-        <div class="border big-rectangle" @click="onClick('Bachelorarbeit')">{{ $t('Bachelorarbeit') }}</div>
-        <div class="border " @click="onClick('Culino')">{{ $t('Culino') }}</div>
-        <div class="border rectangle-up" @click="onClick('Usability')">{{ $t('Usability') }}</div>
-        <div class="border " @click="onClick('Lagom')">{{ $t('Lagom') }}</div>
-        <div class="border " @click="onClick('buildAR')">{{ $t('BuildAR') }}</div>
-        <div class="border " @click="onClick('Runners High')">{{ $t('Runners-High') }}</div>
-        <div class="border square" @click="onClick('Timeless Treasures')">{{ $t('Timeless-Treasures') }}</div>
-        <div class="border " @click="onClick('Web Games')">{{ $t('Web-Games') }}</div>
-        <div class="border " @click="onClick('Save a Turtle')">{{ $t('Save-a-Turtle') }}</div>
-        <div class="border " @click="onClick('eatabroad')">{{ $t('eatabroad') }}</div>
-        <div class="border " @click="onClick('e-shop')">{{ $t('e-shop') }}</div>
-        <div class="border " @click="onClick('Portfolio')">{{ $t('Portfolio') }}</div>
-        <div class="border rectangle" @click="onClick('Upcoming')">{{ $t('Upcoming') }}</div>
+        <div class="border rectangle-up" @click="onClick('ZPHERE')">{{ $t('PROJECTS.ZPHERE.TITLE') }}</div>
+        <div class="border rectangle" @click="onClick('CIRCLEOFLIFE')">{{ $t('PROJECTS.CIRCLEOFLIFE.TITLE') }}</div>
+        <div class="border " @click="onClick('MOBILEAPPS')">{{ $t('PROJECTS.MOBILEAPPS.TITLE') }}</div>
+        <div class="border big-rectangle" @click="onClick('BACHELORTHESIS')">{{ $t('PROJECTS.BACHELORTHESIS.TITLE') }}</div>
+        <div class="border " @click="onClick('CULINO')">{{ $t('PROJECTS.CULINO.TITLE') }}</div>
+        <div class="border rectangle-up" @click="onClick('USABILITY')">{{ $t('PROJECTS.USABILITY.TITLE') }}</div>
+        <div class="border " @click="onClick('LAGOM')">{{ $t('PROJECTS.LAGOM.TITLE') }}</div>
+        <div class="border " @click="onClick('BUILDAR')">{{ $t('PROJECTS.BUILDAR.TITLE') }}</div>
+        <div class="border " @click="onClick('RUNNERSHIGH')">{{ $t('PROJECTS.RUNNERSHIGH.TITLE') }}</div>
+        <div class="border square" @click="onClick('TIMELESSTREASURES')">{{ $t('PROJECTS.TIMELESSTREASURES.TITLE') }}</div>
+        <div class="border " @click="onClick('WEBGAMES')">{{ $t('PROJECTS.WEBGAMES.TITLE') }}</div>
+        <div class="border " @click="onClick('SAVEATURTLE')">{{ $t('PROJECTS.SAVEATURTLE.TITLE') }}</div>
+        <div class="border " @click="onClick('EATABROAD')">{{ $t('PROJECTS.EATABROAD.TITLE') }}</div>
+        <div class="border " @click="onClick('ESHOP')">{{ $t('PROJECTS.ESHOP.TITLE') }}</div>
+        <div class="border " @click="onClick('PORTFOLIO')">{{ $t('PROJECTS.PORTFOLIO.TITLE') }}</div>
+        <div class="border rectangle" @click="onClick('UPCOMING')">{{ $t('PROJECTS.UPCOMING.TITLE') }}</div>
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
