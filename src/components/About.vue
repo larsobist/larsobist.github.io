@@ -13,13 +13,13 @@
         {{ $t('ABOUT.EDUCATION.MASTER.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.TIME') }}<br>
-        {{ $t('ABOUT.EDUCATION.MASTER.IMG') }}
+        <img class="img" :src="$t('ABOUT.EDUCATION.MASTER.IMG')"/>
       </div>
       <div class="border ">
         {{ $t('ABOUT.EDUCATION.BACHELOR.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.TIME') }}<br>
-        {{ $t('ABOUT.EDUCATION.BACHELOR.IMG') }}
+        <img class="img" :src="$t('ABOUT.EDUCATION.BACHELOR.IMG')"/>
       </div>
     </div>
 
@@ -31,7 +31,7 @@
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TIME') }}<br>
-        {{ $t('ABOUT.EXPERIENCES.BOSCH.IMG') }}
+        <img class="img" :src="$t('ABOUT.EXPERIENCES.BOSCH.IMG')"/>
       </div>
       <div class="border ">
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.EMPLOYER') }}<br>
@@ -39,7 +39,7 @@
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TIME') }}<br>
-        {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.IMG') }}
+        <img class="img" :src="$t('ABOUT.EXPERIENCES.PLANETMUTLU.IMG')"/>
       </div>
     </div>
 

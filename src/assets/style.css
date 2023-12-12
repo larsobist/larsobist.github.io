@@ -13,6 +13,11 @@
     width: 100vw;
 }
 
+.img{
+    height: 100px;
+    width: 100px;
+}
+
 .btn {
     cursor: pointer;
     border: 2px solid;

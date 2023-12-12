@@ -4,7 +4,6 @@ import {apppearance, setVisualAppearance} from "@/stores/store";
 const toggleAppearance = (appearance: string) => {
   setVisualAppearance(appearance);
 };
-
 </script>
 
 <template>
@@ -14,7 +13,7 @@ const toggleAppearance = (appearance: string) => {
       <button v-if="$i18n.locale !== 'en'" class="btn" @click="$i18n.locale = 'en'"
               :class="{ active: $i18n.locale === 'en' }">{{ $t('ENGLISH') }}
       </button>
-      <button v-else class="btn" @click="$i18n.locale = 'de'" :class="{ active: $i18n.locale === 'de' }">
+      <button v-else class="btn" @click="$i18n.locale = 'de'">
         {{ $t('GERMAN') }}
       </button>
     </div>
@@ -26,45 +25,45 @@ const toggleAppearance = (appearance: string) => {
 
     <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.JAVA.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.HTML.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.JAVASCRIPT.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.TYPESCRIPT.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.SCSS.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.PYTHON.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.SWIFT.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.LANGUAGES.KOTLIN.TITLE') }}</div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.JAVA.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.JAVA.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.HTML.TITLE')}} <img class="img" :src="$t('SKILLS.LANGUAGES.HTML.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.JAVASCRIPT.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.JAVASCRIPT.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.TYPESCRIPT.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.TYPESCRIPT.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.CSS.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.CSS.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.PYTHON.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.PYTHON.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.SWIFT.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.SWIFT.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.LANGUAGES.KOTLIN.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.KOTLIN.IMG')" alt="Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.ANGULAR.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.VUE.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.REACT.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.NODEJS.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.SPRINGBOOT.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.BOOTSTRAP.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.DOCKER.TITLE') }}</div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.ANGULAR.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.ANGULAR.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.VUE.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.VUE.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.REACT.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.REACT.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.NODEJS.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.NODEJS.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.SPRINGBOOT.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.SPRINGBOOT.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.BOOTSTRAP.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.BOOTSTRAP.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.DOCKER.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.DOCKER.IMG')" alt="Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.INTELLIJ.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.VISUALSTUDIOCODE.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.XCODE.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.ANDROIDSTUDIO.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.VERSIONCONTROLLSYSTEMS.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.DATABASE.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.POSTMAN.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.DESIGN.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.WORDPRESS.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.SOFTWARE.MSOFFICE.TITLE') }}</div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.INTELLIJ.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.INTELLIJ.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.VISUALSTUDIOCODE.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.VISUALSTUDIOCODE.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.XCODE.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.XCODE.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.ANDROIDSTUDIO.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.ANDROIDSTUDIO.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.VERSIONCONTROLLSYSTEMS.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.VERSIONCONTROLLSYSTEMS.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.DATABASE.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.DATABASE.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.POSTMAN.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.POSTMAN.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.DESIGN.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.DESIGN.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.WORDPRESS.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.WORDPRESS.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.SOFTWARE.MSOFFICE.TITLE') }}<img class="img" :src="$t('SKILLS.SOFTWARE.MSOFFICE.IMG')" alt="Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">{{ $t('SKILLS.METHODS.SCRUM.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.METHODS.CLEANCODE.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.METHODS.DESIGNTHINKING.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.METHODS.UXDESIGN.TITLE') }}</div>
-      <div class="border ">{{ $t('SKILLS.METHODS.BRANDING.TITLE') }}</div>
+      <div class="border ">{{ $t('SKILLS.METHODS.SCRUM.TITLE') }}<img class="img" :src="$t('SKILLS.METHODS.SCRUM.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.METHODS.CLEANCODE.TITLE') }}<img class="img" :src="$t('SKILLS.METHODS.CLEANCODE.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.METHODS.DESIGNTHINKING.TITLE') }}<img class="img" :src="$t('SKILLS.METHODS.DESIGNTHINKING.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.METHODS.UXDESIGN.TITLE') }}<img class="img" :src="$t('SKILLS.METHODS.UXDESIGN.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.METHODS.BRANDING.TITLE') }}<img class="img" :src="$t('SKILLS.METHODS.BRANDING.IMG')" alt="Logo"/></div>
     </div>
   </div>
 </template>
@@ -74,10 +73,9 @@ const toggleAppearance = (appearance: string) => {
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 0;
-  aspect-ratio: 7 / 3;
-  max-height: 57.14vw;
+  aspect-ratio: 7 / 2;
 }
 
 .grid div {
@@ -106,9 +104,9 @@ const toggleAppearance = (appearance: string) => {
 @media screen and (max-width: 800px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    aspect-ratio: 4 / 7;
-    max-height: calc(100vw * 7 / 4);
+    grid-template-rows: repeat(3, 1fr);
+    aspect-ratio: 4 / 3;
+    max-height: calc(100vw * 3 / 4);
   }
 }
 

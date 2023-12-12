@@ -11,13 +11,13 @@
         "TITLE": "Master's Degree - Media Informatics M. Sc.",
         "UNI": "Berlin Institute of Technology",
         "TIME": "10/2022 - expected 09/2024",
-        "IMG": "bht.png"
+        "IMG": "src/assets/Logo/BHT.png"
       },
       "BACHELOR": {
         "TITLE": "Bachelor's Degree - International Media Informatics B. Sc.",
         "UNI": "Bremen University of Applied Sciences",
         "TIME": "09/2018 - 09/2022",
-        "IMG": "hsb.png"
+        "IMG": "src/assets/Logo/HSB.png"
       }
     },
     "EXPERIENCES": {
@@ -28,7 +28,7 @@
         "TASKS": "Frontend Development and Consulting",
         "CITY": "Berlin",
         "TIME": "06/2023 - Present",
-        "IMG": "bosch.png"
+        "IMG": "src/assets/Logo/Bosch.png"
       },
       "PLANETMUTLU": {
         "EMPLOYER": "planetmutlu",
@@ -36,7 +36,7 @@
         "TASKS": "Web Design, Development, and Project Management",
         "CITY": "Bremen",
         "TIME": "03/2021 - 05/2023",
-        "IMG": "planetmutlu.png"
+        "IMG": "src/assets/Logo/Planetmutlu.png"
       }
     },
     "ABROAD": {
@@ -59,132 +59,132 @@
       "TITLE": "Programming Languages",
       "JAVA": {
         "TITLE": "Java",
-        "IMG": "java.png"
+        "IMG": "src/assets/Logo/Java.png"
       },
       "HTML": {
         "TITLE": "HTML",
-        "IMG": "html.png"
+        "IMG": "src/assets/Logo/HTML.png"
       },
       "JAVASCRIPT": {
         "TITLE": "JavaScript",
-        "IMG": "JavaScript.png"
+        "IMG": "src/assets/Logo/JavaScript.png"
       },
       "TYPESCRIPT": {
         "TITLE": "TypeScript",
-        "IMG": "TypeScript.png"
+        "IMG": "src/assets/Logo/TypeScript.png"
       },
-      "SCSS": {
-        "TITLE": "SCSS",
-        "IMG": "SCSS.png"
+      "CSS": {
+        "TITLE": "CSS",
+        "IMG": "src/assets/Logo/CSS.png"
       },
       "PYTHON": {
         "TITLE": "Python",
-        "IMG": "Python.png"
+        "IMG": "src/assets/Logo/Python.png"
       },
       "SWIFT": {
         "TITLE": "Swift",
-        "IMG": "Swift.png"
+        "IMG": "src/assets/Logo/Swift.png"
       },
       "KOTLIN": {
         "TITLE": "Kotlin",
-        "IMG": "Kotlin.png"
+        "IMG": "src/assets/Logo/Kotlin.png"
       }
     },
     "FRAMEWORKS": {
       "TITLE": "Frameworks",
       "ANGULAR": {
         "TITLE": "Angular",
-        "IMG": "Angular.png"
+        "IMG": "src/assets/Logo/Angular.png"
       },
       "VUE": {
         "TITLE": "Vue",
-        "IMG": "Vue.png"
+        "IMG": "src/assets/Logo/Vue.png"
       },
       "REACT": {
         "TITLE": "React",
-        "IMG": "React.png"
+        "IMG": "src/assets/Logo/React.png"
       },
       "NODEJS": {
         "TITLE": "Node.js",
-        "IMG": "Nodejs.png"
+        "IMG": "src/assets/Logo/Nodejs.png"
       },
       "SPRINGBOOT": {
         "TITLE": "Spring Boot",
-        "IMG": "SpringBoot.png"
+        "IMG": "src/assets/Logo/SpringBoot.png"
       },
       "BOOTSTRAP": {
         "TITLE": "Bootstrap",
-        "IMG": "Bootstrap.png"
+        "IMG": "src/assets/Logo/Bootstrap.png"
       },
       "DOCKER": {
         "TITLE": "Docker",
-        "IMG": "Docker.png"
+        "IMG": "src/assets/Logo/Docker.png"
       }
     },
     "SOFTWARE": {
       "TITLE": "Software",
       "INTELLIJ": {
         "TITLE": "IntelliJ",
-        "IMG": "IntelliJ.png"
+        "IMG": "src/assets/Logo/IntelliJ.png"
       },
       "VISUALSTUDIOCODE": {
         "TITLE": "Visual Studio Code",
-        "IMG": "VisualStudioCode.png"
+        "IMG": "src/assets/Logo/VisualStudioCode.png"
       },
       "XCODE": {
         "TITLE": "Xcode",
-        "IMG": "Xcode.png"
+        "IMG": "src/assets/Logo/Xcode.png"
       },
       "ANDROIDSTUDIO": {
         "TITLE": "Android Studio",
-        "IMG": "AndroidStudio.png"
+        "IMG": "src/assets/Logo/AndroidStudio.png"
       },
       "VERSIONCONTROLLSYSTEMS": {
         "TITLE": "Version Control Systems",
-        "IMG": "Git.png"
+        "IMG": "src/assets/Logo/Git.png"
       },
       "DATABASE": {
         "TITLE": "Databases",
-        "IMG": "Databases.png"
+        "IMG": "src/assets/Logo/Database.png"
       },
       "POSTMAN": {
         "TITLE": "Postman",
-        "IMG": "Postman.png"
+        "IMG": "src/assets/Logo/Postman.png"
       },
       "DESIGN": {
         "TITLE": "Creative Cloud",
-        "IMG": "CreativeCloud.png"
+        "IMG": "src/assets/Logo/CreativeCloud.png"
       },
       "WORDPRESS": {
         "TITLE": "Wordpress",
-        "IMG": "Wordpress.png"
+        "IMG": "src/assets/Logo/Wordpress.png"
       },
       "MSOFFICE": {
         "TITLE": "Microsoft Office",
-        "IMG": "MicrosoftOffice.png"
+        "IMG": "src/assets/Logo/MSOffice.png"
       }
     },
     "METHODS": {
       "TITLE": "Methods",
       "SCRUM": {
         "TITLE": "Scrum",
-        "IMG": "Scrum.png"
+        "IMG": "src/assets/Logo/Scrum.png"
       },
       "CLEANCODE": {
         "TITLE": "Clean Code",
-        "IMG": "CleanCode.png"
+        "IMG": "src/assets/Logo/CleanCode.png"
       },
       "DESIGNTHINKING": {
         "TITLE": "Design Thinking",
-        "IMG": "DesignThinking.png"
+        "IMG": "src/assets/Logo/DesignThinking.png"
       },
       "UXDESIGN": {
         "TITLE": "UX / UI Design",
-        "IMG": "UX.png"
+        "IMG": "src/assets/Logo/UX.png"
       },
       "BRANDING": {
         "TITLE": "Branding",
-        "IMG": "Branding.png"
+        "IMG": "src/assets/Logo/Branding.png"
       }
     }
   },
@@ -200,17 +200,17 @@
         "2": "nodejs.png",
         "3": "mariadb.png"
       },
+      "LOGO": "src/assets/Logo/zphere.png",
       "IMG": [
-        "zphere1.png",
-        "zphere2.png",
-        "zphere3.png",
-        "zphere4.png"
+        "src/assets/Project/zphere1.png",
+        "src/assets/Project/zphere2.png",
+        "src/assets/Project/zphere3.png",
+        "src/assets/Project/zphere4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "Documentation yes",
-      "GITHUB": "Git yes",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
+      "GITHUBLINK": "https://github.com/TabSchu/TabSchu.github.io.git",
+      "LIVELINK": "" 
     },
     "CIRCLEOFLIFE": {
       "TITLE": "Circle of Life",
@@ -221,17 +221,17 @@
         "1": "LogoCSS.png",
         "2": "LogoJS.png"
       },
+      "LOGO": "src/assets/Logo/CircleOfLife.png",
       "IMG": [
         "col1.png",
         "col2.png",
         "col3.png",
         "col4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "Documentation yes",
-      "GITHUB": "Maybe?",
-      "LIVE": "Live yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/" 
     },
     "MOBILEAPPS": {
       "TITLE": "Smartphone Apps",
@@ -243,17 +243,17 @@
         "2": "react.png",
         "3": "flutter.png"
       },
+      "LOGO": "src/assets/Logo/MobileApps.png",
       "IMG": [
         "ma1.png",
         "ma2.png",
         "ma3.png",
         "ma4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "" 
     },
     "BACHELORTHESIS": {
       "TITLE": "Bachelor Thesis",
@@ -265,17 +265,17 @@
         "2": "elementor.png",
         "3": "zoom, vimeo.png"
       },
+      "LOGO": "src/assets/Logo/BachelorThesis.png",
       "IMG": [
         "ba1.png",
         "ba2.png",
         "ba3.png",
         "ba4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "Thesis yes",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/17WMbMhXIKSi6gH7NUDFuPxPwlB--ZPI0/view?usp=sharing",
+      "GITHUBLINK": "https://drive.google.com/file/d/12hwc_3Q36J4-EKqg1F9EN8kRdbVp_By9/view?usp=sharing",
+      "LIVELINK": "" 
     },
     "CULINO": {
       "TITLE": "Culino",
@@ -287,17 +287,17 @@
         "2": "bootstrap.png",
         "3": "springboot.png"
       },
+      "LOGO": "src/assets/Logo/Culino.png",
       "IMG": [
         "culino1.png",
         "culino2.png",
         "culino3.png",
         "culino4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
       "TITLE": "Usability Engineering",
@@ -307,61 +307,61 @@
         "0": "Figma.png",
         "1": "Excel.png"
       },
+      "LOGO": "src/assets/Logo/Usability.png",
       "IMG": [
         "usability1.png",
         "usability2.png",
         "usability3.png",
         "usability4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1tTMj9fQJzL8gx3y7AEbWTrUvNZhjumsF/view?usp=sharing",
+      "GITHUBLINK": "https://drive.google.com/file/d/17hCBzQFX9Q6AQ_V7DqdBR6r1SU6blKzM/view?usp=sharing",
+      "LIVELINK": "" 
     },
     "LAGOM": {
       "TITLE": "Lagom",
       "CATEGORY": "Data-Based Web Application",
-      "DESCRIPTION": "LAGOM is a digital bullet journal that offers users a way to structure and organize their lives in a personal and individual workspace using reminders, to-do lists, and more. The application is designed to update data stored in a database in the browser as soon as new entries are modified. Thao Nguyen, Yuliya Litvin, and I developed the entire web application together, with each contributing to all parts of the project.",
+      "DESCRIPTION": "\"LAGOM\" is a digital bullet journal that offers users a way to structure and organize their lives in a personal and individual workspace using reminders, to-do lists, and more. The application is designed to update data stored in a database in the browser as soon as new entries are modified. Thao Nguyen, Yuliya Litvin, and I developed the entire web application together, with each contributing to all parts of the project.",
       "TECH": {
         "0": "react.png",
         "1": "nodejs.png",
         "2": "mongodb.png",
         "3": "lagom.png"
       },
+      "LOGO": "src/assets/Logo/Lagom.png",
       "IMG": [
         "lagom1.png",
         "lagom2.png",
         "lagom3.png",
         "lagom4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "live yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/LAGOM.git",
+      "LIVELINK": "live yes" 
     },
     "BUILDAR": {
-      "TITLE": "BuildAR",
+      "TITLE": "buildAR",
       "CATEGORY": "Prototyping & Study",
-      "DESCRIPTION": "Together with Moumita Ahmad and Tabea Schuster, I analyzed alternatives to traditional paper instructions through the project \"BuildAR.\" In an era of technological progress and digitization, instructions, whether for games or furniture, have changed very little. This motivated us to analyze options for modernizing instructions. In a user test, we compared two prototype instructions against traditional paper instructions and analyzed the results using a questionnaire. The documentation provides a detailed account of our approach and the findings of the user test.",
+      "DESCRIPTION": "Together with Moumita Ahmad and Tabea Schuster, I analyzed alternatives to traditional paper instructions through the project \"buildAR.\" In an era of technological progress and digitization, instructions, whether for games or furniture, have changed very little. This motivated us to analyze options for modernizing instructions. In a user test, we compared two prototype instructions against traditional paper instructions and analyzed the results using a questionnaire. The documentation provides a detailed account of our approach and the findings of the user test.",
       "TECH": {
         "0": "LogoHTML.png",
         "1": "LogoCSS.png",
         "2": "LogoJS.png",
         "3": "phaser.png"
       },
+      "LOGO": "src/assets/Logo/BuildAR.png",
       "IMG": [
         "BuildAR1.png",
         "BuildAR2.png",
         "BuildAR3.png",
         "BuildAR4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "docu yes",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1FAl0coSqSc6wdRMJlCh-Om5s42E5j3SM/view?usp=sharing",
+      "GITHUBLINK": "",
+      "LIVELINK": "" 
     },
     "RUNNERSHIGH": {
       "TITLE": "Runners High",
@@ -372,17 +372,17 @@
         "1": "aftereffects.png",
         "2": "premierepro.png"
       },
+      "LOGO": "src/assets/Logo/RunnersHigh.png",
       "IMG": [
         "runnershigh1.png",
         "runnershigh2.png",
         "runnershigh3.png",
         "runnershigh4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "link",
-      "FIGMA": ""
+      "VIDEOLINK": "https://vimeo.com/432268612",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": ""
     },
     "TIMELESSTREASURES": {
       "TITLE": "Timeless Treasures",
@@ -394,17 +394,17 @@
         "2": "bootstrap.png",
         "3": "springboot.png"
       },
+      "LOGO": "src/assets/Logo/TimelessTreasures.png",
       "IMG": [
         "timelesstreasures1.png",
         "timelesstreasures2.png",
         "timelesstreasures3.png",
         "timelesstreasures4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "presentation",
-      "GITHUB": "yes",
-      "LIVE": "maybe?",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
+      "GITHUBLINK": "yes",
+      "LIVELINK": "maybe?" 
     },
     "WEBGAMES": {
       "TITLE": "Web Games",
@@ -416,17 +416,17 @@
         "2": "LogoJS.png",
         "3": "phaser.png"
       },
+      "LOGO": "src/assets/Logo/LastMinute.png",
       "IMG": [
         "Throwback1.png",
         "Throwback/2.png",
         "LastMinute3.png",
         "LastMinute2.png"
       ],
-      "VIDEO": "",
-      "DOCU": "live as a game",
-      "GITHUB": "",
-      "LIVE": "live yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },
     "SAVEATURTLE": {
       "TITLE": "Save a Turtle",
@@ -437,17 +437,17 @@
         "1": "LogoCSS.png",
         "2": "LogoJS.png"
       },
+      "LOGO": "src/assets/Logo/SaveATurtle.png",
       "IMG": [
         "turtle1.png",
         "turtle2.png",
         "turtle3.png",
         "turtle4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "live yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
     },
     "EATABROAD": {
       "TITLE": "eatabroad",
@@ -459,17 +459,17 @@
         "2": "LogoJS.png",
         "3": "xd.png"
       },
+      "LOGO": "src/assets/Logo/Eatabroad.png",
       "IMG": [
         "eatabroad1.png",
         "eatabroad2.png",
         "eatabroad3.png",
         "eatabroad4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "live yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
     },
     "ESHOP": {
       "TITLE": "ESHOP YTL",
@@ -478,17 +478,17 @@
       "TECH": {
         "0": "java.png"
       },
+      "LOGO": "src/assets/Logo/ESHOP.png",
       "IMG": [
         "eshop1.png",
         "eshop2.png",
         "eshop3.png",
         "eshop4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "code yes",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/E-SHOP",
+      "LIVELINK": "" 
     },
     "PORTFOLIO": {
       "TITLE": "Design Portfolio",
@@ -499,17 +499,17 @@
         "1": "illustrator.png",
         "2": "indesign.png"
       },
+      "LOGO": "src/assets/Logo/Portfolio.png",
       "IMG": [
         "portfolio1.png",
         "portfolio2.png",
         "portfolio3.png",
         "portfolio4.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "yes",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
     },
     "UPCOMING": {
       "TITLE": "Upcoming Projects",
@@ -521,20 +521,23 @@
         "2": "ai.png",
         "3": "nanocosmos.png"
       },
+      "LOGO": "src/assets/Logo/Upcoming.png",
       "IMG": [
         "upcoming1.png",
         "upcoming2.png"
       ],
-      "VIDEO": "",
-      "DOCU": "",
-      "GITHUB": "",
-      "LIVE": "",
-      "FIGMA": ""
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "" 
     }
   },
   "DETAIL": {
     "TITLE": "Project Details"
   },
+  "DOCU": "Documentation",
+  "GITHUB": "Code",
+  "LIVEDEMO": "Checkout Project",
   "CLOSE": "Close",
   "LIGHTMODE": "Lightmode",
   "DARKMODE": "Darkmode",
