@@ -209,8 +209,8 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
-      "GITHUBLINK": "https://github.com/TabSchu/TabSchu.github.io.git",
-      "LIVELINK": "" 
+      "GITHUBLINK": "https://github.com/larsobist/zphere",
+      "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
     },
     "CIRCLEOFLIFE": {
       "TITLE": "Circle of Life",
@@ -236,7 +236,7 @@
     "MOBILEAPPS": {
       "TITLE": "Smartphone Apps",
       "CATEGORY": "Programming",
-      "DESCRIPTION": "During the studies, various mobile apps were developed, covering different aspects of mobile development. Experience in cross-platform mobile app development was gained by creating simple apps with Flutter and React Native. Apps with SwiftUI and Kotlin were also developed for various use cases, such as accessing smartphone sensors or creating a travel plan. An AR app was developed, placing various 3D objects in space. Almost every application has an API interface. Using the OpenWeather API, a modern application was developed in this context.",
+      "DESCRIPTION": "During the studies, various mobile apps were developed, covering different aspects of mobile development. Experience in cross-platform mobile app development was gained by creating simple apps with Flutter and React Native. Apps with SwiftUI and Kotlin were also developed for various use cases, such as accessing smartphone sensors or creating a travel plan. An AR app was developed, placing various 3D objects in space. Almost every application has an API interface. Using the OpenWeather API, a modern application was developed in this context. Within the links you will find documents for TravelBucket",
       "TECH": {
         "0": "swift.png",
         "1": "kotlin.png",
@@ -251,9 +251,9 @@
         "ma4.png"
       ],
       "VIDEOLINK": "",
-      "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": "" 
+      "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
+      "GITHUBLINK": "https://github.com/larsobist/TravelBucket",
+      "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
       "TITLE": "Bachelor Thesis",
@@ -296,7 +296,7 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
-      "GITHUBLINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/culino/",
       "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
@@ -338,8 +338,8 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
-      "GITHUBLINK": "https://github.com/larsobist/LAGOM.git",
-      "LIVELINK": "live yes" 
+      "GITHUBLINK": "https://github.com/larsobist/LAGOM",
+      "LIVELINK": ""
     },
     "BUILDAR": {
       "TITLE": "buildAR",
@@ -403,8 +403,8 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
-      "GITHUBLINK": "yes",
-      "LIVELINK": "maybe?" 
+      "GITHUBLINK": "https://github.com/larsobist/TimelessTreasures",
+      "LIVELINK": ""
     },
     "WEBGAMES": {
       "TITLE": "Web Games",
@@ -423,8 +423,8 @@
         "LastMinute3.png",
         "LastMinute2.png"
       ],
-      "VIDEOLINK": "",
-      "DOCULINK": "",
+      "VIDEOLINK": "https://github.com/larsobist/LastMinute",
+      "DOCULINK": "https://github.com/larsobist/Throwback",
       "GITHUBLINK": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },

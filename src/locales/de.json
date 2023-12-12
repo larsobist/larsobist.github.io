@@ -209,8 +209,8 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
-      "GITHUBLINK": "https://github.com/TabSchu/TabSchu.github.io.git",
-      "LIVELINK": ""
+      "GITHUBLINK": "https://github.com/larsobist/zphere",
+      "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
     },
     "CIRCLEOFLIFE": {
       "TITLE": "Circle of Life",
@@ -236,7 +236,7 @@
     "MOBILEAPPS": {
       "TITLE": "Mobile Apps",
       "CATEGORY": "Programmierung",
-      "DESCRIPTION": "Während des Studiums wurden verschiedene Mobile Apps entwickelt, welche verschiedener Aspekte der mobilen Entwicklung beinhaltet haben. Durch die Erstellung einfacher Apps mit Flutter und React Native wurden weitere Erfahrungen mit plattformübergreifender Entwicklung mobiler Apps gesammelt. Ebenfalls wurden Apps mit SwiftUI und Kotlin für verschiedenste Anwendungsfälle entwickelt. Es wurden Apps entwickelt, welche beispielsweise auf die Sensoren des Smartphones zugreifen, oder welche wo ein Reiseplan erstellt werden konnte.\n\nEbenfalls wurde eine AR App entwickelt, wo verschiedene 3D Objekte in dem Raum platziert wurden. Praktisch jede Anwendung besitzt eine Schnittstelle zu einer API. Auch hier haben wir mithilfe der OpenWeather API eine moderne Anwendung entwickelt.",
+      "DESCRIPTION": "Während des Studiums wurden verschiedene Mobile Apps entwickelt, welche verschiedener Aspekte der mobilen Entwicklung beinhaltet haben. Durch die Erstellung einfacher Apps mit Flutter und React Native wurden weitere Erfahrungen mit plattformübergreifender Entwicklung mobiler Apps gesammelt. Ebenfalls wurden Apps mit SwiftUI und Kotlin für verschiedenste Anwendungsfälle entwickelt. Es wurden Apps entwickelt, welche beispielsweise auf die Sensoren des Smartphones zugreifen, oder welche wo ein Reiseplan erstellt werden konnte.\n\nEbenfalls wurde eine AR App entwickelt, wo verschiedene 3D Objekte in dem Raum platziert wurden. Praktisch jede Anwendung besitzt eine Schnittstelle zu einer API. Auch hier haben wir mithilfe der OpenWeather API eine moderne Anwendung entwickelt. In den Links finden Sie Dokumente für das TravelBucket Projekt.",
       "TECH": {
         "0": "swift.png",
         "1": "kotlin.png",
@@ -251,9 +251,9 @@
         "ma4.png"
       ],
       "VIDEOLINK": "",
-      "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": ""
+      "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
+      "GITHUBLINK": "https://github.com/larsobist/TravelBucket",
+      "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
       "TITLE": "Bachelorarbeit",
@@ -296,7 +296,7 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
-      "GITHUBLINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/culino/",
       "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
@@ -338,7 +338,7 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
-      "GITHUBLINK": "https://github.com/larsobist/LAGOM.git",
+      "GITHUBLINK": "https://github.com/larsobist/LAGOM",
       "LIVELINK": ""
     },
     "BUILDAR": {
@@ -403,8 +403,8 @@
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
-      "GITHUBLINK": "ja",
-      "LIVELINK": "vielleicht?"
+      "GITHUBLINK": "https://github.com/larsobist/TimelessTreasures",
+      "LIVELINK": ""
     },
     "WEBGAMES": {
       "TITLE": "Web Games",
@@ -419,12 +419,12 @@
       "LOGO": "src/assets/Logo/LastMinute.png",
       "IMG": [
         "Throwback1.png",
-        "Throwback/2.png",
+        "Throwback2.png",
         "LastMinute3.png",
         "LastMinute2.png"
       ],
-      "VIDEOLINK": "",
-      "DOCULINK": "",
+      "VIDEOLINK": "https://github.com/larsobist/LastMinute",
+      "DOCULINK": "https://github.com/larsobist/Throwback",
       "GITHUBLINK": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },
