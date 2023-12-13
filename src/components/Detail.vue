@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { selectedProject, setSelectedProject } from '@/stores/store';
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 const clearSelection = () => {
   setSelectedProject(null);
@@ -25,15 +27,28 @@ const clearSelection = () => {
       <a :href="$t('PROJECTS.'+selectedProject+'.LIVELINK')" target="_blank">{{ $t('LIVEDEMO') }}</a>
     </button>
     <button class="btn" @click="clearSelection">{{$t('CLOSE')}}</button>
+    <carousel :items-to-show="1">
+      <slide class="slider" v-for="slide in 10" :key="slide">
+        {{ slide }}
+      </slide>
+
+      <template #addons>
+        <navigation />
+        <pagination />
+      </template>
+    </carousel>
   </div>
-
-
 </template>
 
 <style scoped>
   .displayProject {
     aspect-ratio: 7 / 4;
     max-height: 57.14vw;
+  }
+
+  .slider{
+    background-color: purple;
+    height: 100px;
   }
 
   @media screen and (max-width: 800px) {
