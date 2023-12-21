@@ -1,28 +1,10 @@
 <script setup lang="ts">
-import {apppearance, setVisualAppearance} from "@/stores/store";
 
-const toggleAppearance = (appearance: string) => {
-  setVisualAppearance(appearance);
-};
 </script>
 
 <template>
   <div class="border">
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
-    <div>
-      <button v-if="$i18n.locale !== 'en'" class="btn" @click="$i18n.locale = 'en'"
-              :class="{ active: $i18n.locale === 'en' }">{{ $t('ENGLISH') }}
-      </button>
-      <button v-else class="btn" @click="$i18n.locale = 'de'">
-        {{ $t('GERMAN') }}
-      </button>
-    </div>
-
-    <div>
-      <button v-if="apppearance === 'Light'" class="btn" @click="toggleAppearance('Dark')">{{ $t('DARKMODE') }}</button>
-      <button v-else class="btn" @click="toggleAppearance('Light')">{{ $t('LIGHTMODE') }}</button>
-    </div>
-
     <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
     <div class="grid">
       <div class="border ">{{ $t('SKILLS.LANGUAGES.JAVA.TITLE') }} <img class="img" :src="$t('SKILLS.LANGUAGES.JAVA.IMG')" alt="Logo"/></div>
@@ -43,6 +25,7 @@ const toggleAppearance = (appearance: string) => {
       <div class="border ">{{ $t('SKILLS.FRAMEWORKS.SPRINGBOOT.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.SPRINGBOOT.IMG')" alt="Logo"/></div>
       <div class="border ">{{ $t('SKILLS.FRAMEWORKS.BOOTSTRAP.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.BOOTSTRAP.IMG')" alt="Logo"/></div>
       <div class="border ">{{ $t('SKILLS.FRAMEWORKS.DOCKER.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.DOCKER.IMG')" alt="Logo"/></div>
+      <div class="border ">{{ $t('SKILLS.FRAMEWORKS.I18N.TITLE') }}<img class="img" :src="$t('SKILLS.FRAMEWORKS.I18N.IMG')" alt="Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
     <div class="grid">

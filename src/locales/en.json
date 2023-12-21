@@ -119,6 +119,10 @@
       "DOCKER": {
         "TITLE": "Docker",
         "IMG": "src/assets/Logo/Docker.png"
+      },
+      "I18N": {
+        "TITLE": "i18n",
+        "IMG": "src/assets/Logo/i18n.png"
       }
     },
     "SOFTWARE": {
