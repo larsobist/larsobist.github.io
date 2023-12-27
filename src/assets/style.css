@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    cursor: crosshair;
 }
 
 .main {
@@ -27,33 +28,15 @@
 }
 
 .container {
-    margin: 30px auto;
+    margin: 0 auto;
     max-width: 1050px;
     width: 100vw;
-    background: green;
 }
 
-.menu-left,
-.menu-right {
-    white-space: nowrap;
-    padding: 10px;
-    background-color: yellow;
-    position: fixed;
-    top: 0;
-    transform-origin: 50% 50%;
-    z-index: 1000; /* Ensure menus are on top of other content */
-}
-
-.menu-item{
-    transform: rotate(-90deg);
-}
-
-.menu-left {
-    left: 0;
-}
-
-.menu-right {
-    right: 0;
+@media screen and (max-width: 1150px) {
+    .container {
+        margin: 50px auto;
+    }
 }
 
 .img{
@@ -61,19 +44,14 @@
     width: 100px;
 }
 
-.imgMenu{
-    height: 20px;
-    width: 20px;
-}
-
 .btn {
-    cursor: pointer;
     border: 2px solid;
     display: block;
     font-size: 16px;
     margin: 10px 20px 30px 20px;
     padding: 10px;
     width: calc(100% - 40px);
+    cursor: cell;
 }
 
 .border {

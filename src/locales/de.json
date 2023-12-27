@@ -172,7 +172,7 @@
       }
     },
     "METHODS": {
-      "TITLE": "Metoden",
+      "TITLE": "Methoden",
       "SCRUM": {
         "TITLE": "Scrum",
         "IMG": "src/assets/Logo/Scrum.png"
@@ -563,9 +563,10 @@
       "LINK": "mailto:lars@obist.de"
     }
   },
-
-  "LIGHTMODE": "Helles Design",
-  "DARKMODE": "Dunkles Design",
+  "GETINCONTACT": "Kontaktmöglichkeiten",
+  "SETTINGS": "Einstellungen",
+  "LIGHTMODE": "Hell",
+  "DARKMODE": "Dunkel",
   "GERMAN": "DEU",
   "ENGLISH": "ENG"
 }

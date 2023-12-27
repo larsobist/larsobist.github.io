@@ -11,9 +11,8 @@ import {apppearance} from "@/stores/store";
 
 <template>
   <div :class="apppearance === 'Dark' ? 'dark' : 'light'" class="main">
-
-    <Menu/>
     <div class="container">
+      <Menu/>
       <Header id="home"/>
       <About id="about"/>
       <Skills id="skills"/>
@@ -21,9 +20,7 @@ import {apppearance} from "@/stores/store";
       <ProjectDetail id="projects"/>
     </div>
   </div>
-
 </template>
-
 
 <style src="./assets/style.css">
 

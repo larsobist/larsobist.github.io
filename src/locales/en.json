@@ -563,8 +563,10 @@
       "LINK": "mailto:lars@obist.de"
     }
   },
-  "LIGHTMODE": "Lightmode",
-  "DARKMODE": "Darkmode",
+  "GETINCONTACT": "Way to contact me",
+  "SETTINGS": "Settings",
+  "LIGHTMODE": "Light",
+  "DARKMODE": "Dark",
   "GERMAN": "GER",
   "ENGLISH": "ENG"
 }
