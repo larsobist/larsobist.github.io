@@ -1,0 +1,571 @@
+{
+  "LARSOBIST": "Lars Obist",
+  "LOGO": "src/assets/Logo/LO.png",
+  "LOGOLONG": "src/assets/Logo/LOtext.png",
+  "HEADER": {
+    "TITLE": "Willkommen"
+  },
+  "ABOUT": {
+    "TITLE": "Über mich",
+    "TEXT": "Ich bin Lars und bin aktuell Masterstudent an der Berliner Hochschule für Technik (BHT). Von den vielen verschiedenen Themengebieten der Medieninformatik interessiert mich besonders die Arbeit im Frontend und die gestalterischen Aspekte. Die Arbeit \"hinter\" der Oberfläche, das Backend, ist ebenfalls sehr spannend, da dort ein gesamtes Projekt von Grund auf entwickelt wird und dabei jede Schicht eines Projekts entwickelt wird. Den Mix aus dem Kreativen und dem Systematischen in der Medieninformatik finde ich sehr spannend. Am Ende des Projektes sieht man, wozu sich das Projekt entwickelt hat, weshalb es immer wieder Spaß macht, ein neues Projekt zu entwickeln! Ich wünsche viel Spaß beim Durchschauen meines Portfolios, in dem Sie viel über mich und meine erstellten Produkte lernen werden. Ich hoffe, Sie finden Gefallen an meinen Arbeiten, und melden sich bei mir!",
+    "EDUCATION": {
+      "TITLE": "Bildungsweg",
+      "MASTER": {
+        "TITLE": "Masterstudium - Medieninformatik M. Sc.",
+        "UNI": "Berliner Hochschule für Technik",
+        "TIME": "10/2022 - vsl. 09/2024",
+        "IMG": "src/assets/Logo/BHT.png"
+      },
+      "BACHELOR": {
+        "TITLE": "Bachelorstudium - Internationaler Studiengang Medieninformatik B. Sc.",
+        "UNI": "Hochschule Bremen",
+        "TIME": "09/2018 - 09/2022",
+        "IMG": "src/assets/Logo/HSB.png"
+      }
+    },
+    "EXPERIENCES": {
+      "TITLE": "Praktische Erfahrungen",
+      "BOSCH": {
+        "EMPLOYER": "Bosch Digital",
+        "JOB": "Werkstudentenjob",
+        "TASKS": "Frontend Development und Consulting",
+        "CITY": "Berlin",
+        "TIME": "06/2023 - heute",
+        "IMG": "src/assets/Logo/Bosch.png"
+      },
+      "PLANETMUTLU": {
+        "EMPLOYER": "planetmutlu",
+        "JOB": "Praktikum und Werkstudentenjob",
+        "TASKS": "Webdesign, Entwicklung und Projektmanagement",
+        "CITY": "Bremen",
+        "TIME": "03/2021 - 05/2023",
+        "IMG": "src/assets/Logo/Planetmutlu.png"
+      }
+    },
+    "ABROAD": {
+      "TITLE": "Auslandserfahrungen",
+      "STUDY": {
+        "TITLE": "Auslandssemester",
+        "PLACE": "SeoulTech University, Seoul, Südkorea",
+        "TIME": "08/2021 - 12/2021"
+      },
+      "WORKANDTRAVEL": {
+        "TITLE": "Work and Travel",
+        "PLACE": "Australien und Neuseeland",
+        "TIME": "10/2017 - 05/2018"
+      }
+    }
+  },
+  "SKILLS": {
+    "TITLE": "Skills",
+    "LANGUAGES": {
+      "TITLE": "Programmiersprachen",
+      "JAVA": {
+        "TITLE": "Java",
+        "IMG": "src/assets/Logo/Java.png"
+      },
+      "HTML": {
+        "TITLE": "HTML",
+        "IMG": "src/assets/Logo/HTML.png"
+      },
+      "JAVASCRIPT": {
+        "TITLE": "JavaScript",
+        "IMG": "src/assets/Logo/JavaScript.png"
+      },
+      "TYPESCRIPT": {
+        "TITLE": "TypeScript",
+        "IMG": "src/assets/Logo/TypeScript.png"
+      },
+      "CSS": {
+        "TITLE": "CSS",
+        "IMG": "src/assets/Logo/CSS.png"
+      },
+      "PYTHON": {
+        "TITLE": "Python",
+        "IMG": "src/assets/Logo/Python.png"
+      },
+      "SWIFT": {
+        "TITLE": "Swift",
+        "IMG": "src/assets/Logo/Swift.png"
+      },
+      "KOTLIN": {
+        "TITLE": "Kotlin",
+        "IMG": "src/assets/Logo/Kotlin.png"
+      }
+    },
+    "FRAMEWORKS": {
+      "TITLE": "Frameworks",
+      "ANGULAR": {
+        "TITLE": "Angular",
+        "IMG": "src/assets/Logo/Angular.png"
+      },
+      "VUE": {
+        "TITLE": "Vue",
+        "IMG": "src/assets/Logo/Vue.png"
+      },
+      "REACT": {
+        "TITLE": "React",
+        "IMG": "src/assets/Logo/React.png"
+      },
+      "NODEJS": {
+        "TITLE": "Node.js",
+        "IMG": "src/assets/Logo/Nodejs.png"
+      },
+      "SPRINGBOOT": {
+        "TITLE": "Spring Boot",
+        "IMG": "src/assets/Logo/SpringBoot.png"
+      },
+      "BOOTSTRAP": {
+        "TITLE": "Bootstrap",
+        "IMG": "src/assets/Logo/Bootstrap.png"
+      },
+      "DOCKER": {
+        "TITLE": "Docker",
+        "IMG": "src/assets/Logo/Docker.png"
+      },
+      "I18N": {
+        "TITLE": "i18n",
+        "IMG": "src/assets/Logo/i18n.png"
+      }
+    },
+    "SOFTWARE": {
+      "TITLE": "Software",
+      "INTELLIJ": {
+        "TITLE": "IntelliJ",
+        "IMG": "src/assets/Logo/IntelliJ.png"
+      },
+      "VISUALSTUDIOCODE": {
+        "TITLE": "Visual Studio Code",
+        "IMG": "src/assets/Logo/VisualStudioCode.png"
+      },
+      "XCODE": {
+        "TITLE": "Xcode",
+        "IMG": "src/assets/Logo/Xcode.png"
+      },
+      "ANDROIDSTUDIO": {
+        "TITLE": "Android Studio",
+        "IMG": "src/assets/Logo/AndroidStudio.png"
+      },
+      "VERSIONCONTROLLSYSTEMS": {
+        "TITLE": "Git Systeme",
+        "IMG": "src/assets/Logo/Git.png"
+      },
+      "DATABASE": {
+        "TITLE": "Datenbanken",
+        "IMG": "src/assets/Logo/Database.png"
+      },
+      "POSTMAN": {
+        "TITLE": "Postman",
+        "IMG": "src/assets/Logo/Postman.png"
+      },
+      "DESIGN": {
+        "TITLE": "Creative Cloud",
+        "IMG": "src/assets/Logo/CreativeCloud.png"
+      },
+      "WORDPRESS": {
+        "TITLE": "Wordpress",
+        "IMG": "src/assets/Logo/Wordpress.png"
+      },
+      "MSOFFICE": {
+        "TITLE": "Microsoft Office",
+        "IMG": "src/assets/Logo/MSOffice.png"
+      }
+    },
+    "METHODS": {
+      "TITLE": "Metoden",
+      "SCRUM": {
+        "TITLE": "Scrum",
+        "IMG": "src/assets/Logo/Scrum.png"
+      },
+      "CLEANCODE": {
+        "TITLE": "Sauberer Code",
+        "IMG": "src/assets/Logo/CleanCode.png"
+      },
+      "DESIGNTHINKING": {
+        "TITLE": "Design Thinking",
+        "IMG": "src/assets/Logo/DesignThinking.png"
+      },
+      "UXDESIGN": {
+        "TITLE": "UX / UI Design",
+        "IMG": "src/assets/Logo/UX.png"
+      },
+      "BRANDING": {
+        "TITLE": "Branding",
+        "IMG": "src/assets/Logo/Branding.png"
+      }
+    }
+  },
+  "PROJECTS": {
+    "TITLE": "Projekte",
+    "ZPHERE": {
+      "TITLE": "zphere",
+      "CATEGORY": "Bachelorprojekt",
+      "DESCRIPTION": "zphere ist eine Sportplattform, die medial bisher schlecht repräsentierte Sportarten abbildet und den Fans, die sich für solche Sportarten interessieren, einen gesammelten Ort in Form einer Onlineplattform geben soll.\n\n\n\nDurch eine Kooperation zwischen der Hochschule und Radio Bremen ergab sich die Möglichkeit, diese Idee prototypisch im Rahmen unseres Bachelorprojektes zu konzipieren und zu entwickeln. Wie diese Web-App funktionieren und welche Inhalte sie beinhalten soll, haben wir als Gruppe in der Konzeption definiert. Um die Plattform genauer zu definieren, haben wir im Anschluss eine Sportartenfindung und eine Zielgruppenfindung durchgeführt. Als es um die Realisierung ging, führten wir eine Konkurrenzanalyse durch, entwickelten Moodboards und designten das Branding der Plattform. Bei der Designentwicklung wurden zunächst Wireframes entworfen, die im Anschluss von mir und Yuliya Litvin mithilfe von Adobe XD genauer definiert wurden. Währenddessen entwickelte der Rest des Teams einen Prototyp.",
+      "TECH": {
+        "0": "xd.png",
+        "1": "react.png",
+        "2": "nodejs.png",
+        "3": "mariadb.png"
+      },
+      "LOGO": "src/assets/Logo/zphere.png",
+      "IMG": [
+        "src/assets/Project/zphere1.png",
+        "src/assets/Project/zphere2.png",
+        "src/assets/Project/zphere3.png",
+        "src/assets/Project/zphere4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
+      "GITHUBLINK": "https://github.com/larsobist/zphere",
+      "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
+    },
+    "CIRCLEOFLIFE": {
+      "TITLE": "Circle of Life",
+      "CATEGORY": "Datenvisualisierung",
+      "DESCRIPTION": "\"Cirlce of Life\" ist eine interaktive Webseite, die sich damit beschäftigt, komplexe Datensätze durch unterschiedliche Visualisierungen für den Endnutzer spannend zu visualisieren und interessante Themen hervorzuheben. \nDiese Seite hat einen Datensatz zu Geburtsdaten, welcher über 21 Jahre in den USA zusammengetragen wurde.\nEin spezielles Augenmerk sollte auf den Interaktionsmöglichkeiten liegen, über die man mehr Informationen zu dem Datenpunkt erhalten kann.  Beim Entwickeln des Designs habe ich versucht, so minimalistisch wie möglich vorzugehen. Es wurde jedoch auch die recht neue Technik einer variablen Fonts eingesetzt, mit welcher der Nutzer interagieren kann.",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png"
+      },
+      "LOGO": "src/assets/Logo/CircleOfLife.png",
+      "IMG": [
+        "col1.png",
+        "col2.png",
+        "col3.png",
+        "col4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/"
+    },
+    "MOBILEAPPS": {
+      "TITLE": "Mobile Apps",
+      "CATEGORY": "Programmierung",
+      "DESCRIPTION": "Während des Studiums wurden verschiedene Mobile Apps entwickelt, welche verschiedener Aspekte der mobilen Entwicklung beinhaltet haben. Durch die Erstellung einfacher Apps mit Flutter und React Native wurden weitere Erfahrungen mit plattformübergreifender Entwicklung mobiler Apps gesammelt. Ebenfalls wurden Apps mit SwiftUI und Kotlin für verschiedenste Anwendungsfälle entwickelt. Es wurden Apps entwickelt, welche beispielsweise auf die Sensoren des Smartphones zugreifen, oder welche wo ein Reiseplan erstellt werden konnte.\n\nEbenfalls wurde eine AR App entwickelt, wo verschiedene 3D Objekte in dem Raum platziert wurden. Praktisch jede Anwendung besitzt eine Schnittstelle zu einer API. Auch hier haben wir mithilfe der OpenWeather API eine moderne Anwendung entwickelt. In den Links finden Sie Dokumente für das TravelBucket Projekt.",
+      "TECH": {
+        "0": "swift.png",
+        "1": "kotlin.png",
+        "2": "react.png",
+        "3": "flutter.png"
+      },
+      "LOGO": "src/assets/Logo/MobileApps.png",
+      "IMG": [
+        "ma1.png",
+        "ma2.png",
+        "ma3.png",
+        "ma4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
+      "GITHUBLINK": "https://github.com/larsobist/TravelBucket",
+      "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
+    },
+    "BACHELORTHESIS": {
+      "TITLE": "Bachelorarbeit",
+      "CATEGORY": "Wissenschaftliche Arbeit",
+      "DESCRIPTION": "In einer immer digitaleren Welt sind Websites ein bedeutsames Hilfsmittel für Unternehmen, Organisationen und Einzelpersonen. Einerseits um ihre Präsenz im Internet zu etablieren und andererseits für Bildungsinstitutionen, um digitalen Unterricht volljährig stattfinden zu lassen. Im Rahmen dieser Bachelorarbeit wurde eine Konzeption und Evaluation eines digitalen hybriden Lehrmodells am Beispiel einer interaktiven Lernumgebung für kulturelle Bildungseinrichtungen ausgearbeitet. Es wurde eine intensive Anforderungsanalyse durchgeführt und wichtige Grundlagen festgelegt. Basierend auf den vorherigen Ergebnissen wurde eine detaillierte Konzeption eines hybriden Lehrmodells und eines digitalen Lernmanagementsystems entwickelt. Die Konzeption wurde abschließend prototypisch umgesetzt und final mithilfe von Testnutzern ausgewertet und abschließend bewertet.",
+      "TECH": {
+        "0": "Wordpress.png",
+        "1": "learndash.png",
+        "2": "elementor.png",
+        "3": "zoom, vimeo.png"
+      },
+      "LOGO": "src/assets/Logo/BachelorThesis.png",
+      "IMG": [
+        "ba1.png",
+        "ba2.png",
+        "ba3.png",
+        "ba4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/17WMbMhXIKSi6gH7NUDFuPxPwlB--ZPI0/view?usp=sharing",
+      "GITHUBLINK": "https://drive.google.com/file/d/12hwc_3Q36J4-EKqg1F9EN8kRdbVp_By9/view?usp=sharing",
+      "LIVELINK": ""
+    },
+    "CULINO": {
+      "TITLE": "Culino",
+      "CATEGORY": "Fullstack Webanwendung",
+      "DESCRIPTION": "\"Culino\" ist eine Fullstack-App, bei der Nutzer ihre Lieblingsrezepte auf einer seriösen und visuell ansprechenden Plattform teilen können und somit den anderen Essensenthusiasten ihre Lieblingsrezepte teilhaben lassen.\n\nZu Beginn des Projekts wurde ein Konzept für die Projektidee entwickelt, auf dem das Branding anschließend aufbaute. Abschließend wurde die Anwendung prototypisch entwickelt und mit Inhalt gefüllt.",
+      "TECH": {
+        "0": "react.png",
+        "1": "typescript.png",
+        "2": "bootstrap.png",
+        "3": "springboot.png"
+      },
+      "LOGO": "src/assets/Logo/Culino.png",
+      "IMG": [
+        "culino1.png",
+        "culino2.png",
+        "culino3.png",
+        "culino4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
+      "GITHUBLINK": "https://github.com/larsobist/culino/",
+      "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
+    },
+    "USABILITY": {
+      "TITLE": "Usability Engineering",
+      "CATEGORY": "Analyse",
+      "DESCRIPTION": "In dem Modul „Usability-Engineering“ wurden anhand verschiedenster Übungsaufgaben wichtige Aspekte einer nutzerfreundlichen Nutzerführung erläutert. Zunächst wurden die Grundlagen anhand von Analysen und Ausarbeitungen an einem Beispielprodukt gelehrt. Ebenfalls wurde die Wichtigkeit der statistischen Ausarbeitung von Experimenten beigebracht. Ich habe dies mithilfe der Ryanair-Webseite gemacht und hierfür ein Usability-Experiment durchgeführt und anschließend ein Konzept für Verbesserungen erstellt. Abschließend wurde ein weiteres Problemfeld ausgesucht, an dem eine detaillierte Analyse und ein potenzielles Experiment designt wurden.",
+      "TECH": {
+        "0": "Figma.png",
+        "1": "Excel.png"
+      },
+      "LOGO": "src/assets/Logo/Usability.png",
+      "IMG": [
+        "usability1.png",
+        "usability2.png",
+        "usability3.png",
+        "usability4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1tTMj9fQJzL8gx3y7AEbWTrUvNZhjumsF/view?usp=sharing",
+      "GITHUBLINK": "https://drive.google.com/file/d/17hCBzQFX9Q6AQ_V7DqdBR6r1SU6blKzM/view?usp=sharing",
+      "LIVELINK": ""
+    },
+    "LAGOM": {
+      "TITLE": "Lagom",
+      "CATEGORY": "Datenbasierte Webanwendung",
+      "DESCRIPTION": "\"LAGOM\" ist ein digitaler Bullet Journal, der Nutzern anbietet sein Leben in einem persönlichen und individuellen Workspace, anhand von Erinnerungen, ToDo-Listen und mehr, zu strukturieren und organisieren. Die Anwendung ist so entwickelt, dass sich die Daten, welche auf einer Datenbank gespeichert sind, in dem Browser aktualisieren, sobald neue Einträge verändert wurden. Die gesamte Webanwendung haben Thao Nguyen, Yuliya Litvin und ich zusammen entwickelt, womit jeder an allen Teilen des Projekts beteiligt war.",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png",
+        "3": "mysql.png"
+      },
+      "LOGO": "src/assets/Logo/Lagom.png",
+      "IMG": [
+        "Lagom1.png",
+        "Lagom2.png",
+        "Lagom3.png",
+        "Lagom4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/LAGOM",
+      "LIVELINK": ""
+    },
+    "BUILDAR": {
+      "TITLE": "buildAR",
+      "CATEGORY": "Prototyping & Studie",
+      "DESCRIPTION": "Ich habe mithilfe von Moumita Ahmad und Tabea Schuster anhand des Projektes \"buildAR\" analysiert, welche Alternativen es zu der etablierten Papieranleitung gibt. In Zeiten der des technologischen Fortschrittes und der Digitalisierung hat sich die Anleitung, ob sie für Spiele oder Möbel sind, aber kaum verändert. Dies hat uns dazu motiviert, zu analysieren, welche Optionen es die Modernisierung der Anleitungen gibt. In einem Nutzertest haben wir zwei prototypische Anleitungen gegen die Papieranleitung getestet und mithilfe eines Fragebogens analysiert. In der Dokumentation können Sie nachvollziehen, wie wir exakt vorgegangen sind und was der Nutzertest ergeben",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png",
+        "3": "phaser.png"
+      },
+      "LOGO": "src/assets/Logo/BuildAR.png",
+      "IMG": [
+        "BuildAR1.png",
+        "BuildAR2.png",
+        "BuildAR3.png",
+        "BuildAR4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1FAl0coSqSc6wdRMJlCh-Om5s42E5j3SM/view?usp=sharing",
+      "GITHUBLINK": "",
+      "LIVELINK": ""
+    },
+    "RUNNERSHIGH": {
+      "TITLE": "Runners High",
+      "CATEGORY": "Animationsvideo",
+      "DESCRIPTION": "Gemeinsam mit Tabea Schuster habe ich zu dem Thema \"Runner's High\" ein Animationsvideo entwickelt. Dabei sind wir systematisch vorgegangen, indem wir zunächst den Inhalt des Kurzvideos innerhalb eines Storyboards skizziert und entworfen haben. Im Anschluss haben wir in Zyklen das Video innerhalb von Adobe After Effects entworfen und perfektioniert. Über folgenden Link können Sie das Animationsvideo auf Vimeo ansehen.",
+      "TECH": {
+        "0": "xd.png",
+        "1": "aftereffects.png",
+        "2": "premierepro.png"
+      },
+      "LOGO": "src/assets/Logo/RunnersHigh.png",
+      "IMG": [
+        "runnershigh1.png",
+        "runnershigh2.png",
+        "runnershigh3.png",
+        "runnershigh4.png"
+      ],
+      "VIDEOLINK": "https://vimeo.com/432268612",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": ""
+    },
+    "TIMELESSTREASURES": {
+      "TITLE": "Timeless Treasures",
+      "CATEGORY": "Fullstack Webanwendung",
+      "DESCRIPTION": "\"Timeless Treasures\" ist eine Fullstack-App, bei der Nutzer mithilfe dieser Anwendung ihren Schmuck auf den Secondhandmarkt bringen können und somit den Ketten, Ringen und Uhren ein neues Leben einhauchen.\n\nZu Beginn des Projekts wurde eine Problemanalyse für eine Projektidee entwickelt, anschließend der potenzielle Mehrwert dieser Anwendung anhand einer Präsentation vor Start-up-Entdeckern gehalten. Abschließend wurde die Anwendung prototypisch entwickelt und mit Inhalt gepflegt.",
+      "TECH": {
+        "0": "react.png",
+        "1": "typescript.png",
+        "2": "bootstrap.png",
+        "3": "springboot.png"
+      },
+      "LOGO": "src/assets/Logo/TimelessTreasures.png",
+      "IMG": [
+        "timelesstreasures1.png",
+        "timelesstreasures2.png",
+        "timelesstreasures3.png",
+        "timelesstreasures4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
+      "GITHUBLINK": "https://github.com/larsobist/TimelessTreasures",
+      "LIVELINK": ""
+    },
+    "WEBGAMES": {
+      "TITLE": "Web Games",
+      "CATEGORY": "Jump'n'Run und Point & Click Webspiele",
+      "DESCRIPTION": "In dem Bachelorstudium habe ich zusammen mit Thao Nguyen, Moumita Ahmad und Yuliya Litvin zwei Spiele entwickelt, um auch diese Seite der Medieninformatik kennenzulernen. Ein Spiel ist ein Point und Click Adventure, welches nur mit HTML, JavaScript und CSS entwickelt wurde. Dieses Spiel trägt den Namen \"Last Minute!\", da es um einen Studenten geht, der gestresst in den letzten Zügen seiner Bachelorarbeit steckt. Der Spieler hilft dem Protagonisten dabei, die Bachelorarbeit erfolgreich in dem Fach seines Professors abzugeben. Das zweite entwickelte Spiel heißt \"Throwback\". Throwback ist ein Jump & Run Spiel, in dem der Protagonist eine Zeitreise durch das letzte Jahrhundert macht, da die Oma erneut behauptet hat, dass früher alles besser gewesen sei. Das Spiel wurde mit Tiled und Phaser 3 entworfen und programmiert.",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png",
+        "3": "phaser.png"
+      },
+      "LOGO": "src/assets/Logo/LastMinute.png",
+      "IMG": [
+        "Throwback1.png",
+        "Throwback2.png",
+        "LastMinute3.png",
+        "LastMinute2.png"
+      ],
+      "VIDEOLINK": "https://github.com/larsobist/LastMinute",
+      "DOCULINK": "https://github.com/larsobist/Throwback",
+      "GITHUBLINK": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
+    },
+    "SAVEATURTLE": {
+      "TITLE": "Save a Turtle",
+      "CATEGORY": "Erste Webseite",
+      "DESCRIPTION": "Zu Beginn des ersten Semesters habe ich eine informationsbasierte Webseite entworfen. Die Webseite informiert die Besucher über die Meeresschildkröten und deren Bedrohung. Sie bietet zudem eine Galerie sowie den Verweis auf Partner an, bei denen Geld gespendet werden kann, um den Tieren zu helfen. Ebenfalls wird dort auf einen Partner hingewiesen, bei dem man sich als Pate einer Meeresschildkröte anmelden kann. ",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png"
+      },
+      "LOGO": "src/assets/Logo/SaveATurtle.png",
+      "IMG": [
+        "turtle1.png",
+        "turtle2.png",
+        "turtle3.png",
+        "turtle4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
+    },
+    "EATABROAD": {
+      "TITLE": "eatabroad",
+      "CATEGORY": "Design und Webentwicklung",
+      "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. Zusammen mit Thao Nguyen haben wir eine Plattform, die Essensspezialitäten aus der gesamten Welt vorstellt. Dabei werden die Spezialitäten eng an sehenswerte Orte gebunden. Als das Designkonzept festgelegt wurde, haben wir mit dem Designprozess begonnen. Die gezeichneten Wireframes wurden im Anschluss in Adobe XD verfeinert und im Anschluss prototypisch mit HTML, CSS und JavaScript programmiert. Diese Plattform wurde für Web, Tablet und Handy optimiert entwickelt.",
+      "TECH": {
+        "0": "LogoHTML.png",
+        "1": "LogoCSS.png",
+        "2": "LogoJS.png",
+        "3": "xd.png"
+      },
+      "LOGO": "src/assets/Logo/Eatabroad.png",
+      "IMG": [
+        "eatabroad1.png",
+        "eatabroad2.png",
+        "eatabroad3.png",
+        "eatabroad4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
+    },
+    "ESHOP": {
+      "TITLE": "ESHOP YTL",
+      "CATEGORY": "Java Anwendung",
+      "DESCRIPTION": "ESHOP YTL ist ein kleiner Online-Shop, welcher zusammen mit Thao Nguyen und Yuliya Litvin entwickelt wurde. Kunden und Mitarbeiter haben eigene Accounts, aber unterschiedliche Rechte. Nicht eingeloggt, können Sie alle Artikel einsehen. Eingeloggt kann der Kunde Artikel in den Warenkorb hinzufügen, diesen bearbeiten und Artikel kaufen. Nach einem Kauf erhält dieser eine Rechnung. Ein eingeloggter Mitarbeiter kann Benutzer einsehen und neue hinzufügen. Dieser kann auch neue Artikel hinzufügen und den Bestand eines Artikels erhöhen, sowie die gesamte Historie aller Artikel, wie auch eines einzelnen Artikels, einsehen. Wir haben den E-Shop mit einer grafischen Benutzeroberfläche erstellt, der über einen Server läuft. Dies ermöglicht, dass mehrere Nutzer gleichzeitig den E-Shop nutzen können.",
+      "TECH": {
+        "0": "java.png"
+      },
+      "LOGO": "src/assets/Logo/ESHOP.png",
+      "IMG": [
+        "eshop1.png",
+        "eshop2.png",
+        "eshop3.png",
+        "eshop4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "https://github.com/larsobist/E-SHOP",
+      "LIVELINK": ""
+    },
+    "PORTFOLIO": {
+      "TITLE": "Design Portfolio",
+      "CATEGORY": "Gestaltungsarbeiten",
+      "DESCRIPTION": "In der Gestaltung habe ich an vielen verschiedenen kleineren Projekten gearbeitet. Beispielsweise habe ich mehrmals Retuschen gemacht, ein Redesign von Logo und Webseite vollzogen oder mithilfe von Lightroom Bilder bearbeitet. All diese Arbeiten finden Sie in einem Portfolio, welches all diese Projekte zusammenfasst.",
+      "TECH": {
+        "0": "photoshop.png",
+        "1": "illustrator.png",
+        "2": "indesign.png"
+      },
+      "LOGO": "src/assets/Logo/Portfolio.png",
+      "IMG": [
+        "portfolio1.png",
+        "portfolio2.png",
+        "portfolio3.png",
+        "portfolio4.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
+    },
+    "UPCOMING": {
+      "TITLE": "Kommende Projekte",
+      "CATEGORY": "Analyse",
+      "DESCRIPTION": "Aktuell befinde ich mich in einem weiteren interessanten Projekt. In dem Masterprojekt entwickeln wir aktuell in einer Gruppe von 10 Personen eine Livestreaming-Plattform mit verschiedenen KI-Modellen. Zum einen soll eine Speech-To-Text-Funktionalität und eine Objekterkennung eingebunden werden. Hierbei arbeite ich als Scrum Manager und helfe meinen Teammitgliedern bei Bedarf. Im April 2024 starte ich zudem meine Masterthesis, welche sich mit der Datenvisualisierung befassen wird.",
+      "TECH": {
+        "0": "vue.png",
+        "1": "typescript.png",
+        "2": "ai.png",
+        "3": "nanocosmos.png"
+      },
+      "LOGO": "src/assets/Logo/Upcoming.png",
+      "IMG": [
+        "upcoming1.png",
+        "upcoming2.png"
+      ],
+      "VIDEOLINK": "",
+      "DOCULINK": "",
+      "GITHUBLINK": "",
+      "LIVELINK": ""
+    }
+  },
+  "DETAIL": {
+    "TITLE": "Projektdetails",
+    "DOCU": "Dokumentation",
+    "GITHUB": "Code",
+    "LIVEDEMO": "Projekt Ansehen",
+    "CLOSE": "Schließen"
+  },
+  "CONTACT": {
+    "LINKEDIN": {
+      "TITLE": "LinkedIn",
+      "IMG": "src/assets/Logo/LinkedIn.png",
+      "LINK": "https://www.linkedin.com/in/larsobist/"
+    },
+    "XING": {
+      "TITLE": "Xing",
+      "IMG": "src/assets/Logo/Xing.png",
+      "LINK": "https://www.xing.com/profile/Lars_Obist"
+    },
+    "MAIL": {
+      "TITLE": "Email",
+      "IMG": "src/assets/Logo/Mail.png",
+      "LINK": "mailto:lars@obist.de"
+    }
+  },
+
+  "LIGHTMODE": "Helles Design",
+  "DARKMODE": "Dunkles Design",
+  "GERMAN": "DEU",
+  "ENGLISH": "ENG"
+}
