@@ -2,10 +2,12 @@
 import { selectedProject, setSelectedProject } from '@/stores/store';
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import CONTENT from '../locales/content.json';
 
 const clearSelection = () => {
   setSelectedProject(null);
 };
+
 </script>
 
 <template>
@@ -14,22 +16,25 @@ const clearSelection = () => {
     <h2>{{ $t('PROJECTS.'+selectedProject+'.TITLE') }}</h2>
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>
     {{$t('PROJECTS.'+selectedProject+'.DESCRIPTION')}}<br>
-    {{$t('PROJECTS.'+selectedProject+'.TECH')}}<br>
-    {{$t('PROJECTS.'+selectedProject+'.VIDEOLINK')}}<br>
-    {{$t('PROJECTS.'+selectedProject+'.IMG')}}<br>
-    <div class="btn" v-if="$t('PROJECTS.'+selectedProject+'.DOCULINK')!=''">
-      <a :href="$t('PROJECTS.'+selectedProject+'.DOCULINK')" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
+    <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject].TECH" :key="index">
+      <img class="img" :src="image" alt="Logo"/>
+    </p>
+
+    {{CONTENT.PROJECTS[selectedProject].VIDEOLINK}}<br>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].DOCULINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
     </div>
-    <div class="btn" v-if="$t('PROJECTS.'+selectedProject+'.GITHUBLINK')!=''">
-      <a :href="$t('PROJECTS.'+selectedProject+'.GITHUBLINK')" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].GITHUBLINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject].GITHUBLINK" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
     </div>
-    <div class="btn" v-if="$t('PROJECTS.'+selectedProject+'.LIVELINK')!=''">
-      <a :href="$t('PROJECTS.'+selectedProject+'.LIVELINK')" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].LIVELINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
     </div>
     <div class="btn" @click="clearSelection">{{$t('DETAIL.CLOSE')}}</div>
     <carousel :items-to-show="1">
-      <slide class="slider" v-for="slide in 10" :key="slide">
-        {{ slide }}
+      <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject].IMG" :key="index">
+        {{ image }}
+        <img class="img" :src="image" alt="Logo"/>
       </slide>
 
       <template #addons>
@@ -47,7 +52,7 @@ const clearSelection = () => {
   }
 
   .slider{
-    background-color: purple;
+    background-color: gray;
     height: 100px;
   }
 

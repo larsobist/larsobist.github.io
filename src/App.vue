@@ -7,6 +7,7 @@ import Skills from "@/components/Skills.vue";
 import Menu from "@/components/Menu.vue";
 
 import {apppearance} from "@/stores/store";
+
 </script>
 
 <template>

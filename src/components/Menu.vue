@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import {ref} from 'vue';
 import {apppearance, setVisualAppearance} from "@/stores/store";
+import CONTENT from '../locales/content.json';
 
 const toggleAppearance = (appearance: string) => {
   setVisualAppearance(appearance);
@@ -34,8 +35,6 @@ const scrollAndToggle = (sectionId: string) => {
 
   isMenuOpen.value = !isMenuOpen.value;
 };
-
-
 </script>
 
 <template>
@@ -45,24 +44,24 @@ const scrollAndToggle = (sectionId: string) => {
     <div class="menu-item" @click="scrollToSection('skills')">{{ $t('SKILLS.TITLE') }}</div>
     <div class="menu-item" @click="scrollToSection('about')">{{ $t('ABOUT.TITLE') }}</div>
     <div class="menu-item spacer"></div>
-    <div class="menu-item icon left" @click="scrollToSection('home')"><img class="imgMenu" :src="$t('LOGO')"
+    <div class="menu-item icon left" @click="scrollToSection('home')"><img class="imgMenu" :src="CONTENT.LOGO"
                                                                            alt="Logo"/></div>
   </div>
 
   <div class="menu-right">
     <div class="menu-item" @click="scrollToSection('home')">
-      <img class="imgMenu" :src="$t('LOGOLONG')" alt="Logo"/>
+      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt="Logo"/>
     </div>
     <div class="menu-item spacer"></div>
     <div class="menu-item icon right">
-      <a :href="$t('CONTACT.MAIL.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.MAIL.IMG')" alt="Logo"/></a>
+      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.MAIL.IMG" alt="Logo"/></a>
     </div>
     <div class="menu-item icon right">
-      <a :href="$t('CONTACT.LINKEDIN.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.LINKEDIN.IMG')"
+      <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.LINKEDIN.IMG"
                                                                   alt="Logo"/></a>
     </div>
     <div class="menu-item icon right">
-      <a :href="$t('CONTACT.XING.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.XING.IMG')" alt="Logo"/></a>
+      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.XING.IMG" alt="Logo"/></a>
     </div>
     <div class="menu-item spacer"></div>
     <div>
@@ -90,19 +89,19 @@ const scrollAndToggle = (sectionId: string) => {
     <div class="menu-item menu-spacer">{{ $t('GETINCONTACT') }}</div>
     <div class="responsive-row">
       <div class="menu-item icon" @click="toggleMenu">
-        <a :href="$t('CONTACT.MAIL.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.MAIL.IMG')"
+        <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.MAIL.IMG"
                                                                 alt="Logo"/></a>
       </div>
       <div class="menu-item icon " @click="toggleMenu">
-        <a :href="$t('CONTACT.LINKEDIN.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.LINKEDIN.IMG')"
+        <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.LINKEDIN.IMG"
                                                                     alt="Logo"/></a>
       </div>
       <div class="menu-item icon" @click="toggleMenu">
-        <a :href="$t('CONTACT.XING.LINK')" target="_blank"><img class="imgMenu" :src="$t('CONTACT.XING.IMG')"
+        <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.XING.IMG"
                                                                 alt="Logo"/></a>
       </div>
     </div>
-    <div class="menu-item menu-spacer"></div>
+    <div class="menu-item menu-spacer"> {{ CONTENT.CONTACT.XING.LINK }}</div>
     <div class="menu-item menu-spacer">{{ $t('SETTINGS') }}  </div>
     <div class="responsive-row">
       <div>
@@ -126,11 +125,11 @@ const scrollAndToggle = (sectionId: string) => {
 
   <div :class="apppearance === 'Dark' ? 'dark' : 'light'" class="menu-responsive">
     <div class="menu-item" @click="scrollToSection('home')">
-      <img class="imgMenu" :src="$t('LOGOLONG')" alt="Logo"/>
+      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt="Logo"/>
     </div>
     <div class="menu-item spacer"></div>
     <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">
-      <img class="imgMenu" :src="$t('MENU')" alt="Menu"/>
+      <img class="imgMenu" :src="CONTENT.MENU" alt="Menu"/>
     </div>
     <div v-if="isMenuOpen" class="menu-item" @click="toggleMenu">
       {{ $t('CLOSE') }}
