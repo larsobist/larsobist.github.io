@@ -8,6 +8,8 @@ const clearSelection = () => {
   setSelectedProject(null);
 };
 
+export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORTHESIS" | "CULINO" | "USABILITY" | "LAGOM" | "BUILDAR" | "RUNNERSHIGH" | "TIMELESSTREASURES" | "WEBGAMES" | "SAVEATURTLE" | "EATABROAD" | "ESHOP" | "PORTFOLIO" | "UPCOMING";
+
 </script>
 
 <template>
@@ -16,23 +18,23 @@ const clearSelection = () => {
     <h2>{{ $t('PROJECTS.'+selectedProject+'.TITLE') }}</h2>
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>
     {{$t('PROJECTS.'+selectedProject+'.DESCRIPTION')}}<br>
-    <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject].TECH" :key="index">
+    <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index">
       <img class="img" :src="image" alt="Logo"/>
     </p>
 
-    {{CONTENT.PROJECTS[selectedProject].VIDEOLINK}}<br>
-    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].DOCULINK!=''">
-      <a :href="CONTENT.PROJECTS[selectedProject].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
+    {{CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK}}<br>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
     </div>
-    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].GITHUBLINK!=''">
-      <a :href="CONTENT.PROJECTS[selectedProject].GITHUBLINK" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
     </div>
-    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject].LIVELINK!=''">
-      <a :href="CONTENT.PROJECTS[selectedProject].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
+    <div class="btn" v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''">
+      <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
     </div>
     <div class="btn" @click="clearSelection">{{$t('DETAIL.CLOSE')}}</div>
     <carousel :items-to-show="1">
-      <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject].IMG" :key="index">
+      <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
         {{ image }}
         <img class="img" :src="image" alt="Logo"/>
       </slide>
