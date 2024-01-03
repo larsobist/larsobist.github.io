@@ -23,20 +23,17 @@
 }
 
 .dark {
-    background-color: #2d2d2d;
     color: #fff;
     background-image: url("../../../pics/dark-background.jpg");
-    display: flex;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .light {
-    background-color: #fff;
     color: #2d2d2d;
-    background-image: url("../../../pics/light-background.jpg");
+    background: radial-gradient(ellipse at left, #e66465, #ffffff), radial-gradient(ellipse at center, #4d9f0c, #ffffff);
     background-size: cover;
-    background-position: center;
 }
 
 .element {
