@@ -15,7 +15,7 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
 <template>
   <div class="displayProject border" v-if="selectedProject">
     <h2>{{$t('DETAIL.TITLE')}}</h2>
-    <h2>{{ $t('PROJECTS.'+selectedProject+'.TITLE') }}</h2>
+    <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE}}</h2>
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>
     {{$t('PROJECTS.'+selectedProject+'.DESCRIPTION')}}<br>
     <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index">

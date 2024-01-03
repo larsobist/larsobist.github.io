@@ -10,13 +10,13 @@ import CONTENT from "@/locales/content.json";
 
     <h2>{{ $t('ABOUT.EDUCATION.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.EDUCATION.MASTER.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.TIME') }}<br>
         <img class="img" :src="CONTENT.EDUCATION.MASTER.IMG" alt= " Logo"/>
       </div>
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.EDUCATION.BACHELOR.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.TIME') }}<br>
@@ -26,7 +26,7 @@ import CONTENT from "@/locales/content.json";
 
     <h2>{{ $t('ABOUT.EXPERIENCES.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.EXPERIENCES.BOSCH.EMPLOYER') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.JOB') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TASKS') }}<br>
@@ -34,7 +34,7 @@ import CONTENT from "@/locales/content.json";
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TIME') }}<br>
         <img class="img" :src="CONTENT.EXPERIENCES.BOSCH.IMG" alt= " Logo"/>
       </div>
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.EMPLOYER') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.JOB') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TASKS') }}<br>
@@ -46,12 +46,12 @@ import CONTENT from "@/locales/content.json";
 
     <h2>{{ $t('ABOUT.ABROAD.TITLE') }}</h2>
     <div class="grid">
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.ABROAD.STUDY.TITLE') }}<br>
         {{ $t('ABOUT.ABROAD.STUDY.PLACE') }}<br>
         {{ $t('ABOUT.ABROAD.STUDY.TIME') }}
       </div>
-      <div class="border ">
+      <div class="element ">
         {{ $t('ABOUT.ABROAD.WORKANDTRAVEL.TITLE') }}<br>
         {{ $t('ABOUT.ABROAD.WORKANDTRAVEL.PLACE') }}<br>
         {{ $t('ABOUT.ABROAD.WORKANDTRAVEL.TIME') }}

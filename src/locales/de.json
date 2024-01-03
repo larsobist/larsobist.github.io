@@ -68,82 +68,66 @@
   "PROJECTS": {
     "TITLE": "Projekte",
     "ZPHERE": {
-      "TITLE": "zphere",
       "CATEGORY": "Bachelorprojekt",
       "DESCRIPTION": "zphere ist eine Sportplattform, die medial bisher schlecht repräsentierte Sportarten abbildet und den Fans, die sich für solche Sportarten interessieren, einen gesammelten Ort in Form einer Onlineplattform geben soll.\n\n\n\nDurch eine Kooperation zwischen der Hochschule und Radio Bremen ergab sich die Möglichkeit, diese Idee prototypisch im Rahmen unseres Bachelorprojektes zu konzipieren und zu entwickeln. Wie diese Web-App funktionieren und welche Inhalte sie beinhalten soll, haben wir als Gruppe in der Konzeption definiert. Um die Plattform genauer zu definieren, haben wir im Anschluss eine Sportartenfindung und eine Zielgruppenfindung durchgeführt. Als es um die Realisierung ging, führten wir eine Konkurrenzanalyse durch, entwickelten Moodboards und designten das Branding der Plattform. Bei der Designentwicklung wurden zunächst Wireframes entworfen, die im Anschluss von mir und Yuliya Litvin mithilfe von Adobe XD genauer definiert wurden. Währenddessen entwickelte der Rest des Teams einen Prototyp."
     },
     "CIRCLEOFLIFE": {
-      "TITLE": "Circle of Life",
       "CATEGORY": "Datenvisualisierung",
       "DESCRIPTION": "\"Cirlce of Life\" ist eine interaktive Webseite, die sich damit beschäftigt, komplexe Datensätze durch unterschiedliche Visualisierungen für den Endnutzer spannend zu visualisieren und interessante Themen hervorzuheben. \nDiese Seite hat einen Datensatz zu Geburtsdaten, welcher über 21 Jahre in den USA zusammengetragen wurde.\nEin spezielles Augenmerk sollte auf den Interaktionsmöglichkeiten liegen, über die man mehr Informationen zu dem Datenpunkt erhalten kann.  Beim Entwickeln des Designs habe ich versucht, so minimalistisch wie möglich vorzugehen. Es wurde jedoch auch die recht neue Technik einer variablen Fonts eingesetzt, mit welcher der Nutzer interagieren kann."
     },
     "TRAVELBUCKET": {
-      "TITLE": "TravelBucket",
       "CATEGORY": "Programmierung",
       "DESCRIPTION": "Während des Studiums wurden verschiedene Mobile Apps entwickelt, welche verschiedener Aspekte der mobilen Entwicklung beinhaltet haben. Durch die Erstellung einfacher Apps mit Flutter und React Native wurden weitere Erfahrungen mit plattformübergreifender Entwicklung mobiler Apps gesammelt. Ebenfalls wurden Apps mit SwiftUI und Kotlin für verschiedenste Anwendungsfälle entwickelt. Es wurden Apps entwickelt, welche beispielsweise auf die Sensoren des Smartphones zugreifen, oder welche wo ein Reiseplan erstellt werden konnte.\n\nEbenfalls wurde eine AR App entwickelt, wo verschiedene 3D Objekte in dem Raum platziert wurden. Praktisch jede Anwendung besitzt eine Schnittstelle zu einer API. Auch hier haben wir mithilfe der OpenWeather API eine moderne Anwendung entwickelt. In den Links finden Sie Dokumente für das TravelBucket Projekt."
     },
     "BACHELORTHESIS": {
-      "TITLE": "Bachelorarbeit",
       "CATEGORY": "Wissenschaftliche Arbeit",
       "DESCRIPTION": "In einer immer digitaleren Welt sind Websites ein bedeutsames Hilfsmittel für Unternehmen, Organisationen und Einzelpersonen. Einerseits um ihre Präsenz im Internet zu etablieren und andererseits für Bildungsinstitutionen, um digitalen Unterricht volljährig stattfinden zu lassen. Im Rahmen dieser Bachelorarbeit wurde eine Konzeption und Evaluation eines digitalen hybriden Lehrmodells am Beispiel einer interaktiven Lernumgebung für kulturelle Bildungseinrichtungen ausgearbeitet. Es wurde eine intensive Anforderungsanalyse durchgeführt und wichtige Grundlagen festgelegt. Basierend auf den vorherigen Ergebnissen wurde eine detaillierte Konzeption eines hybriden Lehrmodells und eines digitalen Lernmanagementsystems entwickelt. Die Konzeption wurde abschließend prototypisch umgesetzt und final mithilfe von Testnutzern ausgewertet und abschließend bewertet."
     },
     "CULINO": {
-      "TITLE": "Culino",
       "CATEGORY": "Fullstack Webanwendung",
       "DESCRIPTION": "\"Culino\" ist eine Fullstack-App, bei der Nutzer ihre Lieblingsrezepte auf einer seriösen und visuell ansprechenden Plattform teilen können und somit den anderen Essensenthusiasten ihre Lieblingsrezepte teilhaben lassen.\n\nZu Beginn des Projekts wurde ein Konzept für die Projektidee entwickelt, auf dem das Branding anschließend aufbaute. Abschließend wurde die Anwendung prototypisch entwickelt und mit Inhalt gefüllt."
     },
     "USABILITY": {
-      "TITLE": "Usability Engineering",
       "CATEGORY": "Analyse",
       "DESCRIPTION": "In dem Modul „Usability-Engineering“ wurden anhand verschiedenster Übungsaufgaben wichtige Aspekte einer nutzerfreundlichen Nutzerführung erläutert. Zunächst wurden die Grundlagen anhand von Analysen und Ausarbeitungen an einem Beispielprodukt gelehrt. Ebenfalls wurde die Wichtigkeit der statistischen Ausarbeitung von Experimenten beigebracht. Ich habe dies mithilfe der Ryanair-Webseite gemacht und hierfür ein Usability-Experiment durchgeführt und anschließend ein Konzept für Verbesserungen erstellt. Abschließend wurde ein weiteres Problemfeld ausgesucht, an dem eine detaillierte Analyse und ein potenzielles Experiment designt wurden."
     },
     "LAGOM": {
-      "TITLE": "Lagom",
       "CATEGORY": "Datenbasierte Webanwendung",
       "DESCRIPTION": "\"LAGOM\" ist ein digitaler Bullet Journal, der Nutzern anbietet sein Leben in einem persönlichen und individuellen Workspace, anhand von Erinnerungen, ToDo-Listen und mehr, zu strukturieren und organisieren. Die Anwendung ist so entwickelt, dass sich die Daten, welche auf einer Datenbank gespeichert sind, in dem Browser aktualisieren, sobald neue Einträge verändert wurden. Die gesamte Webanwendung haben Thao Nguyen, Yuliya Litvin und ich zusammen entwickelt, womit jeder an allen Teilen des Projekts beteiligt war."
     },
     "BUILDAR": {
-      "TITLE": "buildAR",
       "CATEGORY": "Prototyping & Studie",
       "DESCRIPTION": "Ich habe mithilfe von Moumita Ahmad und Tabea Schuster anhand des Projektes \"buildAR\" analysiert, welche Alternativen es zu der etablierten Papieranleitung gibt. In Zeiten der des technologischen Fortschrittes und der Digitalisierung hat sich die Anleitung, ob sie für Spiele oder Möbel sind, aber kaum verändert. Dies hat uns dazu motiviert, zu analysieren, welche Optionen es die Modernisierung der Anleitungen gibt. In einem Nutzertest haben wir zwei prototypische Anleitungen gegen die Papieranleitung getestet und mithilfe eines Fragebogens analysiert. In der Dokumentation können Sie nachvollziehen, wie wir exakt vorgegangen sind und was der Nutzertest ergeben"
     },
     "RUNNERSHIGH": {
-      "TITLE": "Runners High",
       "CATEGORY": "Animationsvideo",
       "DESCRIPTION": "Gemeinsam mit Tabea Schuster habe ich zu dem Thema \"Runner's High\" ein Animationsvideo entwickelt. Dabei sind wir systematisch vorgegangen, indem wir zunächst den Inhalt des Kurzvideos innerhalb eines Storyboards skizziert und entworfen haben. Im Anschluss haben wir in Zyklen das Video innerhalb von Adobe After Effects entworfen und perfektioniert. Über folgenden Link können Sie das Animationsvideo auf Vimeo ansehen."
     },
     "TIMELESSTREASURES": {
-      "TITLE": "Timeless Treasures",
       "CATEGORY": "Fullstack Webanwendung",
       "DESCRIPTION": "\"Timeless Treasures\" ist eine Fullstack-App, bei der Nutzer mithilfe dieser Anwendung ihren Schmuck auf den Secondhandmarkt bringen können und somit den Ketten, Ringen und Uhren ein neues Leben einhauchen.\n\nZu Beginn des Projekts wurde eine Problemanalyse für eine Projektidee entwickelt, anschließend der potenzielle Mehrwert dieser Anwendung anhand einer Präsentation vor Start-up-Entdeckern gehalten. Abschließend wurde die Anwendung prototypisch entwickelt und mit Inhalt gepflegt."
     },
     "WEBGAMES": {
-      "TITLE": "Web Games",
       "CATEGORY": "Jump'n'Run und Point & Click Webspiele",
       "DESCRIPTION": "In dem Bachelorstudium habe ich zusammen mit Thao Nguyen, Moumita Ahmad und Yuliya Litvin zwei Spiele entwickelt, um auch diese Seite der Medieninformatik kennenzulernen. Ein Spiel ist ein Point und Click Adventure, welches nur mit HTML, JavaScript und CSS entwickelt wurde. Dieses Spiel trägt den Namen \"Last Minute!\", da es um einen Studenten geht, der gestresst in den letzten Zügen seiner Bachelorarbeit steckt. Der Spieler hilft dem Protagonisten dabei, die Bachelorarbeit erfolgreich in dem Fach seines Professors abzugeben. Das zweite entwickelte Spiel heißt \"Throwback\". Throwback ist ein Jump & Run Spiel, in dem der Protagonist eine Zeitreise durch das letzte Jahrhundert macht, da die Oma erneut behauptet hat, dass früher alles besser gewesen sei. Das Spiel wurde mit Tiled und Phaser 3 entworfen und programmiert."
     },
     "SAVEATURTLE": {
-      "TITLE": "Save a Turtle",
-      "CATEGORY": "Erste Webseite",
+      "CATEGORY": "Webseite",
       "DESCRIPTION": "Zu Beginn des ersten Semesters habe ich eine informationsbasierte Webseite entworfen. Die Webseite informiert die Besucher über die Meeresschildkröten und deren Bedrohung. Sie bietet zudem eine Galerie sowie den Verweis auf Partner an, bei denen Geld gespendet werden kann, um den Tieren zu helfen. Ebenfalls wird dort auf einen Partner hingewiesen, bei dem man sich als Pate einer Meeresschildkröte anmelden kann."
     },
     "EATABROAD": {
-      "TITLE": "eatabroad",
       "CATEGORY": "Design und Webentwicklung",
       "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. Zusammen mit Thao Nguyen haben wir eine Plattform, die Essensspezialitäten aus der gesamten Welt vorstellt. Dabei werden die Spezialitäten eng an sehenswerte Orte gebunden. Als das Designkonzept festgelegt wurde, haben wir mit dem Designprozess begonnen. Die gezeichneten Wireframes wurden im Anschluss in Adobe XD verfeinert und im Anschluss prototypisch mit HTML, CSS und JavaScript programmiert. Diese Plattform wurde für Web, Tablet und Handy optimiert entwickelt."
     },
     "ESHOP": {
-      "TITLE": "ESHOP YTL",
       "CATEGORY": "Java Anwendung",
       "DESCRIPTION": "ESHOP YTL ist ein kleiner Online-Shop, welcher zusammen mit Thao Nguyen und Yuliya Litvin entwickelt wurde. Kunden und Mitarbeiter haben eigene Accounts, aber unterschiedliche Rechte. Nicht eingeloggt, können Sie alle Artikel einsehen. Eingeloggt kann der Kunde Artikel in den Warenkorb hinzufügen, diesen bearbeiten und Artikel kaufen. Nach einem Kauf erhält dieser eine Rechnung. Ein eingeloggter Mitarbeiter kann Benutzer einsehen und neue hinzufügen. Dieser kann auch neue Artikel hinzufügen und den Bestand eines Artikels erhöhen, sowie die gesamte Historie aller Artikel, wie auch eines einzelnen Artikels, einsehen. Wir haben den E-Shop mit einer grafischen Benutzeroberfläche erstellt, der über einen Server läuft. Dies ermöglicht, dass mehrere Nutzer gleichzeitig den E-Shop nutzen können."
     },
     "PORTFOLIO": {
-      "TITLE": "Design Portfolio",
       "CATEGORY": "Gestaltungsarbeiten",
       "DESCRIPTION": "In der Gestaltung habe ich an vielen verschiedenen kleineren Projekten gearbeitet. Beispielsweise habe ich mehrmals Retuschen gemacht, ein Redesign von Logo und Webseite vollzogen oder mithilfe von Lightroom Bilder bearbeitet. All diese Arbeiten finden Sie in einem Portfolio, welches all diese Projekte zusammenfasst."
     },
     "UPCOMING": {
-      "TITLE": "Kommende Projekte",
       "CATEGORY": "Analyse",
       "DESCRIPTION": "Aktuell befinde ich mich in einem weiteren interessanten Projekt. In dem Masterprojekt entwickeln wir aktuell in einer Gruppe von 10 Personen eine Livestreaming-Plattform mit verschiedenen KI-Modellen. Zum einen soll eine Speech-To-Text-Funktionalität und eine Objekterkennung eingebunden werden. Hierbei arbeite ich als Scrum Manager und helfe meinen Teammitgliedern bei Bedarf. Im April 2024 starte ich zudem meine Masterthesis, welche sich mit der Datenvisualisierung befassen wird."
     }

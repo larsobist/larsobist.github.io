@@ -75,7 +75,7 @@
       },
       "SPRINGBOOT": {
         "TITLE": "Spring Boot",
-        "IMG": "./pics/Logo/SpringBoot.png"
+        "IMG": "./pics/Logo/Springboot.png"
       },
       "BOOTSTRAP": {
         "TITLE": "Bootstrap",
@@ -87,7 +87,7 @@
       },
       "I18N": {
         "TITLE": "i18n",
-        "IMG": "./pics/Logo/i18n.png"
+        "IMG": "./pics/Logo/I18n.png"
       }
     },
     "SOFTWARE": {
@@ -129,7 +129,7 @@
       },
       "FIGMA": {
         "TITLE": "FIGMA",
-        "IMG": "./pics/Logo/figma.png"
+        "IMG": "./pics/Logo/Figma.png"
       },
       "WORDPRESS": {
         "TITLE": "Wordpress",
@@ -165,6 +165,7 @@
   },
   "PROJECTS": {
     "ZPHERE": {
+      "TITLE": "zphere",
       "LOGO": "./pics/Logo/Zphere.png",
       "TECH": [
         "./pics/Logo/XD.png",
@@ -173,10 +174,10 @@
         "./pics/Logo/MariaDB.png"
       ],
       "IMG": [
-        "./pics/Projects/zphere1.png",
-        "./pics/Projects/zphere2.png",
-        "./pics/Projects/zphere3.png",
-        "./pics/Projects/zphere4.png"
+        "./pics/Projects/Zphere1.png",
+        "./pics/Projects/Zphere2.png",
+        "./pics/Projects/Zphere3.png",
+        "./pics/Projects/Zphere4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
@@ -184,6 +185,7 @@
       "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
     },
     "CIRCLEOFLIFE": {
+      "TITLE": "Circle of life",
       "LOGO": "./pics/Logo/CircleOfLife.png",
       "TECH": [
         "./pics/Logo/HTML.png",
@@ -191,10 +193,10 @@
         "./pics/Logo/JavaScript.png"
       ],
       "IMG": [
-        "./pics/Projects/col1.png",
-        "./pics/Projects/col2.png",
-        "./pics/Projects/col3.png",
-        "./pics/Projects/col4.png"
+        "./pics/Projects/CircleOfLife1.png",
+        "./pics/Projects/CircleOfLife2.png",
+        "./pics/Projects/CircleOfLife3.png",
+        "./pics/Projects/CircleOfLife4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
@@ -202,6 +204,7 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/"
     },
     "TRAVELBUCKET": {
+      "TITLE": "Travel Bucket",
       "LOGO": "./pics/Logo/TravelBucket.png",
       "TECH": [
         "./pics/Logo/Swift.png",
@@ -210,10 +213,10 @@
         "./pics/Logo/Flutter.png"
       ],
       "IMG": [
-        "./pics/Projects/travelBucket.png",
-        "./pics/Projects/travelBucket.png",
-        "./pics/Projects/travelBucket.png",
-        "./pics/Projects/travelBucket.png"
+        "./pics/Projects/TravelBucket1.png",
+        "./pics/Projects/TravelBucket2.png",
+        "./pics/Projects/TravelBucket3.png",
+        "./pics/Projects/TravelBucket4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
@@ -221,6 +224,7 @@
       "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
+      "TITLE": "Bachelorthesis",
       "LOGO": "./pics/Logo/Bachelorthesis.png",
       "TECH": [
         "./pics/Logo/Wordpress.png",
@@ -230,10 +234,10 @@
         "./pics/Logo/Zoom.png"
       ],
       "IMG": [
-        "./pics/Projects/ba1.png",
-        "./pics/Projects/ba2.png",
-        "./pics/Projects/ba3.png",
-        "./pics/Projects/ba4.png"
+        "./pics/Projects/Bachelorthesis1.png",
+        "./pics/Projects/Bachelorthesis2.png",
+        "./pics/Projects/Bachelorthesis3.png",
+        "./pics/Projects/Bachelorthesis4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/17WMbMhXIKSi6gH7NUDFuPxPwlB--ZPI0/view?usp=sharing",
@@ -241,6 +245,7 @@
       "LIVELINK": ""
     },
     "CULINO": {
+      "TITLE": "Culino",
       "LOGO": "./pics/Logo/Culino.png",
       "TECH": [
         "./pics/Logo/React.png",
@@ -260,16 +265,17 @@
       "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
+      "TITLE": "Usability Engineering",
       "LOGO": "./pics/Logo/Usability.png",
       "TECH": [
         "./pics/Logo/Figma.png",
         "./pics/Logo/Excel.png"
       ],
       "IMG": [
-        "./pics/Projects/usability1.png",
-        "./pics/Projects/usability2.png",
-        "./pics/Projects/usability3.png",
-        "./pics/Projects/usability4.png"
+        "./pics/Projects/Usability1.png",
+        "./pics/Projects/Usability2.png",
+        "./pics/Projects/Usability3.png",
+        "./pics/Projects/Usability4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1tTMj9fQJzL8gx3y7AEbWTrUvNZhjumsF/view?usp=sharing",
@@ -277,6 +283,7 @@
       "LIVELINK": ""
     },
     "LAGOM": {
+      "TITLE": "Lagom",
       "LOGO": "./pics/Logo/Lagom.png",
       "TECH": [
         "./pics/Logo/HTML.png",
@@ -296,6 +303,7 @@
       "LIVELINK": ""
     },
     "BUILDAR": {
+      "TITLE": "buildAR",
       "LOGO": "./pics/Logo/BuildAR.png",
       "TECH": [
         "./pics/Logo/Unity.png",
@@ -313,6 +321,7 @@
       "LIVELINK": ""
     },
     "RUNNERSHIGH": {
+      "TITLE": "Runner's High",
       "LOGO": "./pics/Logo/RunnersHigh.png",
       "TECH": [
         "./pics/Logo/XD.png",
@@ -320,10 +329,10 @@
         "./pics/Logo/PremierePro.png"
       ],
       "IMG": [
-        "./pics/Projects/runnershigh1.png",
-        "./pics/Projects/runnershigh2.png",
-        "./pics/Projects/runnershigh3.png",
-        "./pics/Projects/runnershigh4.png"
+        "./pics/Projects/RunnersHigh1.png",
+        "./pics/Projects/RunnersHigh2.png",
+        "./pics/Projects/RunnersHigh3.png",
+        "./pics/Projects/RunnersHigh4.png"
       ],
       "VIDEOLINK": "https://vimeo.com/432268612",
       "DOCULINK": "",
@@ -331,6 +340,7 @@
       "LIVELINK": ""
     },
     "TIMELESSTREASURES": {
+      "TITLE": "Timeless Treasures",
       "LOGO": "./pics/Logo/TimelessTreasures.png",
       "TECH": [
         "./pics/Logo/React.png",
@@ -339,10 +349,10 @@
         "./pics/Logo/Springboot.png"
       ],
       "IMG": [
-        "./pics/Projects/timelesstreasures1.png",
-        "./pics/Projects/timelesstreasures2.png",
-        "./pics/Projects/timelesstreasures3.png",
-        "./pics/Projects/timelesstreasures4.png"
+        "./pics/Projects/TimelessTreasures1.png",
+        "./pics/Projects/TimelessTreasures2.png",
+        "./pics/Projects/TimelessTreasures3.png",
+        "./pics/Projects/TimelessTreasures4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
@@ -350,6 +360,7 @@
       "LIVELINK": ""
     },
     "WEBGAMES": {
+      "TITLE": "Webgames",
       "LOGO": "./pics/Logo/LastMinute.png",
       "TECH": [
         "./pics/Logo/HTML.png",
@@ -361,9 +372,11 @@
         "./pics/Projects/Throwback1.png",
         "./pics/Projects/Throwback2.png",
         "./pics/Projects/Throwback3.png",
+        "./pics/Projects/Throwback4.png",
         "./pics/Projects/LastMinute1.png",
         "./pics/Projects/LastMinute2.png",
-        "./pics/Projects/LastMinute3.png"
+        "./pics/Projects/LastMinute3.png",
+        "./pics/Projects/LastMinute4.png"
       ],
       "VIDEOLINK": "https://github.com/larsobist/LastMinute",
       "DOCULINK": "https://github.com/larsobist/Throwback",
@@ -371,6 +384,7 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },
     "SAVEATURTLE": {
+      "TITLE": "Save A Turtle",
       "LOGO": "./pics/Logo/SaveATurtle.png",
       "TECH": [
         "./pics/Logo/HTML.png",
@@ -378,10 +392,10 @@
         "./pics/Logo/JavaScript.png"
       ],
       "IMG": [
-        "./pics/Projects/turtle1.png",
-        "./pics/Projects/turtle2.png",
-        "./pics/Projects/turtle3.png",
-        "./pics/Projects/turtle4.png"
+        "./pics/Projects/SaveATurtle1.png",
+        "./pics/Projects/SaveATurtle2.png",
+        "./pics/Projects/SaveATurtle3.png",
+        "./pics/Projects/SaveATurtle4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -389,6 +403,7 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
     },
     "EATABROAD": {
+      "TITLE": "eatabroad",
       "LOGO": "./pics/Logo/Eatabroad.png",
       "TECH": [
         "./pics/Logo/HTML.png",
@@ -397,10 +412,10 @@
         "./pics/Logo/XD.png"
       ],
       "IMG": [
-        "./pics/Projects/eatabroad1.png",
-        "./pics/Projects/eatabroad2.png",
-        "./pics/Projects/eatabroad3.png",
-        "./pics/Projects/eatabroad4.png"
+        "./pics/Projects/Eatabroad1.png",
+        "./pics/Projects/Eatabroad2.png",
+        "./pics/Projects/Eatabroad3.png",
+        "./pics/Projects/Eatabroad4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -408,15 +423,16 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
     },
     "ESHOP": {
+      "TITLE": "Eshop YTL",
       "LOGO": "./pics/Logo/Eshop.png",
       "TECH": [
         "./pics/Logo/Java.png"
       ],
       "IMG": [
-        "./pics/Projects/eshop1.png",
-        "./pics/Projects/eshop2.png",
-        "./pics/Projects/eshop3.png",
-        "./pics/Projects/eshop4.png"
+        "./pics/Projects/Eshop1.png",
+        "./pics/Projects/Eshop2.png",
+        "./pics/Projects/Eshop3.png",
+        "./pics/Projects/Eshop4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -424,6 +440,7 @@
       "LIVELINK": ""
     },
     "PORTFOLIO": {
+      "TITLE": "Design Portfolio",
       "LOGO": "./pics/Logo/Portfolio.png",
       "TECH": [
         "./pics/Logo/Photoshop.png",
@@ -431,10 +448,15 @@
         "./pics/Logo/InDesign.png"
       ],
       "IMG": [
-        "./pics/Projects/portfolio1.png",
-        "./pics/Projects/portfolio2.png",
-        "./pics/Projects/portfolio3.png",
-        "./pics/Projects/portfolio4.png"
+        "./pics/Projects/Portfolio1.png",
+        "./pics/Projects/Portfolio2.png",
+        "./pics/Projects/Portfolio3.png",
+        "./pics/Projects/Portfolio4.png",
+        "./pics/Projects/Portfolio5.png",
+        "./pics/Projects/Portfolio6.png",
+        "./pics/Projects/Portfolio7.png",
+        "./pics/Projects/Portfolio8.png",
+        "./pics/Projects/Portfolio9.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -442,6 +464,7 @@
       "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
     },
     "UPCOMING": {
+      "TITLE": "In work...",
       "LOGO": "./pics/Logo/Upcoming.png",
       "TECH": [
         "./pics/Logo/Vue.png",
@@ -450,8 +473,8 @@
         "./pics/Logo/Nanocosmos.png"
       ],
       "IMG": [
-        "./pics/Projects/upcoming1.png",
-        "./pics/Projects/upcoming2.png"
+        "./pics/Projects/Upcoming1.png",
+        "./pics/Projects/Upcoming2.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
