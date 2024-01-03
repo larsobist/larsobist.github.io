@@ -1,182 +1,182 @@
 {
-  "LOGO": "./src/assets/Logo/LO.png",
-  "LOGOLONG": "./src/assets/Logo/LOtext.png",
-  "MENU": "./src/assets/Logo/LO.png",
+  "LOGO": "./pics/Logo/LO.png",
+  "LOGOLONG": "./pics/Logo/LOtext.png",
+  "MENU": "./pics/Logo/LO.png",
   "ABOUT": {
-    "IMG": "./src/assets/Logo/LarsObist.png"
+    "IMG": "./pics/Logo/LarsObist.png"
   },
   "EDUCATION": {
     "MASTER": {
-      "IMG": "./src/assets/Logo/BHT.png"
+      "IMG": "./pics/Logo/BHT.png"
     },
     "BACHELOR": {
-      "IMG": "./src/assets/Logo/HSB.png"
+      "IMG": "./pics/Logo/HSB.png"
     }
   },
   "EXPERIENCES": {
     "BOSCH": {
-      "IMG": "./src/assets/Logo/Bosch.png"
+      "IMG": "./pics/Logo/Bosch.png"
     },
     "PLANETMUTLU": {
-      "IMG": "./src/assets/Logo/Planetmutlu.png"
+      "IMG": "./pics/Logo/Planetmutlu.png"
     }
   },
   "SKILLS": {
     "LANGUAGES": {
       "JAVA": {
         "TITLE": "Java",
-        "IMG": "./src/assets/Logo/Java.png"
+        "IMG": "./pics/Logo/Java.png"
       },
       "HTML": {
         "TITLE": "HTML",
-        "IMG": "./src/assets/Logo/HTML.png"
+        "IMG": "./pics/Logo/HTML.png"
       },
       "JAVASCRIPT": {
         "TITLE": "JavaScript",
-        "IMG": "./src/assets/Logo/JavaScript.png"
+        "IMG": "./pics/Logo/JavaScript.png"
       },
       "TYPESCRIPT": {
         "TITLE": "TypeScript",
-        "IMG": "./src/assets/Logo/TypeScript.png"
+        "IMG": "./pics/Logo/TypeScript.png"
       },
       "CSS": {
         "TITLE": "CSS",
-        "IMG": "./src/assets/Logo/CSS.png"
+        "IMG": "./pics/Logo/CSS.png"
       },
       "PYTHON": {
         "TITLE": "Python",
-        "IMG": "./src/assets/Logo/Python.png"
+        "IMG": "./pics/Logo/Python.png"
       },
       "SWIFT": {
         "TITLE": "Swift",
-        "IMG": "./src/assets/Logo/Swift.png"
+        "IMG": "./pics/Logo/Swift.png"
       },
       "KOTLIN": {
         "TITLE": "Kotlin",
-        "IMG": "./src/assets/Logo/Kotlin.png"
+        "IMG": "./pics/Logo/Kotlin.png"
       }
     },
     "FRAMEWORKS": {
       "ANGULAR": {
         "TITLE": "Angular",
-        "IMG": "./src/assets/Logo/Angular.png"
+        "IMG": "./pics/Logo/Angular.png"
       },
       "VUE": {
         "TITLE": "Vue",
-        "IMG": "./src/assets/Logo/Vue.png"
+        "IMG": "./pics/Logo/Vue.png"
       },
       "REACT": {
         "TITLE": "React",
-        "IMG": "./src/assets/Logo/React.png"
+        "IMG": "./pics/Logo/React.png"
       },
       "NODEJS": {
         "TITLE": "Node.js",
-        "IMG": "./src/assets/Logo/Nodejs.png"
+        "IMG": "./pics/Logo/Nodejs.png"
       },
       "SPRINGBOOT": {
         "TITLE": "Spring Boot",
-        "IMG": "./src/assets/Logo/SpringBoot.png"
+        "IMG": "./pics/Logo/SpringBoot.png"
       },
       "BOOTSTRAP": {
         "TITLE": "Bootstrap",
-        "IMG": "./src/assets/Logo/Bootstrap.png"
+        "IMG": "./pics/Logo/Bootstrap.png"
       },
       "DOCKER": {
         "TITLE": "Docker",
-        "IMG": "./src/assets/Logo/Docker.png"
+        "IMG": "./pics/Logo/Docker.png"
       },
       "I18N": {
         "TITLE": "i18n",
-        "IMG": "./src/assets/Logo/i18n.png"
+        "IMG": "./pics/Logo/i18n.png"
       }
     },
     "SOFTWARE": {
       "INTELLIJ": {
         "TITLE": "IntelliJ",
-        "IMG": "./src/assets/Logo/IntelliJ.png"
+        "IMG": "./pics/Logo/IntelliJ.png"
       },
       "VISUALSTUDIOCODE": {
         "TITLE": "Visual Studio Code",
-        "IMG": "./src/assets/Logo/VisualStudioCode.png"
+        "IMG": "./pics/Logo/VisualStudioCode.png"
       },
       "XCODE": {
         "TITLE": "Xcode",
-        "IMG": "./src/assets/Logo/Xcode.png"
+        "IMG": "./pics/Logo/Xcode.png"
       },
       "ANDROIDSTUDIO": {
         "TITLE": "Android Studio",
-        "IMG": "./src/assets/Logo/AndroidStudio.png"
+        "IMG": "./pics/Logo/AndroidStudio.png"
       },
       "GIT": {
         "TITLE": "Git",
-        "IMG": "./src/assets/Logo/Git.png"
+        "IMG": "./pics/Logo/Git.png"
       },
       "MONGODB": {
         "TITLE": "MongoDB",
-        "IMG": "./src/assets/Logo/MongoDB.png"
+        "IMG": "./pics/Logo/MongoDB.png"
       },
       "MYSQL": {
         "TITLE": "MySQL",
-        "IMG": "./src/assets/Logo/MySQL.png"
+        "IMG": "./pics/Logo/MySQL.png"
       },
       "POSTMAN": {
         "TITLE": "Postman",
-        "IMG": "./src/assets/Logo/Postman.png"
+        "IMG": "./pics/Logo/Postman.png"
       },
       "CREATIVECLOUD": {
         "TITLE": "Creative Cloud",
-        "IMG": "./src/assets/Logo/CreativeCloud.png"
+        "IMG": "./pics/Logo/CreativeCloud.png"
       },
       "FIGMA": {
         "TITLE": "FIGMA",
-        "IMG": "./src/assets/Logo/Figma.png"
+        "IMG": "./pics/Logo/Figma.png"
       },
       "WORDPRESS": {
         "TITLE": "Wordpress",
-        "IMG": "./src/assets/Logo/Wordpress.png"
+        "IMG": "./pics/Logo/Wordpress.png"
       },
       "MSOFFICE": {
         "TITLE": "Microsoft Office",
-        "IMG": "./src/assets/Logo/MSOffice.png"
+        "IMG": "./pics/Logo/MSOffice.png"
       }
     },
     "METHODS": {
       "SCRUM": {
         "TITLE": "Scrum",
-        "IMG": "./src/assets/Logo/Scrum.png"
+        "IMG": "./pics/Logo/Scrum.png"
       },
       "CLEANCODE": {
         "TITLE": "Clean Code",
-        "IMG": "./src/assets/Logo/CleanCode.png"
+        "IMG": "./pics/Logo/CleanCode.png"
       },
       "DESIGNTHINKING": {
         "TITLE": "Design Thinking",
-        "IMG": "./src/assets/Logo/DesignThinking.png"
+        "IMG": "./pics/Logo/DesignThinking.png"
       },
       "UXDESIGN": {
         "TITLE": "UX / UI Design",
-        "IMG": "./src/assets/Logo/UX.png"
+        "IMG": "./pics/Logo/UX.png"
       },
       "BRANDING": {
         "TITLE": "Branding",
-        "IMG": "./src/assets/Logo/Branding.png"
+        "IMG": "./pics/Logo/Branding.png"
       }
     }
   },
   "PROJECTS": {
     "ZPHERE": {
-      "LOGO": "./src/assets/Logo/zphere.png",
+      "LOGO": "./pics/Logo/zphere.png",
       "TECH": [
-        "./src/assets/Logo/xd.png",
-        "./src/assets/Logo/react.png",
-        "./src/assets/Logo/nodejs.png",
-        "./src/assets/Logo/MariaDB.png"
+        "./pics/Logo/xd.png",
+        "./pics/Logo/react.png",
+        "./pics/Logo/nodejs.png",
+        "./pics/Logo/MariaDB.png"
       ],
       "IMG": [
-        "./src/assets/Projects/zphere1.png",
-        "./src/assets/Projects/zphere2.png",
-        "./src/assets/Projects/zphere3.png",
-        "./src/assets/Projects/zphere4.png"
+        "./pics/Projects/zphere1.png",
+        "./pics/Projects/zphere2.png",
+        "./pics/Projects/zphere3.png",
+        "./pics/Projects/zphere4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
@@ -184,17 +184,17 @@
       "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
     },
     "CIRCLEOFLIFE": {
-      "LOGO": "./src/assets/Logo/CircleOfLife.png",
+      "LOGO": "./pics/Logo/CircleOfLife.png",
       "TECH": [
-        "./src/assets/Logo/html.png",
-        "./src/assets/Logo/CSS.png",
-        "./src/assets/Logo/Javascript.png"
+        "./pics/Logo/html.png",
+        "./pics/Logo/CSS.png",
+        "./pics/Logo/Javascript.png"
       ],
       "IMG": [
-        "./src/assets/Projects/col1.png",
-        "./src/assets/Projects/col2.png",
-        "./src/assets/Projects/col3.png",
-        "./src/assets/Projects/col4.png"
+        "./pics/Projects/col1.png",
+        "./pics/Projects/col2.png",
+        "./pics/Projects/col3.png",
+        "./pics/Projects/col4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
@@ -202,18 +202,18 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/"
     },
     "TRAVELBUCKET": {
-      "LOGO": "./src/assets/Logo/TravelBucket.png",
+      "LOGO": "./pics/Logo/TravelBucket.png",
       "TECH": [
-        "./src/assets/Logo/swift.png",
-        "./src/assets/Logo/kotlin.png",
-        "./src/assets/Logo/react.png",
-        "./src/assets/Logo/flutter.png"
+        "./pics/Logo/swift.png",
+        "./pics/Logo/kotlin.png",
+        "./pics/Logo/react.png",
+        "./pics/Logo/flutter.png"
       ],
       "IMG": [
-        "./src/assets/Projects/travelBucket.png",
-        "./src/assets/Projects/travelBucket.png",
-        "./src/assets/Projects/travelBucket.png",
-        "./src/assets/Projects/travelBucket.png"
+        "./pics/Projects/travelBucket.png",
+        "./pics/Projects/travelBucket.png",
+        "./pics/Projects/travelBucket.png",
+        "./pics/Projects/travelBucket.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
@@ -221,19 +221,19 @@
       "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
-      "LOGO": "./src/assets/Logo/BachelorThesis.png",
+      "LOGO": "./pics/Logo/BachelorThesis.png",
       "TECH": [
-        "./src/assets/Logo/Wordpress.png",
-        "./src/assets/Logo/learndash.png",
-        "./src/assets/Logo/elementor.png",
-        "./src/assets/Logo/vimeo.png",
-        "./src/assets/Logo/zoom.png"
+        "./pics/Logo/Wordpress.png",
+        "./pics/Logo/learndash.png",
+        "./pics/Logo/elementor.png",
+        "./pics/Logo/vimeo.png",
+        "./pics/Logo/zoom.png"
       ],
       "IMG": [
-        "./src/assets/Projects/ba1.png",
-        "./src/assets/Projects/ba2.png",
-        "./src/assets/Projects/ba3.png",
-        "./src/assets/Projects/ba4.png"
+        "./pics/Projects/ba1.png",
+        "./pics/Projects/ba2.png",
+        "./pics/Projects/ba3.png",
+        "./pics/Projects/ba4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/17WMbMhXIKSi6gH7NUDFuPxPwlB--ZPI0/view?usp=sharing",
@@ -241,18 +241,18 @@
       "LIVELINK": ""
     },
     "CULINO": {
-      "LOGO": "./src/assets/Logo/Culino.png",
+      "LOGO": "./pics/Logo/Culino.png",
       "TECH": [
-        "./src/assets/Logo/react.png",
-        "./src/assets/Logo/typescript.png",
-        "./src/assets/Logo/bootstrap.png",
-        "./src/assets/Logo/springboot.png"
+        "./pics/Logo/react.png",
+        "./pics/Logo/typescript.png",
+        "./pics/Logo/bootstrap.png",
+        "./pics/Logo/springboot.png"
       ],
       "IMG": [
-        "./src/assets/Projects/culino1.png",
-        "./src/assets/Projects/culino2.png",
-        "./src/assets/Projects/culino3.png",
-        "./src/assets/Projects/culino4.png"
+        "./pics/Projects/culino1.png",
+        "./pics/Projects/culino2.png",
+        "./pics/Projects/culino3.png",
+        "./pics/Projects/culino4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
@@ -260,16 +260,16 @@
       "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
-      "LOGO": "./src/assets/Logo/Usability.png",
+      "LOGO": "./pics/Logo/Usability.png",
       "TECH": [
-        "./src/assets/Logo/Figma.png",
-        "./src/assets/Logo/Excel.png"
+        "./pics/Logo/Figma.png",
+        "./pics/Logo/Excel.png"
       ],
       "IMG": [
-        "./src/assets/Projects/usability1.png",
-        "./src/assets/Projects/usability2.png",
-        "./src/assets/Projects/usability3.png",
-        "./src/assets/Projects/usability4.png"
+        "./pics/Projects/usability1.png",
+        "./pics/Projects/usability2.png",
+        "./pics/Projects/usability3.png",
+        "./pics/Projects/usability4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1tTMj9fQJzL8gx3y7AEbWTrUvNZhjumsF/view?usp=sharing",
@@ -277,18 +277,18 @@
       "LIVELINK": ""
     },
     "LAGOM": {
-      "LOGO": "./src/assets/Logo/Lagom.png",
+      "LOGO": "./pics/Logo/Lagom.png",
       "TECH": [
-        "./src/assets/Logo/html.png",
-        "./src/assets/Logo/css.png",
-        "./src/assets/Logo/javascript.png",
-        "./src/assets/Logo/mysql.png"
+        "./pics/Logo/html.png",
+        "./pics/Logo/css.png",
+        "./pics/Logo/javascript.png",
+        "./pics/Logo/mysql.png"
       ],
       "IMG": [
-        "./src/assets/Projects/Lagom1.png",
-        "./src/assets/Projects/Lagom2.png",
-        "./src/assets/Projects/Lagom3.png",
-        "./src/assets/Projects/Lagom4.png"
+        "./pics/Projects/Lagom1.png",
+        "./pics/Projects/Lagom2.png",
+        "./pics/Projects/Lagom3.png",
+        "./pics/Projects/Lagom4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -296,16 +296,16 @@
       "LIVELINK": ""
     },
     "BUILDAR": {
-      "LOGO": "./src/assets/Logo/BuildAR.png",
+      "LOGO": "./pics/Logo/BuildAR.png",
       "TECH": [
-        "./src/assets/Logo/unity.png",
-        "./src/assets/Logo/xd.png"
+        "./pics/Logo/unity.png",
+        "./pics/Logo/xd.png"
       ],
       "IMG": [
-        "./src/assets/Projects/BuildAR1.png",
-        "./src/assets/Projects/BuildAR2.png",
-        "./src/assets/Projects/BuildAR3.png",
-        "./src/assets/Projects/BuildAR4.png"
+        "./pics/Projects/BuildAR1.png",
+        "./pics/Projects/BuildAR2.png",
+        "./pics/Projects/BuildAR3.png",
+        "./pics/Projects/BuildAR4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1FAl0coSqSc6wdRMJlCh-Om5s42E5j3SM/view?usp=sharing",
@@ -313,17 +313,17 @@
       "LIVELINK": ""
     },
     "RUNNERSHIGH": {
-      "LOGO": "./src/assets/Logo/RunnersHigh.png",
+      "LOGO": "./pics/Logo/RunnersHigh.png",
       "TECH": [
-        "./src/assets/Logo/xd.png",
-        "./src/assets/Logo/AfterEffects.png",
-        "./src/assets/Logo/PremierePro.png"
+        "./pics/Logo/xd.png",
+        "./pics/Logo/AfterEffects.png",
+        "./pics/Logo/PremierePro.png"
       ],
       "IMG": [
-        "./src/assets/Projects/runnershigh1.png",
-        "./src/assets/Projects/runnershigh2.png",
-        "./src/assets/Projects/runnershigh3.png",
-        "./src/assets/Projects/runnershigh4.png"
+        "./pics/Projects/runnershigh1.png",
+        "./pics/Projects/runnershigh2.png",
+        "./pics/Projects/runnershigh3.png",
+        "./pics/Projects/runnershigh4.png"
       ],
       "VIDEOLINK": "https://vimeo.com/432268612",
       "DOCULINK": "",
@@ -331,18 +331,18 @@
       "LIVELINK": ""
     },
     "TIMELESSTREASURES": {
-      "LOGO": "./src/assets/Logo/TimelessTreasures.png",
+      "LOGO": "./pics/Logo/TimelessTreasures.png",
       "TECH": [
-        "./src/assets/Logo/react.png",
-        "./src/assets/Logo/typescript.png",
-        "./src/assets/Logo/bootstrap.png",
-        "./src/assets/Logo/springboot.png"
+        "./pics/Logo/react.png",
+        "./pics/Logo/typescript.png",
+        "./pics/Logo/bootstrap.png",
+        "./pics/Logo/springboot.png"
       ],
       "IMG": [
-        "./src/assets/Projects/timelesstreasures1.png",
-        "./src/assets/Projects/timelesstreasures2.png",
-        "./src/assets/Projects/timelesstreasures3.png",
-        "./src/assets/Projects/timelesstreasures4.png"
+        "./pics/Projects/timelesstreasures1.png",
+        "./pics/Projects/timelesstreasures2.png",
+        "./pics/Projects/timelesstreasures3.png",
+        "./pics/Projects/timelesstreasures4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
@@ -350,20 +350,20 @@
       "LIVELINK": ""
     },
     "WEBGAMES": {
-      "LOGO": "./src/assets/Logo/LastMinute.png",
+      "LOGO": "./pics/Logo/LastMinute.png",
       "TECH": [
-        "./src/assets/Logo/html.png",
-        "./src/assets/Logo/CSS.png",
-        "./src/assets/Logo/Javascript.png",
-        "./src/assets/Logo/Phaser.png"
+        "./pics/Logo/html.png",
+        "./pics/Logo/CSS.png",
+        "./pics/Logo/Javascript.png",
+        "./pics/Logo/Phaser.png"
       ],
       "IMG": [
-        "./src/assets/Projects/Throwback1.png",
-        "./src/assets/Projects/Throwback2.png",
-        "./src/assets/Projects/Throwback3.png",
-        "./src/assets/Projects/LastMinute1.png",
-        "./src/assets/Projects/LastMinute2.png",
-        "./src/assets/Projects/LastMinute3.png"
+        "./pics/Projects/Throwback1.png",
+        "./pics/Projects/Throwback2.png",
+        "./pics/Projects/Throwback3.png",
+        "./pics/Projects/LastMinute1.png",
+        "./pics/Projects/LastMinute2.png",
+        "./pics/Projects/LastMinute3.png"
       ],
       "VIDEOLINK": "https://github.com/larsobist/LastMinute",
       "DOCULINK": "https://github.com/larsobist/Throwback",
@@ -371,17 +371,17 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },
     "SAVEATURTLE": {
-      "LOGO": "./src/assets/Logo/SaveATurtle.png",
+      "LOGO": "./pics/Logo/SaveATurtle.png",
       "TECH": [
-        "./src/assets/Logo/html.png",
-        "./src/assets/Logo/CSS.png",
-        "./src/assets/Logo/Javascript.png"
+        "./pics/Logo/html.png",
+        "./pics/Logo/CSS.png",
+        "./pics/Logo/Javascript.png"
       ],
       "IMG": [
-        "./src/assets/Projects/turtle1.png",
-        "./src/assets/Projects/turtle2.png",
-        "./src/assets/Projects/turtle3.png",
-        "./src/assets/Projects/turtle4.png"
+        "./pics/Projects/turtle1.png",
+        "./pics/Projects/turtle2.png",
+        "./pics/Projects/turtle3.png",
+        "./pics/Projects/turtle4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -389,18 +389,18 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
     },
     "EATABROAD": {
-      "LOGO": "./src/assets/Logo/Eatabroad.png",
+      "LOGO": "./pics/Logo/Eatabroad.png",
       "TECH": [
-        "./src/assets/Logo/HTML.png",
-        "./src/assets/Logo/CSS.png",
-        "./src/assets/Logo/Javascript.png",
-        "./src/assets/Logo/xd.png"
+        "./pics/Logo/HTML.png",
+        "./pics/Logo/CSS.png",
+        "./pics/Logo/Javascript.png",
+        "./pics/Logo/xd.png"
       ],
       "IMG": [
-        "./src/assets/Projects/eatabroad1.png",
-        "./src/assets/Projects/eatabroad2.png",
-        "./src/assets/Projects/eatabroad3.png",
-        "./src/assets/Projects/eatabroad4.png"
+        "./pics/Projects/eatabroad1.png",
+        "./pics/Projects/eatabroad2.png",
+        "./pics/Projects/eatabroad3.png",
+        "./pics/Projects/eatabroad4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -408,15 +408,15 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
     },
     "ESHOP": {
-      "LOGO": "./src/assets/Logo/ESHOP.png",
+      "LOGO": "./pics/Logo/ESHOP.png",
       "TECH": [
-        "./src/assets/Logo/Java.png"
+        "./pics/Logo/Java.png"
       ],
       "IMG": [
-        "./src/assets/Projects/eshop1.png",
-        "./src/assets/Projects/eshop2.png",
-        "./src/assets/Projects/eshop3.png",
-        "./src/assets/Projects/eshop4.png"
+        "./pics/Projects/eshop1.png",
+        "./pics/Projects/eshop2.png",
+        "./pics/Projects/eshop3.png",
+        "./pics/Projects/eshop4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -424,17 +424,17 @@
       "LIVELINK": ""
     },
     "PORTFOLIO": {
-      "LOGO": "./src/assets/Logo/Portfolio.png",
+      "LOGO": "./pics/Logo/Portfolio.png",
       "TECH": [
-        "./src/assets/Logo/photoshop.png",
-        "./src/assets/Logo/illustrator.png",
-        "./src/assets/Logo/indesign.png"
+        "./pics/Logo/photoshop.png",
+        "./pics/Logo/illustrator.png",
+        "./pics/Logo/indesign.png"
       ],
       "IMG": [
-        "./src/assets/Projects/portfolio1.png",
-        "./src/assets/Projects/portfolio2.png",
-        "./src/assets/Projects/portfolio3.png",
-        "./src/assets/Projects/portfolio4.png"
+        "./pics/Projects/portfolio1.png",
+        "./pics/Projects/portfolio2.png",
+        "./pics/Projects/portfolio3.png",
+        "./pics/Projects/portfolio4.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -442,16 +442,16 @@
       "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
     },
     "UPCOMING": {
-      "LOGO": "./src/assets/Logo/Upcoming.png",
+      "LOGO": "./pics/Logo/Upcoming.png",
       "TECH": [
-        "./src/assets/Logo/vue.png",
-        "./src/assets/Logo/typescript.png",
-        "./src/assets/Logo/illustrator.png",
-        "./src/assets/Logo/nanocosmos.png"
+        "./pics/Logo/vue.png",
+        "./pics/Logo/typescript.png",
+        "./pics/Logo/illustrator.png",
+        "./pics/Logo/nanocosmos.png"
       ],
       "IMG": [
-        "./src/assets/Projects/upcoming1.png",
-        "./src/assets/Projects/upcoming2.png"
+        "./pics/Projects/upcoming1.png",
+        "./pics/Projects/upcoming2.png"
       ],
       "VIDEOLINK": "",
       "DOCULINK": "",
@@ -462,17 +462,17 @@
   "CONTACT": {
     "LINKEDIN": {
       "TITLE": "LinkedIn",
-      "IMG": "./src/assets/Logo/LinkedIn.png",
+      "IMG": "./pics/Logo/LinkedIn.png",
       "LINK": "https://www.linkedin.com/in/larsobist/"
     },
     "XING": {
       "TITLE": "Xing",
-      "IMG": "./src/assets/Logo/Xing.png",
+      "IMG": "./pics/Logo/Xing.png",
       "LINK": "https://www.xing.com/profile/Lars_Obist"
     },
     "MAIL": {
       "TITLE": "Email",
-      "IMG": "./src/assets/Logo/Mail.png",
+      "IMG": "./pics/Logo/Mail.png",
       "LINK": "mailto:lars@obist.de"
     }
   }
