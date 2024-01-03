@@ -22,18 +22,31 @@
     font-size: 18px;
 }
 
-.dark {
-    color: #fff;
-    background-image: url("../../../pics/dark-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .light {
     color: #2d2d2d;
-    background: radial-gradient(ellipse at left, #e66465, #ffffff), radial-gradient(ellipse at center, #4d9f0c, #ffffff);
-    background-size: cover;
+    /*background: radial-gradient(ellipse at left, #e66465, #ffffff), radial-gradient(ellipse at center, #4d9f0c, #ffffff);*/
+    background-image: radial-gradient(
+            farthest-corner at 0% 200%,
+            orange 0%,
+            transparent 100%
+    ), radial-gradient(
+            farthest-corner at 500% 0%,
+            blue 0%,
+            #fff 100%
+    );
+}
+
+.dark {
+    color: #fff;
+    background-image: radial-gradient(
+            farthest-corner at 0% 200%,
+            orange 0%,
+            transparent 100%
+    ), radial-gradient(
+            farthest-corner at 500% 0%,
+            blue 0%,
+            #2d2d2d 100%
+    );
 }
 
 .element {
