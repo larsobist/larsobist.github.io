@@ -45,23 +45,23 @@ const scrollAndToggle = (sectionId: string) => {
     <div class="menu-item" @click="scrollToSection('about')">{{ $t('ABOUT.TITLE') }}</div>
     <div class="menu-item spacer"></div>
     <div class="menu-item icon left" @click="scrollToSection('home')"><img class="imgMenu" :src="CONTENT.LOGO"
-                                                                           alt="Logo"/></div>
+                                                                           alt=" Logo"/></div>
   </div>
 
   <div class="menu-right">
     <div class="menu-item" @click="scrollToSection('home')">
-      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt="Logo"/>
+      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt=" Logo"/>
     </div>
     <div class="menu-item spacer"></div>
     <div class="menu-item icon right">
-      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.MAIL.IMG" alt="Logo"/></a>
+      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.MAIL.IMG" alt=" Logo"/></a>
     </div>
     <div class="menu-item icon right">
       <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.LINKEDIN.IMG"
-                                                                  alt="Logo"/></a>
+                                                                  alt=" Logo"/></a>
     </div>
     <div class="menu-item icon right">
-      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.XING.IMG" alt="Logo"/></a>
+      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.XING.IMG" alt=" Logo"/></a>
     </div>
     <div class="menu-item spacer"></div>
     <div>
@@ -90,15 +90,15 @@ const scrollAndToggle = (sectionId: string) => {
     <div class="responsive-row">
       <div class="menu-item icon" @click="toggleMenu">
         <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.MAIL.IMG"
-                                                                alt="Logo"/></a>
+                                                                alt=" Logo"/></a>
       </div>
       <div class="menu-item icon " @click="toggleMenu">
         <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.LINKEDIN.IMG"
-                                                                    alt="Logo"/></a>
+                                                                    alt=" Logo"/></a>
       </div>
       <div class="menu-item icon" @click="toggleMenu">
         <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="imgMenu" :src="CONTENT.CONTACT.XING.IMG"
-                                                                alt="Logo"/></a>
+                                                                alt=" Logo"/></a>
       </div>
     </div>
     <div class="menu-item menu-spacer"> {{ CONTENT.CONTACT.XING.LINK }}</div>
@@ -125,7 +125,7 @@ const scrollAndToggle = (sectionId: string) => {
 
   <div :class="apppearance === 'Dark' ? 'dark' : 'light'" class="menu-responsive">
     <div class="menu-item" @click="scrollToSection('home')">
-      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt="Logo"/>
+      <img class="imgMenu" :src="CONTENT.LOGOLONG" alt=" Logo"/>
     </div>
     <div class="menu-item spacer"></div>
     <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">

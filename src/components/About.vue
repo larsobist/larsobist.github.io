@@ -6,7 +6,7 @@ import CONTENT from "@/locales/content.json";
   <div class="border">
     <h2>{{ $t('ABOUT.TITLE') }}</h2>
     {{ $t('ABOUT.TEXT') }}
-    <img class="img" :src="CONTENT.ABOUT.IMG"/>
+    <img class="img" :src="CONTENT.ABOUT.IMG" alt= " Logo"/>
 
     <h2>{{ $t('ABOUT.EDUCATION.TITLE') }}</h2>
     <div class="grid">
@@ -14,13 +14,13 @@ import CONTENT from "@/locales/content.json";
         {{ $t('ABOUT.EDUCATION.MASTER.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.TIME') }}<br>
-        <img class="img" :src="CONTENT.EDUCATION.MASTER.IMG"/>
+        <img class="img" :src="CONTENT.EDUCATION.MASTER.IMG" alt= " Logo"/>
       </div>
       <div class="border ">
         {{ $t('ABOUT.EDUCATION.BACHELOR.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.TIME') }}<br>
-        <img class="img" :src="CONTENT.EDUCATION.BACHELOR.IMG"/>
+        <img class="img" :src="CONTENT.EDUCATION.BACHELOR.IMG" alt= " Logo"/>
       </div>
     </div>
 
@@ -32,7 +32,7 @@ import CONTENT from "@/locales/content.json";
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TIME') }}<br>
-        <img class="img" :src="CONTENT.EXPERIENCES.BOSCH.IMG"/>
+        <img class="img" :src="CONTENT.EXPERIENCES.BOSCH.IMG" alt= " Logo"/>
       </div>
       <div class="border ">
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.EMPLOYER') }}<br>
@@ -40,7 +40,7 @@ import CONTENT from "@/locales/content.json";
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TIME') }}<br>
-        <img class="img" :src="CONTENT.EXPERIENCES.PLANETMUTLU.IMG"/>
+        <img class="img" :src="CONTENT.EXPERIENCES.PLANETMUTLU.IMG" alt= " Logo"/>
       </div>
     </div>
 

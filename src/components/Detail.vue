@@ -19,7 +19,7 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>
     {{$t('PROJECTS.'+selectedProject+'.DESCRIPTION')}}<br>
     <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index">
-      <img class="img" :src="image" alt="Logo"/>
+      <img class="img" :src="image" alt=" Logo"/>
     </p>
 
     {{CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK}}<br>
@@ -36,7 +36,7 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
     <carousel :items-to-show="1">
       <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
         {{ image }}
-        <img class="img" :src="image" alt="Logo"/>
+        <img class="img" :src="image" alt=" Logo"/>
       </slide>
 
       <template #addons>

@@ -71,7 +71,7 @@
       },
       "NODEJS": {
         "TITLE": "Node.js",
-        "IMG": "./pics/Logo/Nodejs.png"
+        "IMG": "./pics/Logo/NodeJS.png"
       },
       "SPRINGBOOT": {
         "TITLE": "Spring Boot",
@@ -129,7 +129,7 @@
       },
       "FIGMA": {
         "TITLE": "FIGMA",
-        "IMG": "./pics/Logo/Figma.png"
+        "IMG": "./pics/Logo/figma.png"
       },
       "WORDPRESS": {
         "TITLE": "Wordpress",
@@ -165,11 +165,11 @@
   },
   "PROJECTS": {
     "ZPHERE": {
-      "LOGO": "./pics/Logo/zphere.png",
+      "LOGO": "./pics/Logo/Zphere.png",
       "TECH": [
-        "./pics/Logo/xd.png",
-        "./pics/Logo/react.png",
-        "./pics/Logo/nodejs.png",
+        "./pics/Logo/XD.png",
+        "./pics/Logo/React.png",
+        "./pics/Logo/NodeJS.png",
         "./pics/Logo/MariaDB.png"
       ],
       "IMG": [
@@ -186,9 +186,9 @@
     "CIRCLEOFLIFE": {
       "LOGO": "./pics/Logo/CircleOfLife.png",
       "TECH": [
-        "./pics/Logo/html.png",
+        "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/Javascript.png"
+        "./pics/Logo/JavaScript.png"
       ],
       "IMG": [
         "./pics/Projects/col1.png",
@@ -204,10 +204,10 @@
     "TRAVELBUCKET": {
       "LOGO": "./pics/Logo/TravelBucket.png",
       "TECH": [
-        "./pics/Logo/swift.png",
-        "./pics/Logo/kotlin.png",
-        "./pics/Logo/react.png",
-        "./pics/Logo/flutter.png"
+        "./pics/Logo/Swift.png",
+        "./pics/Logo/Kotlin.png",
+        "./pics/Logo/React.png",
+        "./pics/Logo/Flutter.png"
       ],
       "IMG": [
         "./pics/Projects/travelBucket.png",
@@ -221,13 +221,13 @@
       "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
-      "LOGO": "./pics/Logo/BachelorThesis.png",
+      "LOGO": "./pics/Logo/Bachelorthesis.png",
       "TECH": [
         "./pics/Logo/Wordpress.png",
-        "./pics/Logo/learndash.png",
-        "./pics/Logo/elementor.png",
-        "./pics/Logo/vimeo.png",
-        "./pics/Logo/zoom.png"
+        "./pics/Logo/Learndash.png",
+        "./pics/Logo/Elementor.png",
+        "./pics/Logo/Vimeo.png",
+        "./pics/Logo/Zoom.png"
       ],
       "IMG": [
         "./pics/Projects/ba1.png",
@@ -243,10 +243,10 @@
     "CULINO": {
       "LOGO": "./pics/Logo/Culino.png",
       "TECH": [
-        "./pics/Logo/react.png",
-        "./pics/Logo/typescript.png",
-        "./pics/Logo/bootstrap.png",
-        "./pics/Logo/springboot.png"
+        "./pics/Logo/React.png",
+        "./pics/Logo/TypeScript.png",
+        "./pics/Logo/Bootstrap.png",
+        "./pics/Logo/Springboot.png"
       ],
       "IMG": [
         "./pics/Projects/culino1.png",
@@ -279,10 +279,10 @@
     "LAGOM": {
       "LOGO": "./pics/Logo/Lagom.png",
       "TECH": [
-        "./pics/Logo/html.png",
-        "./pics/Logo/css.png",
-        "./pics/Logo/javascript.png",
-        "./pics/Logo/mysql.png"
+        "./pics/Logo/HTML.png",
+        "./pics/Logo/CSS.png",
+        "./pics/Logo/JavaScript.png",
+        "./pics/Logo/MySQL.png"
       ],
       "IMG": [
         "./pics/Projects/Lagom1.png",
@@ -298,8 +298,8 @@
     "BUILDAR": {
       "LOGO": "./pics/Logo/BuildAR.png",
       "TECH": [
-        "./pics/Logo/unity.png",
-        "./pics/Logo/xd.png"
+        "./pics/Logo/Unity.png",
+        "./pics/Logo/XD.png"
       ],
       "IMG": [
         "./pics/Projects/BuildAR1.png",
@@ -315,7 +315,7 @@
     "RUNNERSHIGH": {
       "LOGO": "./pics/Logo/RunnersHigh.png",
       "TECH": [
-        "./pics/Logo/xd.png",
+        "./pics/Logo/XD.png",
         "./pics/Logo/AfterEffects.png",
         "./pics/Logo/PremierePro.png"
       ],
@@ -333,10 +333,10 @@
     "TIMELESSTREASURES": {
       "LOGO": "./pics/Logo/TimelessTreasures.png",
       "TECH": [
-        "./pics/Logo/react.png",
-        "./pics/Logo/typescript.png",
-        "./pics/Logo/bootstrap.png",
-        "./pics/Logo/springboot.png"
+        "./pics/Logo/React.png",
+        "./pics/Logo/TypeScript.png",
+        "./pics/Logo/Bootstrap.png",
+        "./pics/Logo/Springboot.png"
       ],
       "IMG": [
         "./pics/Projects/timelesstreasures1.png",
@@ -352,9 +352,9 @@
     "WEBGAMES": {
       "LOGO": "./pics/Logo/LastMinute.png",
       "TECH": [
-        "./pics/Logo/html.png",
+        "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/Javascript.png",
+        "./pics/Logo/JavaScript.png",
         "./pics/Logo/Phaser.png"
       ],
       "IMG": [
@@ -373,9 +373,9 @@
     "SAVEATURTLE": {
       "LOGO": "./pics/Logo/SaveATurtle.png",
       "TECH": [
-        "./pics/Logo/html.png",
+        "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/Javascript.png"
+        "./pics/Logo/JavaScript.png"
       ],
       "IMG": [
         "./pics/Projects/turtle1.png",
@@ -393,8 +393,8 @@
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/Javascript.png",
-        "./pics/Logo/xd.png"
+        "./pics/Logo/JavaScript.png",
+        "./pics/Logo/XD.png"
       ],
       "IMG": [
         "./pics/Projects/eatabroad1.png",
@@ -408,7 +408,7 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
     },
     "ESHOP": {
-      "LOGO": "./pics/Logo/ESHOP.png",
+      "LOGO": "./pics/Logo/Eshop.png",
       "TECH": [
         "./pics/Logo/Java.png"
       ],
@@ -426,9 +426,9 @@
     "PORTFOLIO": {
       "LOGO": "./pics/Logo/Portfolio.png",
       "TECH": [
-        "./pics/Logo/photoshop.png",
-        "./pics/Logo/illustrator.png",
-        "./pics/Logo/indesign.png"
+        "./pics/Logo/Photoshop.png",
+        "./pics/Logo/Illustrator.png",
+        "./pics/Logo/InDesign.png"
       ],
       "IMG": [
         "./pics/Projects/portfolio1.png",
@@ -444,10 +444,10 @@
     "UPCOMING": {
       "LOGO": "./pics/Logo/Upcoming.png",
       "TECH": [
-        "./pics/Logo/vue.png",
-        "./pics/Logo/typescript.png",
-        "./pics/Logo/illustrator.png",
-        "./pics/Logo/nanocosmos.png"
+        "./pics/Logo/Vue.png",
+        "./pics/Logo/TypeScript.png",
+        "./pics/Logo/Figma.png",
+        "./pics/Logo/Nanocosmos.png"
       ],
       "IMG": [
         "./pics/Projects/upcoming1.png",

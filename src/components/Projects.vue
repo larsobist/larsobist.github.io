@@ -12,22 +12,22 @@ const onClick = (project: string) => {
     <div class="border" v-if="selectedProject == null">
       <h2>{{ $t('PROJECTS.TITLE') }}</h2>
       <div class="grid">
-        <div class="border rectangle-up" @click="onClick('ZPHERE')">{{ $t('PROJECTS.ZPHERE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.ZPHERE.LOGO" alt="Logo"/></div>
-        <div class="border rectangle" @click="onClick('CIRCLEOFLIFE')">{{ $t('PROJECTS.CIRCLEOFLIFE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.CIRCLEOFLIFE.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('TRAVELBUCKET')">{{ $t('PROJECTS.TRAVELBUCKET.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.TRAVELBUCKET.LOGO" alt="Logo"/></div>
-        <div class="border big-rectangle" @click="onClick('BACHELORTHESIS')">{{ $t('PROJECTS.BACHELORTHESIS.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.BACHELORTHESIS.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('CULINO')">{{ $t('PROJECTS.CULINO.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.CULINO.LOGO" alt="Logo"/></div>
-        <div class="border rectangle-up" @click="onClick('USABILITY')">{{ $t('PROJECTS.USABILITY.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.USABILITY.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('LAGOM')">{{ $t('PROJECTS.LAGOM.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.LAGOM.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('BUILDAR')">{{ $t('PROJECTS.BUILDAR.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.BUILDAR.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('RUNNERSHIGH')">{{ $t('PROJECTS.RUNNERSHIGH.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.RUNNERSHIGH.LOGO" alt="Logo"/></div>
-        <div class="border square" @click="onClick('TIMELESSTREASURES')">{{ $t('PROJECTS.TIMELESSTREASURES.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.TIMELESSTREASURES.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('WEBGAMES')">{{ $t('PROJECTS.WEBGAMES.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.WEBGAMES.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('SAVEATURTLE')">{{ $t('PROJECTS.SAVEATURTLE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.SAVEATURTLE.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('EATABROAD')">{{ $t('PROJECTS.EATABROAD.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.EATABROAD.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('ESHOP')">{{ $t('PROJECTS.ESHOP.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.ESHOP.LOGO" alt="Logo"/></div>
-        <div class="border " @click="onClick('PORTFOLIO')">{{ $t('PROJECTS.PORTFOLIO.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.PORTFOLIO.LOGO" alt="Logo"/></div>
-        <div class="border rectangle" @click="onClick('UPCOMING')">{{ $t('PROJECTS.UPCOMING.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.UPCOMING.LOGO" alt="Logo"/></div>
+        <div class="border rectangle-up" @click="onClick('ZPHERE')">{{ $t('PROJECTS.ZPHERE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.ZPHERE.LOGO" alt=" Logo"/></div>
+        <div class="border rectangle" @click="onClick('CIRCLEOFLIFE')">{{ $t('PROJECTS.CIRCLEOFLIFE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.CIRCLEOFLIFE.LOGO" alt=" Logo"/></div>
+        <div class="border " @click="onClick('TRAVELBUCKET')">{{ $t('PROJECTS.TRAVELBUCKET.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.TRAVELBUCKET.LOGO" alt= " Logo"/></div>
+        <div class="border big-rectangle" @click="onClick('BACHELORTHESIS')">{{ $t('PROJECTS.BACHELORTHESIS.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.BACHELORTHESIS.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('CULINO')">{{ $t('PROJECTS.CULINO.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.CULINO.LOGO" alt= " Logo"/></div>
+        <div class="border rectangle-up" @click="onClick('USABILITY')">{{ $t('PROJECTS.USABILITY.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.USABILITY.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('LAGOM')">{{ $t('PROJECTS.LAGOM.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.LAGOM.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('BUILDAR')">{{ $t('PROJECTS.BUILDAR.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.BUILDAR.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('RUNNERSHIGH')">{{ $t('PROJECTS.RUNNERSHIGH.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.RUNNERSHIGH.LOGO" alt= " Logo"/></div>
+        <div class="border square" @click="onClick('TIMELESSTREASURES')">{{ $t('PROJECTS.TIMELESSTREASURES.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.TIMELESSTREASURES.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('WEBGAMES')">{{ $t('PROJECTS.WEBGAMES.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.WEBGAMES.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('SAVEATURTLE')">{{ $t('PROJECTS.SAVEATURTLE.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.SAVEATURTLE.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('EATABROAD')">{{ $t('PROJECTS.EATABROAD.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.EATABROAD.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('ESHOP')">{{ $t('PROJECTS.ESHOP.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.ESHOP.LOGO" alt= " Logo"/></div>
+        <div class="border " @click="onClick('PORTFOLIO')">{{ $t('PROJECTS.PORTFOLIO.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.PORTFOLIO.LOGO" alt= " Logo"/></div>
+        <div class="border rectangle" @click="onClick('UPCOMING')">{{ $t('PROJECTS.UPCOMING.TITLE') }} <img class="img" :src="CONTENT.PROJECTS.UPCOMING.LOGO" alt= " Logo"/></div>
       </div>
     </div>
 </template>
