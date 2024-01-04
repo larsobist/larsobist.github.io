@@ -369,7 +369,7 @@
     },
     "WEBGAMES": {
       "TITLE": "Webgames",
-      "LOGO": "./pics/Logo/LastMinute.png",
+      "LOGO": "./pics/Logo/Webgames.png",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",

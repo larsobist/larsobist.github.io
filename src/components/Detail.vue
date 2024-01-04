@@ -18,10 +18,9 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
     <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE}}</h2>
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>
     {{$t('PROJECTS.'+selectedProject+'.DESCRIPTION')}}<br>
-    <p v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index">
-      <img class="img" :src="image" alt=" Logo"/>
-    </p>
-
+    <div class="responsive-row">
+      <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index" class="img" :src="image" alt="Logo"/>
+    </div>
     {{CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK}}<br>
     <div class="btn" v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''">
       <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
@@ -33,10 +32,9 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
       <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
     </div>
     <div class="btn" @click="clearSelection">{{$t('DETAIL.CLOSE')}}</div>
-    <carousel :items-to-show="1">
-      <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
-        {{ image }}
-        <img class="img" :src="image" alt=" Logo"/>
+    <carousel :items-to-show="1" :wrap-around="true" :autoplay="5000" id="gallery">
+      <slide class="slider" v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index" >
+        <img :src="image" alt=" Logo"/>
       </slide>
 
       <template #addons>
@@ -44,6 +42,7 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
         <pagination />
       </template>
     </carousel>
+
   </div>
 </template>
 
@@ -54,8 +53,12 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
   }
 
   .slider{
-    background-color: gray;
-    height: 100px;
+    height: 300px;
+  }
+
+  .responsive-row {
+    display: flex;
+    flex-direction: row;
   }
 
   @media screen and (max-width: 800px) {

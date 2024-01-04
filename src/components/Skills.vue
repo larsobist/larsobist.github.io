@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 import CONTENT from "@/locales/content.json";
+import {apppearance} from "@/stores/store";
 </script>
 
 <template>
@@ -8,50 +9,50 @@ import CONTENT from "@/locales/content.json";
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
     <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
     <div class="grid">
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.JAVA.IMG"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.HTML.IMG" alt=" Logo"/></div>
-      <div class="element "> <img class="img" :src="CONTENT.SKILLS.LANGUAGES.JAVASCRIPT.IMG" alt=" Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.TYPESCRIPT.IMG" alt=" Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.CSS.IMG" alt=" Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.PYTHON.IMG" alt=" Logo"/></div>
-      <div class="element "> <img class="img" :src="CONTENT.SKILLS.LANGUAGES.SWIFT.IMG" alt=" Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.LANGUAGES.KOTLIN.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.JAVA.IMG"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.HTML.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.JAVASCRIPT.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.TYPESCRIPT.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.CSS.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.PYTHON.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.SWIFT.IMG" alt=" Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.KOTLIN.IMG" alt=" Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
     <div class="grid">
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.ANGULAR.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.VUE.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.REACT.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.NODEJS.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.SPRINGBOOT.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.BOOTSTRAP.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.MATERIALUI.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.JASMINE.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.I18N.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.DOCKER.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.ANGULAR.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.VUE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.REACT.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.NODEJS.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.SPRINGBOOT.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.BOOTSTRAP.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.MATERIALUI.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.JASMINE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.I18N.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.FRAMEWORKS.DOCKER.IMG" alt="  Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
     <div class="grid">
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.INTELLIJ.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.VISUALSTUDIOCODE.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.XCODE.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.ANDROIDSTUDIO.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.GIT.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.MONGODB.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.MYSQL.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.POSTMAN.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.FIGMA.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.CREATIVECLOUD.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.WORDPRESS.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.SOFTWARE.MSOFFICE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.INTELLIJ.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.VISUALSTUDIOCODE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.XCODE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.ANDROIDSTUDIO.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.GIT.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.MONGODB.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.MYSQL.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.POSTMAN.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.FIGMA.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.CREATIVECLOUD.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.WORDPRESS.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.SOFTWARE.MSOFFICE.IMG" alt="  Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
     <div class="grid">
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.METHODS.SCRUM.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.METHODS.CLEANCODE.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.METHODS.DESIGNTHINKING.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.METHODS.UXDESIGN.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.METHODS.BRANDING.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.METHODS.SCRUM.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.METHODS.CLEANCODE.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.METHODS.DESIGNTHINKING.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.METHODS.UXDESIGN.IMG" alt="  Logo"/></div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.METHODS.BRANDING.IMG" alt="  Logo"/></div>
     </div>
   </div>
 </template>
