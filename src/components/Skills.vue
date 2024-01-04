@@ -25,8 +25,10 @@ import CONTENT from "@/locales/content.json";
       <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.NODEJS.IMG" alt="  Logo"/></div>
       <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.SPRINGBOOT.IMG" alt="  Logo"/></div>
       <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.BOOTSTRAP.IMG" alt="  Logo"/></div>
-      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.DOCKER.IMG" alt="  Logo"/></div>
+      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.MATERIALUI.IMG" alt="  Logo"/></div>
+      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.JASMINE.IMG" alt="  Logo"/></div>
       <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.I18N.IMG" alt="  Logo"/></div>
+      <div class="element "><img class="img" :src="CONTENT.SKILLS.FRAMEWORKS.DOCKER.IMG" alt="  Logo"/></div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
     <div class="grid">
@@ -85,9 +87,9 @@ import CONTENT from "@/locales/content.json";
 @media screen and (max-width: 800px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    aspect-ratio: 4 / 3;
-    max-height: calc(100vw * 3 / 4);
+    grid-template-rows: repeat(4, 1fr);
+    aspect-ratio: 4 / 4;
+    max-height: calc(100vw * 4 / 4);
   }
 }
 

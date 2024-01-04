@@ -81,13 +81,21 @@
         "TITLE": "Bootstrap",
         "IMG": "./pics/Logo/Bootstrap.png"
       },
-      "DOCKER": {
-        "TITLE": "Docker",
-        "IMG": "./pics/Logo/Docker.png"
+      "MATERIALUI": {
+        "TITLE": "MaterialUI",
+        "IMG": "./pics/Logo/MaterialUI.png"
       },
       "I18N": {
         "TITLE": "i18n",
         "IMG": "./pics/Logo/I18n.png"
+      },
+      "JASMINE": {
+        "TITLE": "Jasmine",
+        "IMG": "./pics/Logo/Jasmine.png"
+      },
+      "DOCKER": {
+        "TITLE": "Docker",
+        "IMG": "./pics/Logo/Docker.png"
       }
     },
     "SOFTWARE": {
