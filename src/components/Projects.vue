@@ -13,22 +13,14 @@ const onClick = (project: string) => {
     <div class="border" v-if="selectedProject == null">
       <h2>{{ $t('PROJECTS.TITLE') }}</h2>
       <div class="grid">
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="rectangle-up" @click="onClick('ZPHERE')"><img class="skills-img" :src="CONTENT.PROJECTS.ZPHERE.LOGO" alt=" Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="rectangle" @click="onClick('CIRCLEOFLIFE')"><img class="skills-img" :src="CONTENT.PROJECTS.CIRCLEOFLIFE.LOGO" alt=" Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('TRAVELBUCKET')"><img class="skills-img" :src="CONTENT.PROJECTS.TRAVELBUCKET.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="big-rectangle" @click="onClick('BACHELORTHESIS')"><img class="skills-img" :src="CONTENT.PROJECTS.BACHELORTHESIS.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('CULINO')"><img class="skills-img" :src="CONTENT.PROJECTS.CULINO.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="rectangle-up" @click="onClick('USABILITY')"> <img class="skills-img" :src="CONTENT.PROJECTS.USABILITY.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('LAGOM')"> <img class="skills-img" :src="CONTENT.PROJECTS.LAGOM.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('BUILDAR')"> <img class="skills-img" :src="CONTENT.PROJECTS.BUILDAR.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('RUNNERSHIGH')"><img class="skills-img" :src="CONTENT.PROJECTS.RUNNERSHIGH.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="square" @click="onClick('TIMELESSTREASURES')"><img class="skills-img" :src="CONTENT.PROJECTS.TIMELESSTREASURES.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('WEBGAMES')"><img class="skills-img" :src="CONTENT.PROJECTS.WEBGAMES.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('SAVEATURTLE')"> <img class="skills-img" :src="CONTENT.PROJECTS.SAVEATURTLE.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('EATABROAD')"> <img class="skills-img" :src="CONTENT.PROJECTS.EATABROAD.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('ESHOP')"> <img class="skills-img" :src="CONTENT.PROJECTS.ESHOP.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" @click="onClick('PORTFOLIO')"> <img class="skills-img" :src="CONTENT.PROJECTS.PORTFOLIO.LOGO" alt= " Logo"/></div>
-        <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class=" rectangle" @click="onClick('UPCOMING')"><img class="skills-img" :src="CONTENT.PROJECTS.UPCOMING.LOGO" alt= " Logo"/></div>
+        <div v-for="(project, index) in CONTENT.PROJECTS" :key="index"
+             :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container', project.EXTRACLASS]"
+             @click="onClick(project.KEY)">
+          <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">
+            <img class="skills-img" :src="project.LOGO" alt="Logo"/>
+          </div>
+          <img class="skills-img" :src="project.LOGO" alt="Logo"/>
+        </div>
       </div>
     </div>
 </template>
@@ -43,22 +35,50 @@ const onClick = (project: string) => {
   max-height: 57.14vw;
 }
 
-.grid .rectangle-up {
+.rectangle-up {
   grid-row: span 2;
 }
 
-.grid .rectangle {
+.rectangle {
   grid-column: span 2;
 }
 
-.grid .big-rectangle {
+.big-rectangle {
   grid-column: span 3;
   grid-row: span 2;
 }
 
-.grid .square {
+.square {
   grid-row: span 2;
   grid-column: span 2;
+}
+
+.hover-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.overlay-light {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-container:hover .overlay, .hover-container:active .overlay {
+  display: flex;
 }
 
 @media screen and (max-width: 800px) {

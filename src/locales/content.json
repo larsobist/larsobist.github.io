@@ -47,13 +47,13 @@
         "TITLE": "Python",
         "IMG": "./pics/Logo/Python.png"
       },
-      "SWIFT": {
-        "TITLE": "Swift",
-        "IMG": "./pics/Logo/Swift.png"
-      },
       "KOTLIN": {
         "TITLE": "Kotlin",
         "IMG": "./pics/Logo/Kotlin.png"
+      },
+      "SWIFT": {
+        "TITLE": "Swift",
+        "IMG": "./pics/Logo/Swift.png"
       }
     },
     "FRAMEWORKS": {
@@ -173,8 +173,10 @@
   },
   "PROJECTS": {
     "ZPHERE": {
+      "KEY": "ZPHERE",
       "TITLE": "zphere",
       "LOGO": "./pics/Logo/Zphere.png",
+      "EXTRACLASS": "rectangle-up",
       "TECH": [
         "./pics/Logo/XD.png",
         "./pics/Logo/React.png",
@@ -193,8 +195,10 @@
       "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
     },
     "CIRCLEOFLIFE": {
+      "KEY": "CIRCLEOFLIFE",
       "TITLE": "Circle of life",
       "LOGO": "./pics/Logo/CircleOfLife.png",
+      "EXTRACLASS": "rectangle",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
@@ -212,8 +216,10 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/"
     },
     "TRAVELBUCKET": {
+      "KEY": "TRAVELBUCKET",
       "TITLE": "Travel Bucket",
       "LOGO": "./pics/Logo/TravelBucket.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Swift.png",
         "./pics/Logo/Kotlin.png",
@@ -232,8 +238,10 @@
       "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
     },
     "BACHELORTHESIS": {
+      "KEY": "BACHELORTHESIS",
       "TITLE": "Bachelorthesis",
       "LOGO": "./pics/Logo/Bachelorthesis.png",
+      "EXTRACLASS": "big-rectangle",
       "TECH": [
         "./pics/Logo/Wordpress.png",
         "./pics/Logo/Learndash.png",
@@ -253,8 +261,10 @@
       "LIVELINK": ""
     },
     "CULINO": {
+      "KEY": "CULINO",
       "TITLE": "Culino",
       "LOGO": "./pics/Logo/Culino.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/React.png",
         "./pics/Logo/TypeScript.png",
@@ -273,8 +283,10 @@
       "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
     },
     "USABILITY": {
+      "KEY": "USABILITY",
       "TITLE": "Usability Engineering",
       "LOGO": "./pics/Logo/Usability.png",
+      "EXTRACLASS": "rectangle-up",
       "TECH": [
         "./pics/Logo/Figma.png",
         "./pics/Logo/Excel.png"
@@ -291,8 +303,10 @@
       "LIVELINK": ""
     },
     "LAGOM": {
+      "KEY": "LAGOM",
       "TITLE": "Lagom",
       "LOGO": "./pics/Logo/Lagom.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
@@ -311,8 +325,10 @@
       "LIVELINK": ""
     },
     "BUILDAR": {
+      "KEY": "BUILDAR",
       "TITLE": "buildAR",
       "LOGO": "./pics/Logo/BuildAR.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Unity.png",
         "./pics/Logo/XD.png"
@@ -329,8 +345,10 @@
       "LIVELINK": ""
     },
     "RUNNERSHIGH": {
+      "KEY": "RUNNERSHIGH",
       "TITLE": "Runner's High",
       "LOGO": "./pics/Logo/RunnersHigh.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/XD.png",
         "./pics/Logo/AfterEffects.png",
@@ -348,8 +366,10 @@
       "LIVELINK": ""
     },
     "TIMELESSTREASURES": {
+      "KEY": "TIMELESSTREASURES",
       "TITLE": "Timeless Treasures",
       "LOGO": "./pics/Logo/TimelessTreasures.png",
+      "EXTRACLASS": "square",
       "TECH": [
         "./pics/Logo/React.png",
         "./pics/Logo/TypeScript.png",
@@ -368,8 +388,10 @@
       "LIVELINK": ""
     },
     "WEBGAMES": {
+      "KEY": "WEBGAMES",
       "TITLE": "Webgames",
       "LOGO": "./pics/Logo/Webgames.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
@@ -392,8 +414,10 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
     },
     "SAVEATURTLE": {
+      "KEY": "SAVEATURTLE",
       "TITLE": "Save A Turtle",
       "LOGO": "./pics/Logo/SaveATurtle.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
@@ -411,8 +435,10 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
     },
     "EATABROAD": {
+      "KEY": "EATABROAD",
       "TITLE": "eatabroad",
       "LOGO": "./pics/Logo/Eatabroad.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
@@ -431,8 +457,10 @@
       "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
     },
     "ESHOP": {
+      "KEY": "ESHOP",
       "TITLE": "Eshop YTL",
       "LOGO": "./pics/Logo/Eshop.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Java.png"
       ],
@@ -448,8 +476,10 @@
       "LIVELINK": ""
     },
     "PORTFOLIO": {
+      "KEY": "PORTFOLIO",
       "TITLE": "Design Portfolio",
       "LOGO": "./pics/Logo/Portfolio.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Photoshop.png",
         "./pics/Logo/Illustrator.png",
@@ -472,8 +502,10 @@
       "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
     },
     "UPCOMING": {
+      "KEY": "UPCOMING",
       "TITLE": "In work...",
       "LOGO": "./pics/Logo/Upcoming.png",
+      "EXTRACLASS": "rectangle",
       "TECH": [
         "./pics/Logo/Vue.png",
         "./pics/Logo/TypeScript.png",
