@@ -9,6 +9,10 @@ import {apppearance} from "@/stores/store";
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
     <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
     <div class="grid">
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'" class="hover-container">
+        <img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.JAVA.IMG"/>
+        <div class="overlay" :class="apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light'">{{CONTENT.SKILLS.LANGUAGES.JAVA.TITLE}}</div>
+      </div>
       <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.JAVA.IMG"/></div>
       <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.HTML.IMG" alt=" Logo"/></div>
       <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'"><img class="skills-img" :src="CONTENT.SKILLS.LANGUAGES.JAVASCRIPT.IMG" alt=" Logo"/></div>
@@ -84,6 +88,35 @@ import {apppearance} from "@/stores/store";
   grid-row: span 2;
   grid-column: span 2;
 }
+
+.hover-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.overlay-light {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-container:hover .overlay, .hover-container:active .overlay {
+  display: flex;
+}
+
 
 @media screen and (max-width: 800px) {
   .grid {
