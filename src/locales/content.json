@@ -1,7 +1,16 @@
 {
   "LOGO": "./pics/Logo/LO.png",
   "LOGOLONG": "./pics/Logo/LOtext.png",
-  "MENU": "./pics/Logo/LO.png",
+  "MENULIGHT": "./pics/Logo/Menu-light.png",
+  "MENUDARK": "./pics/Logo/Menu-dark.png",
+  "CLOSELIGHT": "./pics/Logo/Close-light.png",
+  "CLOSEDARk": "./pics/Logo/Close-dark.png",
+  "GERLIGHT": "./pics/Logo/GER-light.png",
+  "GERDARK": "./pics/Logo/GER-dark.png",
+  "ENGLIGHT": "./pics/Logo/ENG-light.png",
+  "ENGDARK": "./pics/Logo/ENG-dark.png",
+  "DARKMODE": "./pics/Logo/Darkmode.png",
+  "LIGHTMODE": "./pics/Logo/Lightmode.png",
   "ABOUT": {
     "IMG": "./pics/Logo/LarsObist.png"
   },
@@ -525,17 +534,20 @@
   "CONTACT": {
     "LINKEDIN": {
       "TITLE": "LinkedIn",
-      "IMG": "./pics/Logo/LinkedIn.png",
+      "IMGLIGHT": "./pics/Logo/LinkedIn-light.png",
+      "IMGDARK": "./pics/Logo/LinkedIn-dark.png",
       "LINK": "https://www.linkedin.com/in/larsobist/"
     },
     "XING": {
       "TITLE": "Xing",
-      "IMG": "./pics/Logo/Xing.png",
+      "IMGLIGHT": "./pics/Logo/Xing-light.png",
+      "IMGDARK": "./pics/Logo/Xing-dark.png",
       "LINK": "https://www.xing.com/profile/Lars_Obist"
     },
     "MAIL": {
       "TITLE": "Email",
-      "IMG": "./pics/Logo/Mail.png",
+      "IMGLIGHT": "./pics/Logo/At-light.png",
+      "IMGDARK": "./pics/Logo/At-dark.png",
       "LINK": "mailto:lars@obist.de"
     }
   }

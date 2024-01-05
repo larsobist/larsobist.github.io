@@ -4,7 +4,7 @@ import {apppearance} from "@/stores/store";
 </script>
 
 <template>
-  <div class="border">
+  <div>
     <h2>{{ $t('ABOUT.TITLE') }}</h2>
     {{ $t('ABOUT.TEXT') }}
     <img class="img" :src="CONTENT.ABOUT.IMG" alt= " Logo"/>

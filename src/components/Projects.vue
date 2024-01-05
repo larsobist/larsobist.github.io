@@ -17,9 +17,9 @@ const onClick = (project: string) => {
              :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container', project.EXTRACLASS]"
              @click="onClick(project.KEY)">
           <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">
-            <img class="skills-img" :src="project.LOGO" alt="Logo"/>
+            <img class="project-img" :src="project.LOGO" alt="Logo"/>
           </div>
-          <img class="skills-img" :src="project.LOGO" alt="Logo"/>
+          <img class="project-img" :src="project.LOGO" alt="Logo"/>
         </div>
       </div>
     </div>
@@ -59,10 +59,10 @@ const onClick = (project: string) => {
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -79,6 +79,12 @@ const onClick = (project: string) => {
 
 .hover-container:hover .overlay, .hover-container:active .overlay {
   display: flex;
+}
+
+.project-img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

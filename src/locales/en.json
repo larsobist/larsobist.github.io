@@ -139,9 +139,5 @@
     "CLOSE": "Close"
   },
   "GETINCONTACT": "Way to contact me",
-  "SETTINGS": "Settings",
-  "LIGHTMODE": "Light",
-  "DARKMODE": "Dark",
-  "GERMAN": "GER",
-  "ENGLISH": "ENG"
+  "SETTINGS": "Settings"
 }

@@ -13,7 +13,7 @@ import {apppearance} from "@/stores/store";
       <div v-for="(language, index) in CONTENT.SKILLS.LANGUAGES" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
         <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">{{ language['TITLE'] }}</div>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
@@ -21,7 +21,7 @@ import {apppearance} from "@/stores/store";
       <div v-for="(language, index) in CONTENT.SKILLS.FRAMEWORKS" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
         <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">{{ language['TITLE'] }}</div>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
@@ -29,7 +29,7 @@ import {apppearance} from "@/stores/store";
       <div v-for="(language, index) in CONTENT.SKILLS.SOFTWARE" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
         <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">{{ language['TITLE'] }}</div>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
@@ -37,7 +37,7 @@ import {apppearance} from "@/stores/store";
       <div v-for="(language, index) in CONTENT.SKILLS.METHODS" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
         <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">{{ language['TITLE'] }}</div>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
       </div>
     </div>
   </div>
@@ -99,6 +99,10 @@ import {apppearance} from "@/stores/store";
   display: flex;
 }
 
+.skills-img{
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (max-width: 800px) {
   .grid {

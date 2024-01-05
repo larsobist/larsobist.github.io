@@ -13,7 +13,7 @@ export type ProjectKey = "ZPHERE" | "CIRCLEOFLIFE" | "TRAVELBUCKET" | "BACHELORT
 </script>
 
 <template>
-  <div class="displayProject border" v-if="selectedProject">
+  <div class="displayProject" v-if="selectedProject">
     <h2>{{$t('DETAIL.TITLE')}}</h2>
     <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE}}</h2>
     {{$t('PROJECTS.'+selectedProject+'.CATEGORY')}} <br>

@@ -140,9 +140,5 @@
     "CLOSE": "Schließen"
   },
   "GETINCONTACT": "Kontaktmöglichkeiten",
-  "SETTINGS": "Einstellungen",
-  "LIGHTMODE": "Hell",
-  "DARKMODE": "Dunkel",
-  "GERMAN": "DEU",
-  "ENGLISH": "ENG"
+  "SETTINGS": "Einstellungen"
 }

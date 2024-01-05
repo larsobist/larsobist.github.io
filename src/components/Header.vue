@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="border">
+  <div >
     <h2>{{$t('HEADER.TITLE')}}</h2>
   </div>
 
