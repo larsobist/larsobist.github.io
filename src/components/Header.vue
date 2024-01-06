@@ -1,11 +1,12 @@
 <script lang="ts" setup>
 
+import {apppearance} from "@/stores/store";
 </script>
 
 <template>
-  <div>
+
     <h2>{{ $t('HEADER.TITLE') }}</h2>
-  </div>
+
 
 </template>
 

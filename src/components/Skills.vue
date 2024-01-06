@@ -5,7 +5,7 @@ import {apppearance} from "@/stores/store";
 </script>
 
 <template>
-  <div class="border">
+  <div>
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
     <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
     <div class="grid">

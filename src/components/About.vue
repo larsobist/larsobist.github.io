@@ -6,8 +6,14 @@ import {apppearance} from "@/stores/store";
 <template>
   <div>
     <h2>{{ $t('ABOUT.TITLE') }}</h2>
-    {{ $t('ABOUT.TEXT') }}
-    <img :src="CONTENT.ABOUT.IMG" alt=" Logo" class="img"/>
+    <div class="grid">
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'">
+        {{ $t('ABOUT.TEXT') }}
+      </div>
+      <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'">
+        <img :src="CONTENT.ABOUT.IMG" alt=" Logo" class="img"/>
+      </div>
+    </div>
 
     <h2>{{ $t('ABOUT.EDUCATION.TITLE') }}</h2>
     <div class="grid">
