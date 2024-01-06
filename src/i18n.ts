@@ -1,4 +1,4 @@
-import { createI18n } from 'vue-i18n'
+import {createI18n} from 'vue-i18n'
 import en from './locales/en.json'
 import de from './locales/de.json'
 
@@ -11,7 +11,7 @@ export const i18n = createI18n({
     // Refer a global scope Composer instance of i18n
     globalInjection: true,
     // Set locale messages
-    messages:{
+    messages: {
         en,
         de
     },

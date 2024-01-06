@@ -52,6 +52,7 @@
 .content-light {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
 .content-dark {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -68,7 +69,7 @@
     }
 }
 
-.img{
+.img {
     width: 100px;
     max-width: 100%;
     max-height: 100px;

@@ -1,8 +1,7 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
 import CONTENT from "@/locales/content.json";
 import {apppearance} from "@/stores/store";
-
 </script>
 
 <template>
@@ -12,32 +11,44 @@ import {apppearance} from "@/stores/store";
     <div class="grid">
       <div v-for="(language, index) in CONTENT.SKILLS.LANGUAGES" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
-        <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
+        <img :src="language.IMG" alt="Logo" class="skills-img"/>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
+            language['TITLE']
+          }}
+        </div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
     <div class="grid">
       <div v-for="(language, index) in CONTENT.SKILLS.FRAMEWORKS" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
-        <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
+        <img :src="language.IMG" alt="Logo" class="skills-img"/>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
+            language['TITLE']
+          }}
+        </div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
     <div class="grid">
       <div v-for="(language, index) in CONTENT.SKILLS.SOFTWARE" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
-        <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
+        <img :src="language.IMG" alt="Logo" class="skills-img"/>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
+            language['TITLE']
+          }}
+        </div>
       </div>
     </div>
     <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
     <div class="grid">
       <div v-for="(language, index) in CONTENT.SKILLS.METHODS" :key="index"
            :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
-        <img class="skills-img" :src="language.IMG" alt="Logo"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{ language['TITLE'] }}</div>
+        <img :src="language.IMG" alt="Logo" class="skills-img"/>
+        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
+            language['TITLE']
+          }}
+        </div>
       </div>
     </div>
   </div>
@@ -99,7 +110,7 @@ import {apppearance} from "@/stores/store";
   display: flex;
 }
 
-.skills-img{
+.skills-img {
   width: 100%;
   height: 100%;
 }

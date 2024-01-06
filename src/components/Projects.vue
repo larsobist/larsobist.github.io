@@ -1,8 +1,6 @@
-<script setup lang="ts">
-import {selectedProject} from '@/stores/store';
-import {setSelectedProject} from '@/stores/store';
+<script lang="ts" setup>
+import {apppearance, selectedProject, setSelectedProject} from '@/stores/store';
 import CONTENT from "@/locales/content.json";
-import {apppearance} from "@/stores/store";
 
 const onClick = (project: string) => {
   setSelectedProject(project);
@@ -10,19 +8,16 @@ const onClick = (project: string) => {
 </script>
 
 <template>
-    <div class="border" v-if="selectedProject == null">
-      <h2>{{ $t('PROJECTS.TITLE') }}</h2>
-      <div class="grid">
-        <div v-for="(project, index) in CONTENT.PROJECTS" :key="index"
-             :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container', project.EXTRACLASS]"
-             @click="onClick(project.KEY)">
-          <div class="overlay" :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light']">
-            <img class="project-img" :src="project.LOGO" alt="Logo"/>
-          </div>
-          <img class="project-img" :src="project.LOGO" alt="Logo"/>
-        </div>
+  <div v-if="selectedProject == null" >
+    <h2>{{ $t('PROJECTS.TITLE') }}</h2>
+    <div class="grid">
+      <div v-for="(project, index) in CONTENT.PROJECTS" :key="index"
+           :class="[apppearance === 'Dark' ? 'project-content-dark' : 'project-content-light', 'project-content', project.EXTRACLASS]"
+           @click="onClick(project.KEY)">
+        <img :src="project.LOGO" alt="Logo" class="project-img"/>
       </div>
     </div>
+  </div>
 </template>
 
 <style scoped>
@@ -53,35 +48,28 @@ const onClick = (project: string) => {
   grid-column: span 2;
 }
 
-.hover-container {
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: none;
-}
-
-.overlay-light {
+.project-content-light {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.overlay-dark {
+.project-content-dark {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hover-container:hover .overlay, .hover-container:active .overlay {
-  display: flex;
+.project-content-light:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
-.project-img{
+.project-content-dark:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.project-content:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.project-img {
   width: 100%;
   height: 100%;
   cursor: pointer;

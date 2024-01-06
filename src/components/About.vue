@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import CONTENT from "@/locales/content.json";
 import {apppearance} from "@/stores/store";
 </script>
@@ -7,7 +7,7 @@ import {apppearance} from "@/stores/store";
   <div>
     <h2>{{ $t('ABOUT.TITLE') }}</h2>
     {{ $t('ABOUT.TEXT') }}
-    <img class="img" :src="CONTENT.ABOUT.IMG" alt= " Logo"/>
+    <img :src="CONTENT.ABOUT.IMG" alt=" Logo" class="img"/>
 
     <h2>{{ $t('ABOUT.EDUCATION.TITLE') }}</h2>
     <div class="grid">
@@ -15,13 +15,13 @@ import {apppearance} from "@/stores/store";
         {{ $t('ABOUT.EDUCATION.MASTER.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.MASTER.TIME') }}<br>
-        <img class="img" :src="CONTENT.EDUCATION.MASTER.IMG" alt= " Logo"/>
+        <img :src="CONTENT.EDUCATION.MASTER.IMG" alt=" Logo" class="img"/>
       </div>
       <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'">
         {{ $t('ABOUT.EDUCATION.BACHELOR.TITLE') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.UNI') }}<br>
         {{ $t('ABOUT.EDUCATION.BACHELOR.TIME') }}<br>
-        <img class="img" :src="CONTENT.EDUCATION.BACHELOR.IMG" alt= " Logo"/>
+        <img :src="CONTENT.EDUCATION.BACHELOR.IMG" alt=" Logo" class="img"/>
       </div>
     </div>
 
@@ -33,7 +33,7 @@ import {apppearance} from "@/stores/store";
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.BOSCH.TIME') }}<br>
-        <img class="img" :src="CONTENT.EXPERIENCES.BOSCH.IMG" alt= " Logo"/>
+        <img :src="CONTENT.EXPERIENCES.BOSCH.IMG" alt=" Logo" class="img"/>
       </div>
       <div :class="apppearance === 'Dark' ? 'content-dark' : 'content-light'">
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.EMPLOYER') }}<br>
@@ -41,7 +41,7 @@ import {apppearance} from "@/stores/store";
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TASKS') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.CITY') }}<br>
         {{ $t('ABOUT.EXPERIENCES.PLANETMUTLU.TIME') }}<br>
-        <img class="img" :src="CONTENT.EXPERIENCES.PLANETMUTLU.IMG" alt= " Logo"/>
+        <img :src="CONTENT.EXPERIENCES.PLANETMUTLU.IMG" alt=" Logo" class="img"/>
       </div>
     </div>
 

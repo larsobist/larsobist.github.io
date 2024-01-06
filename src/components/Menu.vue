@@ -38,104 +38,155 @@ const scrollAndToggle = (sectionId: string) => {
 </script>
 
 <template>
-
   <div :class="[apppearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-left']">
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']" @click="scrollToSection('projects')">{{ $t('PROJECTS.TITLE') }}</div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']" @click="scrollToSection('skills')">{{ $t('SKILLS.TITLE') }}</div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']" @click="scrollToSection('about')">{{ $t('ABOUT.TITLE') }}</div>
+    <div
+        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        @click="scrollToSection('projects')"
+    >
+      {{ $t('PROJECTS.TITLE') }}
+    </div>
+    <div
+        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        @click="scrollToSection('skills')"
+    >
+      {{ $t('SKILLS.TITLE') }}
+    </div>
+    <div
+        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        @click="scrollToSection('about')"
+    >
+      {{ $t('ABOUT.TITLE') }}
+    </div>
     <div class="spacer"></div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'left']"  @click="scrollToSection('home')"><img class="img-menu" :src="CONTENT.LOGO" alt=" Logo"/></div>
+    <div
+        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'left']"
+        @click="scrollToSection('home')"
+    >
+      <img :src="CONTENT.LOGO" alt=" Logo" class="img-menu" />
+    </div>
   </div>
 
   <div :class="[apppearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-right']">
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']" @click="scrollToSection('home')">
-      <img class="img-menu" :src="CONTENT.LOGOLONG" alt=" Logo"/>
+    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+         @click="scrollToSection('home')">
+      <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
     </div>
     <div class="spacer-right"></div>
     <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT" alt="XING"/></a>
+      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
+                                                                alt="XING"
+                                                                class="img-menu"/></a>
     </div>
     <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT" alt="XING"/></a>
+      <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
+                                                                    alt="XING"
+                                                                    class="img-menu"/></a>
     </div>
     <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT" alt="XING"/></a>
+      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
+                                                                alt="XING"
+                                                                class="img-menu"/></a>
     </div>
     <div class="spacer-right"></div>
     <div>
-      <div v-if="$i18n.locale !== 'en'" :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'right': true, 'active': $i18n.locale === 'en'}"
+      <div v-if="$i18n.locale !== 'en'"
+           :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'right': true, 'active': $i18n.locale === 'en'}"
            @click="$i18n.locale = 'en'">
-        <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG"/>
+        <img :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
       </div>
-      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']" @click="$i18n.locale = 'de'">
-        <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER"/>
+      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
+           @click="$i18n.locale = 'de'">
+        <img :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
       </div>
     </div>
     <div>
-      <div v-if="apppearance === 'Light'" :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon', 'right']" @click="toggleAppearance('Dark')">
-        <img class="img-menu" :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode"/>
+      <div v-if="apppearance === 'Light'"
+           :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon', 'right']"
+           @click="toggleAppearance('Dark')">
+        <img :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
       </div>
-      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']" @click="toggleAppearance('Light')">
-        <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode"/>
+      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
+           @click="toggleAppearance('Light')">
+        <img :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
       </div>
     </div>
   </div>
 
   <div v-if="isMenuOpen" :class="[apppearance === 'Dark' ? 'dark' : 'light', 'menu-responsive']">
-<div :class="[apppearance === 'Dark' ? 'elements-dark' : 'elements-light', 'elements']">
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']" @click="scrollAndToggle('about')">{{ $t('ABOUT.TITLE') }}</div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']" @click="scrollAndToggle('skills')">{{ $t('SKILLS.TITLE') }}</div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']" @click="scrollAndToggle('projects')">{{ $t('PROJECTS.TITLE') }}</div>
-    <div class="menu-item menu-spacer"></div>
-    <div class="menu-item menu-spacer">{{ $t('GETINCONTACT') }}</div>
-    <div class="responsive-row">
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']" @click="toggleMenu">
-        <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT" alt="XING"/></a>
+    <div :class="[apppearance === 'Dark' ? 'elements-dark' : 'elements-light', 'elements']">
+      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+           @click="scrollAndToggle('about')">{{ $t('ABOUT.TITLE') }}
       </div>
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']" @click="toggleMenu">
-        <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT" alt="XING"/></a>
+      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+           @click="scrollAndToggle('skills')">{{ $t('SKILLS.TITLE') }}
       </div>
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']" @click="toggleMenu">
-        <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img class="img-menu" :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT" alt="XING"/></a>
+      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+           @click="scrollAndToggle('projects')">{{ $t('PROJECTS.TITLE') }}
       </div>
-    </div>
-    <div class="menu-item menu-spacer"> </div>
-    <div class="menu-item menu-spacer">{{ $t('SETTINGS') }}  </div>
-    <div class="responsive-row">
-      <div>
-        <div v-if="$i18n.locale !== 'en'" :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'active': $i18n.locale === 'en'}"
-             @click="$i18n.locale = 'en'">
-          <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG"/>
+      <div class="menu-item menu-spacer"></div>
+      <div class="menu-item menu-spacer">{{ $t('GETINCONTACT') }}</div>
+      <div class="responsive-row">
+        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+             @click="toggleMenu">
+          <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
+                                                                    alt="XING"
+                                                                    class="img-menu"/></a>
         </div>
-        <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']" @click="$i18n.locale = 'de'">
-          <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER"/>
+        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+             @click="toggleMenu">
+          <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
+                                                                        alt="XING"
+                                                                        class="img-menu"/></a>
+        </div>
+        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+             @click="toggleMenu">
+          <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
+                                                                    alt="XING"
+                                                                    class="img-menu"/></a>
         </div>
       </div>
-      <div>
-        <div v-if="apppearance === 'Light'" :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon']" @click="toggleAppearance('Dark')">
-          <img class="img-menu" :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode"/>
+      <div class="menu-item menu-spacer"></div>
+      <div class="menu-item menu-spacer">{{ $t('SETTINGS') }}</div>
+      <div class="responsive-row">
+        <div>
+          <div v-if="$i18n.locale !== 'en'"
+               :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'active': $i18n.locale === 'en'}"
+               @click="$i18n.locale = 'en'">
+            <img :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
+          </div>
+          <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+               @click="$i18n.locale = 'de'">
+            <img :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
+          </div>
         </div>
-        <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']" @click="toggleAppearance('Light')">
-          <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode"/>
+        <div>
+          <div v-if="apppearance === 'Light'"
+               :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon']"
+               @click="toggleAppearance('Dark')">
+            <img :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
+          </div>
+          <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+               @click="toggleAppearance('Light')">
+            <img :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
     </div>
   </div>
 
   <div :class="[apppearance === 'Dark' ? 'dark' : 'light']">
     <div :class="[apppearance === 'Dark' ? 'menu-responsive-dark' : 'menu-responsive-light', 'menu-responsive']">
-    <div class="menu-item" @click="scrollToSection('home')">
-      <img class="img-menu" :src="CONTENT.LOGOLONG" alt=" Logo"/>
+      <div class="menu-item" @click="scrollToSection('home')">
+        <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
+      </div>
+      <div class="menu-item spacer"></div>
+      <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">
+        <img :src="apppearance === 'Dark' ? CONTENT.MENULIGHT : CONTENT.MENUDARK" alt="Menu" class="img-menu"/>
+      </div>
+      <div v-if="isMenuOpen" class="menu-item" @click="toggleMenu">
+        <img :src="apppearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARk" alt="Lightode" class="img-menu"/>
+      </div>
     </div>
-    <div class="menu-item spacer"></div>
-    <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">
-      <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.MENULIGHT : CONTENT.MENUDARK" alt="Menu"/>
-    </div>
-    <div v-if="isMenuOpen" class="menu-item" @click="toggleMenu">
-      <img class="img-menu" :src="apppearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARk" alt="Lightode"/>
-    </div>
-  </div>
   </div>
 
 </template>
@@ -160,11 +211,11 @@ const scrollAndToggle = (sectionId: string) => {
   justify-content: center;
 }
 
-.menu-light{
+.menu-light {
   background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%);
 }
 
-.menu-dark{
+.menu-dark {
   background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%);
 }
 
@@ -190,11 +241,24 @@ const scrollAndToggle = (sectionId: string) => {
   cursor: pointer;
 }
 
-.menu-item-light{
+.menu-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.menu-item-light {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.menu-item-dark{
+.menu-item-light:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.menu-item-dark:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.menu-item-dark {
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -206,8 +270,18 @@ const scrollAndToggle = (sectionId: string) => {
   transform: rotate(90deg);
 }
 
+.left:hover {
+  transform: scale(1.05) rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
 .right {
   transform: rotate(-90deg);
+}
+
+.right:hover {
+  transform: scale(1.05) rotate(-90deg);
+  transition: transform 0.3s ease;
 }
 
 .spacer {
@@ -242,19 +316,19 @@ const scrollAndToggle = (sectionId: string) => {
     max-width: 1050px;
   }
 
-  .menu-responsive-light{
-    background: rgba(255,255,255, 80%);
+  .menu-responsive-light {
+    background: rgba(255, 255, 255, 80%);
   }
 
-  .menu-responsive-dark{
-    background: rgba(0,0,0, 80%);
+  .menu-responsive-dark {
+    background: rgba(0, 0, 0, 80%);
   }
 
   .spacer {
     width: calc(100vw - 200px);
   }
 
-  .menu-spacer{
+  .menu-spacer {
     height: 50px;
   }
 
@@ -268,7 +342,7 @@ const scrollAndToggle = (sectionId: string) => {
     width: 100vw;
   }
 
-  .elements-light{
+  .elements-light {
     background-image: radial-gradient(
         farthest-corner at 0% 200%,
         orange 0%,
@@ -280,7 +354,7 @@ const scrollAndToggle = (sectionId: string) => {
     );
   }
 
-  .elements-dark{
+  .elements-dark {
     background-image: radial-gradient(
         farthest-corner at 0% 200%,
         orange 0%,
