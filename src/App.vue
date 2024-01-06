@@ -4,6 +4,7 @@ import Header from '@/components/Header.vue'
 import ProjectDetail from '@/components/Detail.vue'
 import Projects from '@/components/Projects.vue'
 import Skills from "@/components/Skills.vue";
+import Footer from "@/components/Footer.vue";
 import Menu from "@/components/Menu.vue";
 
 import {apppearance} from "@/stores/store";
@@ -18,6 +19,7 @@ import {apppearance} from "@/stores/store";
       <Skills id="skills"/>
       <Projects id="projects"/>
       <ProjectDetail id="projects"/>
+      <Footer/>
     </div>
   </div>
 </template>
