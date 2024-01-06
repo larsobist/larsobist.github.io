@@ -237,7 +237,7 @@ const scrollAndToggle = (sectionId: string) => {
     margin: -50px auto;
     display: flex;
     position: fixed;
-    height: 50px;
+    height: 60px;
     width: 100vw;
     max-width: 1050px;
   }
@@ -266,7 +266,6 @@ const scrollAndToggle = (sectionId: string) => {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    top: 50px;
   }
 
   .elements-light{
