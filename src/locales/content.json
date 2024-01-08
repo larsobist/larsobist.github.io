@@ -32,13 +32,13 @@
   },
   "SKILLS": {
     "LANGUAGES": {
-      "JAVA": {
-        "TITLE": "Java",
-        "IMG": "./pics/Logo/Java.png"
-      },
       "HTML": {
         "TITLE": "HTML",
         "IMG": "./pics/Logo/HTML.png"
+      },
+      "CSS": {
+        "TITLE": "CSS",
+        "IMG": "./pics/Logo/CSS.png"
       },
       "JAVASCRIPT": {
         "TITLE": "JavaScript",
@@ -48,14 +48,6 @@
         "TITLE": "TypeScript",
         "IMG": "./pics/Logo/TypeScript.png"
       },
-      "CSS": {
-        "TITLE": "CSS",
-        "IMG": "./pics/Logo/CSS.png"
-      },
-      "PYTHON": {
-        "TITLE": "Python",
-        "IMG": "./pics/Logo/Python.png"
-      },
       "KOTLIN": {
         "TITLE": "Kotlin",
         "IMG": "./pics/Logo/Kotlin.png"
@@ -63,6 +55,14 @@
       "SWIFT": {
         "TITLE": "Swift",
         "IMG": "./pics/Logo/Swift.png"
+      },
+      "JAVA": {
+        "TITLE": "Java",
+        "IMG": "./pics/Logo/Java.png"
+      },
+      "PYTHON": {
+        "TITLE": "Python",
+        "IMG": "./pics/Logo/Python.png"
       }
     },
     "FRAMEWORKS": {
@@ -78,10 +78,6 @@
         "TITLE": "React",
         "IMG": "./pics/Logo/React.png"
       },
-      "NODEJS": {
-        "TITLE": "Node.js",
-        "IMG": "./pics/Logo/NodeJS.png"
-      },
       "SPRINGBOOT": {
         "TITLE": "Spring Boot",
         "IMG": "./pics/Logo/Springboot.png"
@@ -93,6 +89,10 @@
       "MATERIALUI": {
         "TITLE": "MaterialUI",
         "IMG": "./pics/Logo/MaterialUI.png"
+      },
+      "NODEJS": {
+        "TITLE": "Node.js",
+        "IMG": "./pics/Logo/NodeJS.png"
       },
       "I18N": {
         "TITLE": "i18n",
@@ -116,17 +116,13 @@
         "TITLE": "Visual Studio Code",
         "IMG": "./pics/Logo/VisualStudioCode.png"
       },
-      "XCODE": {
-        "TITLE": "Xcode",
-        "IMG": "./pics/Logo/Xcode.png"
-      },
-      "ANDROIDSTUDIO": {
-        "TITLE": "Android Studio",
-        "IMG": "./pics/Logo/AndroidStudio.png"
-      },
       "GIT": {
         "TITLE": "Git",
         "IMG": "./pics/Logo/Git.png"
+      },
+      "POSTMAN": {
+        "TITLE": "Postman",
+        "IMG": "./pics/Logo/Postman.png"
       },
       "MONGODB": {
         "TITLE": "MongoDB",
@@ -136,9 +132,13 @@
         "TITLE": "MySQL",
         "IMG": "./pics/Logo/MySQL.png"
       },
-      "POSTMAN": {
-        "TITLE": "Postman",
-        "IMG": "./pics/Logo/Postman.png"
+      "XCODE": {
+        "TITLE": "Xcode",
+        "IMG": "./pics/Logo/Xcode.png"
+      },
+      "ANDROIDSTUDIO": {
+        "TITLE": "Android Studio",
+        "IMG": "./pics/Logo/AndroidStudio.png"
       },
       "CREATIVECLOUD": {
         "TITLE": "Creative Cloud",

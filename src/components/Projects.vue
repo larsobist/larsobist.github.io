@@ -5,6 +5,8 @@ import CONTENT from "@/locales/content.json";
 const onClick = (project: string) => {
   setSelectedProject(project);
 };
+
+const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>
@@ -12,7 +14,7 @@ const onClick = (project: string) => {
     <h2>{{ $t('PROJECTS.TITLE') }}</h2>
     <div class="grid">
       <div v-for="(project, index) in CONTENT.PROJECTS" :key="index"
-           :class="[apppearance === 'Dark' ? 'project-content-dark' : 'project-content-light', 'project-content', project.EXTRACLASS]"
+           :class="[getAppearanceClass(), 'project-content', project.EXTRACLASS]"
            @click="onClick(project.KEY)">
         <img :src="project.LOGO" alt="Logo" class="project-img"/>
       </div>
@@ -48,19 +50,11 @@ const onClick = (project: string) => {
   grid-column: span 2;
 }
 
-.project-content-light {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.project-content-dark {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.project-content-light:hover {
+.content-light:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.project-content-dark:hover {
+.content-dark:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 

@@ -35,6 +35,8 @@ const scrollAndToggle = (sectionId: string) => {
 
   isMenuOpen.value = !isMenuOpen.value;
 };
+
+const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>
@@ -174,7 +176,7 @@ const scrollAndToggle = (sectionId: string) => {
     </div>
   </div>
 
-  <div :class="[apppearance === 'Dark' ? 'dark' : 'light']">
+  <div>
     <div :class="[apppearance === 'Dark' ? 'menu-responsive-dark' : 'menu-responsive-light', 'menu-responsive']">
       <div class="menu-item" @click="scrollToSection('home')">
         <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
@@ -247,7 +249,7 @@ const scrollAndToggle = (sectionId: string) => {
 }
 
 .menu-item-light {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .menu-item-light:hover {

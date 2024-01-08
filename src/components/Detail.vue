@@ -8,6 +8,8 @@ const clearSelection = () => {
   setSelectedProject(null);
 };
 
+const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+
 export type ProjectKey =
     "ZPHERE"
     | "CIRCLEOFLIFE"
@@ -31,20 +33,20 @@ export type ProjectKey =
 <template>
   <div v-if="selectedProject" class="displayProject">
     <div class="grid">
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         <h2>{{ $t('DETAIL.TITLE') }}</h2>
         <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h2>
       </div>
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
         <div class="btn" @click="clearSelection">{{ $t('DETAIL.CLOSE') }}</div>
       </div>
     </div>
     <div class="grid">
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         {{ $t('PROJECTS.' + selectedProject + '.DESCRIPTION') }}<br>
       </div>
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         <carousel id="gallery" :autoplay="5000" :items-to-show="1" :wrap-around="true">
           <slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index"
                  class="slider">
@@ -58,13 +60,13 @@ export type ProjectKey =
       </div>
     </div>
     <div class="grid">
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         <div class="responsive-row">
           <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index" :src="image"
                alt="Logo" class="img"/>
         </div>
       </div>
-      <div :class="[apppearance === 'Dark' ? 'detail-dark' : 'detail-light']">
+      <div :class="[getAppearanceClass(),]">
         {{ CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK }}<br>
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" class="btn">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
@@ -114,14 +116,6 @@ export type ProjectKey =
 .responsive-row {
   display: flex;
   flex-direction: row;
-}
-
-.detail-light {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.detail-dark {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 800px) {

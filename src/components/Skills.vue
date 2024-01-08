@@ -2,52 +2,58 @@
 
 import CONTENT from "@/locales/content.json";
 import {apppearance} from "@/stores/store";
+const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+
 </script>
 
 <template>
   <div>
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
-    <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
-    <div class="grid">
+    <div class="grid grid-languages">
+      <div :class="[getAppearanceClass(), 'languages']">
+        <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
+      </div>
       <div v-for="(language, index) in CONTENT.SKILLS.LANGUAGES" :key="index"
-           :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
+           :class="[getAppearanceClass(), 'hover-container']">
         <img :src="language.IMG" alt="Logo" class="skills-img"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
-            language['TITLE']
-          }}
+        <div :class="[getAppearanceClass(), 'overlay']">
+          {{language['TITLE']}}
         </div>
       </div>
     </div>
-    <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
-    <div class="grid">
+    <div class="grid grid-frameworks">
+      <div :class="[getAppearanceClass(), 'frameworks']">
+        <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
+      </div>
       <div v-for="(language, index) in CONTENT.SKILLS.FRAMEWORKS" :key="index"
-           :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
+           :class="[getAppearanceClass(), 'hover-container']">
         <img :src="language.IMG" alt="Logo" class="skills-img"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
-            language['TITLE']
-          }}
+        <div :class="[getAppearanceClass(), 'overlay']">
+          {{language['TITLE'] }}
         </div>
       </div>
     </div>
-    <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
-    <div class="grid">
+    <div class="grid grid-software">
+      <div :class="[getAppearanceClass(), 'software']">
+        <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
+      </div>
       <div v-for="(language, index) in CONTENT.SKILLS.SOFTWARE" :key="index"
-           :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
+           :class="[getAppearanceClass(), 'hover-container']">
         <img :src="language.IMG" alt="Logo" class="skills-img"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
-            language['TITLE']
-          }}
+        <div :class="[getAppearanceClass(), 'overlay']">
+          {{language['TITLE'] }}
         </div>
       </div>
     </div>
-    <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
-    <div class="grid">
+    <div class="grid grid-methods">
+      <div :class="[getAppearanceClass(), 'methods']">
+        <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
+      </div>
       <div v-for="(language, index) in CONTENT.SKILLS.METHODS" :key="index"
-           :class="[apppearance === 'Dark' ? 'content-dark' : 'content-light', 'hover-container']">
+           :class="[getAppearanceClass(), 'hover-container']">
         <img :src="language.IMG" alt="Logo" class="skills-img"/>
-        <div :class="[apppearance === 'Dark' ? 'overlay-dark' : 'overlay-light', 'overlay']">{{
-            language['TITLE']
-          }}
+        <div :class="[getAppearanceClass(), 'overlay']">
+          {{language['TITLE']}}
         </div>
       </div>
     </div>
@@ -64,20 +70,20 @@ import {apppearance} from "@/stores/store";
   aspect-ratio: 7 / 2;
 }
 
-.grid .rectangle-up {
+.grid .software {
   grid-row: span 2;
 }
 
-.grid .rectangle {
+.grid .methods {
   grid-column: span 2;
 }
 
-.grid .big-rectangle {
+.grid .languages {
   grid-column: span 3;
   grid-row: span 2;
 }
 
-.grid .square {
+.grid .frameworks {
   grid-row: span 2;
   grid-column: span 2;
 }
@@ -98,14 +104,6 @@ import {apppearance} from "@/stores/store";
   display: none;
 }
 
-.overlay-light {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.overlay-dark {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .hover-container:hover .overlay, .hover-container:active .overlay {
   display: flex;
 }
@@ -115,12 +113,51 @@ import {apppearance} from "@/stores/store";
   height: 100%;
 }
 
+.grid-methods {
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  aspect-ratio: 7 / 1;
+  max-height: calc(100vw * 7 / 1);
+}
+
 @media screen and (max-width: 800px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     aspect-ratio: 4 / 4;
-    max-height: calc(100vw * 4 / 4);
+  }
+
+  .grid .languages {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .grid .software {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .grid .frameworks {
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+
+  .grid .methods {
+    grid-column: span 3;
+  }
+
+  .grid-languages, .grid-frameworks{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    aspect-ratio: 4 / 3;
+    max-height: calc(100vw * 4 / 3);
+  }
+
+  .grid-methods{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    aspect-ratio: 4 / 2;
+    max-height: calc(100vw * 4 / 2);
   }
 }
 
