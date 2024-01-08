@@ -32,9 +32,9 @@ export type ProjectKey =
 
 <template>
   <div v-if="selectedProject" class="displayProject">
+    <h2>{{ $t('DETAIL.TITLE') }}</h2>
     <div class="grid">
       <div :class="[getAppearanceClass(),]">
-        <h2>{{ $t('DETAIL.TITLE') }}</h2>
         <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h2>
       </div>
       <div :class="[getAppearanceClass(),]">
