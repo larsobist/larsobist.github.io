@@ -34,6 +34,12 @@
     }
   },
   "SKILLS": {
+    "LOGOS": {
+      "LANGUAGES": "./pics/Logo/Languages.png",
+      "FRAMEWORKS": "./pics/Logo/Frameworks.png",
+      "SOFTWARE": "./pics/Logo/Software.png",
+      "METHODS": "./pics/Logo/Methods.png"
+    },
     "LANGUAGES": {
       "HTML": {
         "TITLE": "HTML",

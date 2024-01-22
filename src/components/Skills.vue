@@ -10,8 +10,8 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
   <div>
     <h2>{{ $t('SKILLS.TITLE') }}</h2>
     <div class="grid grid-languages">
-      <div :class="[getAppearanceClass(), 'languages']">
-        <h2>{{ $t('SKILLS.LANGUAGES.TITLE') }}</h2>
+      <div :class="[getAppearanceClass(), 'languages', 'centered']">
+        <img :src="CONTENT.SKILLS.LOGOS.LANGUAGES" alt=" Logo" class="headlines-img"/>
       </div>
       <div v-for="(language, index) in CONTENT.SKILLS.LANGUAGES" :key="index"
            :class="[getAppearanceClass(), 'hover-container']">
@@ -22,8 +22,8 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
       </div>
     </div>
     <div class="grid grid-frameworks">
-      <div :class="[getAppearanceClass(), 'frameworks']">
-        <h2>{{ $t('SKILLS.FRAMEWORKS.TITLE') }}</h2>
+      <div :class="[getAppearanceClass(), 'frameworks', 'centered']">
+        <img :src="CONTENT.SKILLS.LOGOS.FRAMEWORKS" alt=" Logo" class="headlines-img"/>
       </div>
       <div v-for="(language, index) in CONTENT.SKILLS.FRAMEWORKS" :key="index"
            :class="[getAppearanceClass(), 'hover-container']">
@@ -34,8 +34,8 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
       </div>
     </div>
     <div class="grid grid-software">
-      <div :class="[getAppearanceClass(), 'software']">
-        <h2>{{ $t('SKILLS.SOFTWARE.TITLE') }}</h2>
+      <div :class="[getAppearanceClass(), 'software', 'centered']">
+        <img :src="CONTENT.SKILLS.LOGOS.SOFTWARE" alt=" Logo" class="headlines-img"/>
       </div>
       <div v-for="(language, index) in CONTENT.SKILLS.SOFTWARE" :key="index"
            :class="[getAppearanceClass(), 'hover-container']">
@@ -46,8 +46,8 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
       </div>
     </div>
     <div class="grid grid-methods">
-      <div :class="[getAppearanceClass(), 'methods']">
-        <h2>{{ $t('SKILLS.METHODS.TITLE') }}</h2>
+      <div :class="[getAppearanceClass(), 'methods', 'centered']">
+        <img :src="CONTENT.SKILLS.LOGOS.METHODS" alt=" Logo" class="headlines-img"/>
       </div>
       <div v-for="(language, index) in CONTENT.SKILLS.METHODS" :key="index"
            :class="[getAppearanceClass(), 'hover-container']">
@@ -81,6 +81,17 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
 .grid .languages {
   grid-column: span 3;
   grid-row: span 2;
+}
+
+.headlines-img{
+  max-width: 100%;
+}
+
+.centered{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid .frameworks {

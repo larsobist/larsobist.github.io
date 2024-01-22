@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
-@font-face {
-    font-family: "custom";
-    src: url('../../public/font/CooperBlack.ttf') format("truetype");
-}
-
 *, html {
     box-sizing: border-box;
     margin: 0;
@@ -14,8 +7,14 @@
 }
 
 h2{
-    font-family: 'custom', sans-serif;
-    font-weight: 200;
+    margin-top: 50px;
+    padding: 0px 5px;
+    font-family: Avenir, sans-serif;
+    letter-spacing: 0.7px;
+}
+
+h3{
+    font-family: Avenir, sans-serif;
     letter-spacing: 0.7px;
 }
 
@@ -31,57 +30,57 @@ h2{
 .light {
     color: #2d2d2d;
     /*background: radial-gradient(ellipse at left, #e66465, #ffffff), radial-gradient(ellipse at center, #4d9f0c, #ffffff);*/
-    background-image: radial-gradient(
-            farthest-corner at 0% 200%,
-            orange 0%,
-            transparent 100%
-    ), radial-gradient(
-            farthest-corner at 500% 0%,
-            blue 0%,
-            #fff 100%
-    );
+background-image: radial-gradient(
+        farthest-corner at 0% 200%,
+        orange 0%,
+        transparent 100%
+), radial-gradient(
+        farthest-corner at 500% 0%,
+        blue 0%,
+        #fff 100%
+);
 }
 
 .dark {
-    color: #fff;
-    background-image: radial-gradient(
-            farthest-corner at 0% 200%,
-            orange 0%,
-            transparent 100%
-    ), radial-gradient(
-            farthest-corner at 500% 0%,
-            blue 0%,
-            #2d2d2d 100%
-    );
+color: #fff;
+background-image: radial-gradient(
+        farthest-corner at 0% 200%,
+        orange 0%,
+        transparent 100%
+), radial-gradient(
+        farthest-corner at 500% 0%,
+        blue 0%,
+        #2d2d2d 100%
+);
 }
 
 .content-light {
-    background-color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.5);
 }
 
 .content-dark {
-    background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1050px;
-    width: 100vw;
+margin: 0 auto;
+max-width: 1050px;
+width: 100vw;
 }
 
 @media screen and (max-width: 1150px) {
-    .container {
-        margin: 50px auto;
-    }
+.container {
+    margin: 50px auto;
+}
 }
 
 .img {
-    width: 100px;
-    max-width: 100%;
-    max-height: 100px;
+width: 100px;
+max-width: 100%;
+max-height: 100px;
 }
 
 .grid div {
-    padding: 5px;
-    background-clip: content-box, padding-box;
+padding: 5px;
+background-clip: content-box, padding-box;
 }

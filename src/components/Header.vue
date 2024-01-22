@@ -7,7 +7,7 @@ import CONTENT from "@/locales/content.json";
 
   <div class="header-container">
     <div class="header-content">
-      <h2>{{ $t('LARSOBIST') }}</h2>
+      <h1>{{ $t('LARSOBIST') }}</h1>
       {{ $t('HEADER.TEXT') }}
       <p></p>
     </div>

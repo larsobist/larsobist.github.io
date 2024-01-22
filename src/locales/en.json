@@ -5,13 +5,13 @@
   },
   "ABOUT": {
     "TITLE": "About me",
-    "TEXT": "I am Lars, currently a master's student at the Berlin Institute of Technology (BHT). Among the various areas of media informatics, I am particularly interested in frontend development and design aspects. The work 'behind' the interface, the backend, is also fascinating, as it involves developing an entire project from the ground up, shaping every layer of a project. The combination of creativity and systematic thinking in media informatics is something I find very exciting. At the end of a project, you can see what the project has become, making it enjoyable to develop new projects! I hope you enjoy browsing my portfolio, where you'll learn a lot about me and my created products. I hope you appreciate my work and feel free to get in touch!",
+    "TEXT": "My name is Lars Obist and I am in the final stages of my Master's degree. I have already been able to work on many different projects in media informatics and have learned a lot. Here you can get a deeper impression of many of these projects and learn more about my skills. Take a look at what the mix of the creative and the systematic has formed for end products!",
     "EDUCATION": {
       "TITLE": "Education",
       "MASTER": {
         "TITLE": "Master's Degree - Media Informatics M. Sc.",
         "UNI": "Berlin Institute of Technology",
-        "TIME": "10/2022 - expected 09/2024"
+        "TIME": "10/2022 - 09/2024"
       },
       "BACHELOR": {
         "TITLE": "Bachelor's Degree - International Media Informatics B. Sc.",
@@ -20,7 +20,7 @@
       }
     },
     "EXPERIENCES": {
-      "TITLE": "Practical Experiences",
+      "TITLE": "Practical",
       "BOSCH": {
         "EMPLOYER": "Bosch Digital",
         "JOB": "Student Job",
@@ -37,7 +37,7 @@
       }
     },
     "ABROAD": {
-      "TITLE": "International Experiences",
+      "TITLE": "International",
       "STUDY": {
         "TITLE": "Study Abroad Semester",
         "PLACE": "SeoulTech University, Seoul, South Korea",
@@ -138,6 +138,6 @@
     "LIVEDEMO": "Checkout Project",
     "CLOSE": "Close"
   },
-  "GETINCONTACT": "Way to contact me",
+  "GETINCONTACT": "Contact me",
   "SETTINGS": "Settings"
 }

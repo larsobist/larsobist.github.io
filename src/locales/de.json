@@ -1,17 +1,17 @@
 {
-  "LARSOBIST": "Lars Obist",
+  "LARSOBIST": "lars obist",
   "HEADER": {
-    "TEXT": "Hello! I'm a software developer & designer crafting meaningful identities and experiences."
+    "TEXT": "Hallo! Ich bin Softwareentwickler und Designer und entwerfe sinnvolle Identitäten und Erlebnisse."
   },
   "ABOUT": {
     "TITLE": "Über mich",
-    "TEXT": "Ich bin Lars und bin aktuell Masterstudent an der Berliner Hochschule für Technik (BHT). Von den vielen verschiedenen Themengebieten der Medieninformatik interessiert mich besonders die Arbeit im Frontend und die gestalterischen Aspekte. Die Arbeit \"hinter\" der Oberfläche, das Backend, ist ebenfalls sehr spannend, da dort ein gesamtes Projekt von Grund auf entwickelt wird und dabei jede Schicht eines Projekts entwickelt wird. Den Mix aus dem Kreativen und dem Systematischen in der Medieninformatik finde ich sehr spannend. Am Ende des Projektes sieht man, wozu sich das Projekt entwickelt hat, weshalb es immer wieder Spaß macht, ein neues Projekt zu entwickeln! Ich wünsche viel Spaß beim Durchschauen meines Portfolios, in dem Sie viel über mich und meine erstellten Produkte lernen werden. Ich hoffe, Sie finden Gefallen an meinen Arbeiten, und melden sich bei mir!",
+    "TEXT": "Mein Name ist Lars Obist und ich befinde mich in der Endphase meines Masterstudiums. Ich konnte bereits an vielen verschiedenen Projekten arbeiten und habe dabei viel gelernt. Hier kannst du einen ersten Eindruck von vielen dieser Projekte bekommen und mehr über meine Fähigkeiten erfahren. Sieh an, was aus der Mischung von Kreativem und Systematischem für Produkte entstanden sind!",
     "EDUCATION": {
       "TITLE": "Bildungsweg",
       "MASTER": {
         "TITLE": "Masterstudium - Medieninformatik M. Sc.",
         "UNI": "Berliner Hochschule für Technik",
-        "TIME": "10/2022 - vsl. 09/2024"
+        "TIME": "10/2022 - 09/2024"
       },
       "BACHELOR": {
         "TITLE": "Bachelorstudium - Internationaler Studiengang Medieninformatik B. Sc.",
@@ -20,7 +20,7 @@
       }
     },
     "EXPERIENCES": {
-      "TITLE": "Praktische Erfahrungen",
+      "TITLE": "Praktisches",
       "BOSCH": {
         "EMPLOYER": "Bosch Digital",
         "JOB": "Werkstudentenjob",
@@ -37,7 +37,7 @@
       }
     },
     "ABROAD": {
-      "TITLE": "Auslandserfahrungen",
+      "TITLE": "Ausland",
       "STUDY": {
         "TITLE": "Auslandssemester",
         "PLACE": "SeoulTech University, Seoul, Südkorea",
