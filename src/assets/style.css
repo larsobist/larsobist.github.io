@@ -16,6 +16,11 @@ h2{
 h3{
     font-family: Avenir, sans-serif;
     letter-spacing: 0.7px;
+    margin-right: 5px;
+}
+
+.text {
+    padding: 10px;
 }
 
 .main {

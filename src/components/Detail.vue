@@ -47,8 +47,10 @@ export type ProjectKey =
     </div>
 
     <div class="grid">
-      <div :class="[getAppearanceClass(), 'smaller', 'text']">
+      <div :class="[getAppearanceClass(), 'smaller']">
+        <div class="text">
         {{ $t('PROJECTS.' + selectedProject + '.DESCRIPTION') }}<br>
+      </div>
       </div>
       <div :class="[getAppearanceClass(), 'bigger']">
         <carousel id="gallery" :autoplay="5000" :items-to-show="1" :wrap-around="true">
@@ -64,13 +66,13 @@ export type ProjectKey =
       </div>
     </div>
     <div class="grid">
-      <div :class="[getAppearanceClass(), 'smaller']">
+      <div :class="[getAppearanceClass(), 'smaller', 'main-left']">
         <div class="responsive-row">
           <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index" :src="image"
                alt="Logo" class="img"/>
         </div>
       </div>
-      <div :class="[getAppearanceClass(), 'bigger']">
+      <div :class="[getAppearanceClass(), 'bigger', 'main-right']">
         {{ CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK }}<br>
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" class="btn">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
@@ -93,11 +95,6 @@ export type ProjectKey =
 </template>
 
 <style scoped>
-.displayProject {
-  aspect-ratio: 7 / 4;
-  max-height: 57.14vw;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -122,10 +119,12 @@ export type ProjectKey =
 .close-button {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .close-img {
   height: 40px;
+  cursor: pointer;
 }
 
 .slider {
@@ -143,9 +142,26 @@ export type ProjectKey =
 
 @media screen and (max-width: 800px) {
   .displayProject {
-    height: 100vh;
     aspect-ratio: initial;
     max-height: initial;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .smaller, .bigger{
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-left, .main-right {
+    grid-column: span 1;
   }
 }
 </style>

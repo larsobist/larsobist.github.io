@@ -141,12 +141,8 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
   max-width: 90%;
 }
 
-.text {
-  padding: 10px;
-}
-
 .headline {
-  padding: 1px 10px;
+  padding: 1px 5px;
 }
 
 .title {
