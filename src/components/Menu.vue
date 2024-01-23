@@ -186,7 +186,7 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
         <img :src="appearance === 'Dark' ? CONTENT.MENULIGHT : CONTENT.MENUDARK" alt="Menu" class="img-menu"/>
       </div>
       <div v-if="isMenuOpen" class="menu-item" @click="toggleMenu">
-        <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARk" alt="Lightode" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="img-menu"/>
       </div>
     </div>
   </div>

@@ -34,19 +34,23 @@ export type ProjectKey =
   <div v-if="selectedProject" class="displayProject">
     <h2>{{ $t('DETAIL.TITLE') }}</h2>
     <div class="grid">
-      <div :class="[getAppearanceClass(),]">
-        <h2>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h2>
-      </div>
-      <div :class="[getAppearanceClass(),]">
-        {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
-        <div class="btn" @click="clearSelection">{{ $t('DETAIL.CLOSE') }}</div>
+      <div :class="[getAppearanceClass(), 'project-header']">
+        <div >
+          <h3>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h3>
+          {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
+        </div>
+        <div class="close-button" @click="clearSelection">
+            {{ $t('DETAIL.CLOSE') }}
+          <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="close-img"/>
+        </div>
       </div>
     </div>
+
     <div class="grid">
-      <div :class="[getAppearanceClass(),]">
+      <div :class="[getAppearanceClass(), 'smaller', 'text']">
         {{ $t('PROJECTS.' + selectedProject + '.DESCRIPTION') }}<br>
       </div>
-      <div :class="[getAppearanceClass(),]">
+      <div :class="[getAppearanceClass(), 'bigger']">
         <carousel id="gallery" :autoplay="5000" :items-to-show="1" :wrap-around="true">
           <slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index"
                  class="slider">
@@ -60,13 +64,13 @@ export type ProjectKey =
       </div>
     </div>
     <div class="grid">
-      <div :class="[getAppearanceClass(),]">
+      <div :class="[getAppearanceClass(), 'smaller']">
         <div class="responsive-row">
           <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index" :src="image"
                alt="Logo" class="img"/>
         </div>
       </div>
-      <div :class="[getAppearanceClass(),]">
+      <div :class="[getAppearanceClass(), 'bigger']">
         {{ CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK }}<br>
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" class="btn">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
@@ -96,21 +100,40 @@ export type ProjectKey =
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 0;
 }
 
-.grid div {
-  padding: 5px;
+.smaller {
+  grid-column: span 3;
+}
+
+.bigger {
+  grid-column: span 4;
+}
+
+.project-header {
+  grid-column: span 7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-button {
+  display: flex;
+  align-items: center;
+}
+
+.close-img {
+  height: 40px;
 }
 
 .slider {
-  height: auto;
+  width: 100%;
 }
 
 .slider-img {
-  height: 200px;
+  width: 100%;
 }
 
 .responsive-row {
