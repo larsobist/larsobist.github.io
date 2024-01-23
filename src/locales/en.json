@@ -7,7 +7,7 @@
     "TITLE": "About me",
     "TEXT": "My name is Lars Obist and I am in the final stages of my Master's degree. I have already been able to work on many different projects in media informatics and have learned a lot. Here you can get a deeper impression of many of these projects and learn more about my skills. Take a look at what the mix of the creative and the systematic has formed for end products!",
     "EDUCATION": {
-      "TITLE": "Education",
+      "TITLE": "Educational Background",
       "MASTER": {
         "TITLE": "Master's Degree - Media Informatics M. Sc.",
         "UNI": "Berlin University of Applied Sciences",
@@ -20,7 +20,7 @@
       }
     },
     "EXPERIENCES": {
-      "TITLE": "Practical",
+      "TITLE": "Practical Experiences",
       "BOSCH": {
         "EMPLOYER": "Bosch Digital",
         "JOB": "Student Job",
@@ -37,7 +37,7 @@
       }
     },
     "ABROAD": {
-      "TITLE": "International",
+      "TITLE": "International Experiences",
       "STUDY": {
         "TITLE": "Study Abroad Semester",
         "PLACE": "SeoulTech University, Seoul, South Korea",
