@@ -34,7 +34,7 @@ export type ProjectKey =
   <div v-if="selectedProject" class="displayProject">
     <h2>{{ $t('DETAIL.TITLE') }}</h2>
     <div class="grid">
-      <div :class="[getAppearanceClass(), 'full-width']">
+      <div :class="[getAppearanceClass(), 'full-width', 'header']">
         <div>
           <h3>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h3>
           {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
@@ -67,36 +67,27 @@ export type ProjectKey =
     </div>
 
     <div class="full-width">
-        <div class="used-tools">
+      <div class="used-tools">
+        <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index"
+             :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Logo"/>
+      </div>
 
-          <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index" :src="image"
-               alt="Logo" :class="[getAppearanceClass(), 'tools-img']"/>
+      <div class="buttons" >
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''" :class="[getAppearanceClass()]" class="button">
+          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{ $t('DETAIL.VIDEO') }}</a>
         </div>
-
-      <div class="buttons">
-      <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''" :class="[getAppearanceClass()]">
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{
-            $t('DETAIL.VIDEO')
-          }}</a>
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" :class="[getAppearanceClass()]" class="button">
+          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
+        </div>
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''" :class="[getAppearanceClass()]" class="button">
+          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
+        </div>
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''" :class="[getAppearanceClass()]" class="button">
+          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
+        </div>
       </div>
-      <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" :class="[getAppearanceClass()]">
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
-            $t('DETAIL.DOCU')
-          }}</a>
-      </div>
-      <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''" :class="[getAppearanceClass()]">
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{
-            $t('DETAIL.GITHUB')
-          }}</a>
-      </div>
-      <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''" :class="[getAppearanceClass()]">
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{
-            $t('DETAIL.LIVEDEMO')
-          }}</a>
-      </div>
-      </div>
-
     </div>
+
   </div>
 </template>
 
@@ -118,8 +109,12 @@ export type ProjectKey =
 .full-width {
   grid-column: span 7;
   display: flex;
-  justify-content: space-between;
+
   padding: 5px;
+}
+
+.header{
+  justify-content: space-between;
 }
 
 .close-button {
@@ -146,9 +141,22 @@ export type ProjectKey =
   flex-direction: row;
 }
 
-.tools-img{
+.tools-img {
   margin-right: 10px;
   height: 75px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-right: -10px;
+}
+
+.button {
+  height: 75px;
+  margin-right: 10px;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
