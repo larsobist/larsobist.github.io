@@ -7,11 +7,11 @@ import Skills from "@/components/Skills.vue";
 import Footer from "@/components/Footer.vue";
 import Menu from "@/components/Menu.vue";
 
-import {apppearance} from "@/stores/store";
+import {appearance} from "@/stores/store";
 </script>
 
 <template>
-  <div :class="apppearance === 'Dark' ? 'dark' : 'light'" class="main">
+  <div :class="appearance === 'Dark' ? 'dark' : 'light'" class="main">
     <div class="container">
       <Menu/>
       <Header id="home"/>

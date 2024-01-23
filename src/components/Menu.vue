@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import {ref} from 'vue';
-import {apppearance, setVisualAppearance} from "@/stores/store";
+import {appearance, setVisualAppearance} from "@/stores/store";
 import CONTENT from '../locales/content.json';
 
-const toggleAppearance = (appearance: string) => {
-  setVisualAppearance(appearance);
+const toggleAppearance = (look: string) => {
+  setVisualAppearance(look);
 };
 
 const scrollToSection = (sectionId: string) => {
@@ -36,113 +36,113 @@ const scrollAndToggle = (sectionId: string) => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 
-const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>
-  <div :class="[apppearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-left']">
+  <div :class="[appearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-left']">
     <div
-        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
         @click="scrollToSection('projects')"
     >
       {{ $t('PROJECTS.TITLE') }}
     </div>
     <div
-        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
         @click="scrollToSection('skills')"
     >
       {{ $t('SKILLS.TITLE') }}
     </div>
     <div
-        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+        :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
         @click="scrollToSection('about')"
     >
       {{ $t('ABOUT.TITLE') }}
     </div>
     <div class="spacer"></div>
     <div
-        :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'left']"
+        :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'left']"
         @click="scrollToSection('home')"
     >
       <img :src="CONTENT.LOGO" alt=" Logo" class="img-menu" />
     </div>
   </div>
 
-  <div :class="[apppearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-right']">
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
+  <div :class="[appearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-right']">
+    <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
          @click="scrollToSection('home')">
       <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
     </div>
     <div class="spacer-right"></div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
+    <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
+      <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
                                                                 alt="XING"
                                                                 class="img-menu"/></a>
     </div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
+    <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
+      <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
                                                                     alt="XING"
                                                                     class="img-menu"/></a>
     </div>
-    <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
+    <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
+      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
                                                                 alt="XING"
                                                                 class="img-menu"/></a>
     </div>
     <div class="spacer-right"></div>
     <div>
       <div v-if="$i18n.locale !== 'en'"
-           :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'right': true, 'active': $i18n.locale === 'en'}"
+           :class="{'menu-item-dark': appearance === 'Dark', 'menu-item-light': appearance === 'Light', 'menu-item': true, 'icon': true, 'right': true, 'active': $i18n.locale === 'en'}"
            @click="$i18n.locale = 'en'">
-        <img :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
       </div>
-      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
+      <div v-else :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
            @click="$i18n.locale = 'de'">
-        <img :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
       </div>
     </div>
     <div>
-      <div v-if="apppearance === 'Light'"
-           :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon', 'right']"
+      <div v-if="appearance === 'Light'"
+           :class="[appearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon', 'right']"
            @click="toggleAppearance('Dark')">
-        <img :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
+        <img :src="appearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
       </div>
-      <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
+      <div v-else :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']"
            @click="toggleAppearance('Light')">
-        <img :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
       </div>
     </div>
   </div>
 
-  <div v-if="isMenuOpen" :class="[apppearance === 'Dark' ? 'dark' : 'light', 'menu-responsive']">
-    <div :class="[apppearance === 'Dark' ? 'elements-dark' : 'elements-light', 'elements']">
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+  <div v-if="isMenuOpen" :class="[appearance === 'Dark' ? 'dark' : 'light', 'menu-responsive']">
+    <div :class="[appearance === 'Dark' ? 'elements-dark' : 'elements-light', 'elements']">
+      <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
            @click="scrollAndToggle('about')">{{ $t('ABOUT.TITLE') }}
       </div>
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+      <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
            @click="scrollAndToggle('skills')">{{ $t('SKILLS.TITLE') }}
       </div>
-      <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
+      <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'menu-btn']"
            @click="scrollAndToggle('projects')">{{ $t('PROJECTS.TITLE') }}
       </div>
       <div class="menu-item menu-spacer"></div>
       <div class="menu-item menu-spacer">{{ $t('GETINCONTACT') }}</div>
       <div class="responsive-row">
-        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+        <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
              @click="toggleMenu">
-          <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
+          <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
                                                                     alt="XING"
                                                                     class="img-menu"/></a>
         </div>
-        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+        <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
              @click="toggleMenu">
-          <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
+          <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
                                                                         alt="XING"
                                                                         class="img-menu"/></a>
         </div>
-        <div :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+        <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
              @click="toggleMenu">
-          <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="apppearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
+          <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
                                                                     alt="XING"
                                                                     class="img-menu"/></a>
         </div>
@@ -152,24 +152,24 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
       <div class="responsive-row">
         <div>
           <div v-if="$i18n.locale !== 'en'"
-               :class="{'menu-item-dark': apppearance === 'Dark', 'menu-item-light': apppearance === 'Light', 'menu-item': true, 'icon': true, 'active': $i18n.locale === 'en'}"
+               :class="{'menu-item-dark': appearance === 'Dark', 'menu-item-light': appearance === 'Light', 'menu-item': true, 'icon': true, 'active': $i18n.locale === 'en'}"
                @click="$i18n.locale = 'en'">
-            <img :src="apppearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
+            <img :src="appearance === 'Dark' ? CONTENT.ENGLIGHT : CONTENT.ENGDARK" alt="ENG" class="img-menu"/>
           </div>
-          <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+          <div v-else :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
                @click="$i18n.locale = 'de'">
-            <img :src="apppearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
+            <img :src="appearance === 'Dark' ? CONTENT.GERLIGHT : CONTENT.GERDARK" alt="GER" class="img-menu"/>
           </div>
         </div>
         <div>
-          <div v-if="apppearance === 'Light'"
-               :class="[apppearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon']"
+          <div v-if="appearance === 'Light'"
+               :class="[appearance === 'Light' ? 'menu-item-light' : 'menu-item-dark', 'menu-item', 'icon']"
                @click="toggleAppearance('Dark')">
-            <img :src="apppearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
+            <img :src="appearance === 'Light' ? CONTENT.DARKMODE : CONTENT.LIGHTMODE" alt="Darkmode" class="img-menu"/>
           </div>
-          <div v-else :class="[apppearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
+          <div v-else :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
                @click="toggleAppearance('Light')">
-            <img :src="apppearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
+            <img :src="appearance === 'Dark' ? CONTENT.LIGHTMODE : CONTENT.DARKMODE" alt="Lightode" class="img-menu"/>
           </div>
         </div>
       </div>
@@ -177,16 +177,16 @@ const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' 
   </div>
 
   <div>
-    <div :class="[apppearance === 'Dark' ? 'menu-responsive-dark' : 'menu-responsive-light', 'menu-responsive']">
+    <div :class="[appearance === 'Dark' ? 'menu-responsive-dark' : 'menu-responsive-light', 'menu-responsive']">
       <div class="menu-item" @click="scrollToSection('home')">
         <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
       </div>
       <div class="menu-item spacer"></div>
       <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">
-        <img :src="apppearance === 'Dark' ? CONTENT.MENULIGHT : CONTENT.MENUDARK" alt="Menu" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.MENULIGHT : CONTENT.MENUDARK" alt="Menu" class="img-menu"/>
       </div>
       <div v-if="isMenuOpen" class="menu-item" @click="toggleMenu">
-        <img :src="apppearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARk" alt="Lightode" class="img-menu"/>
+        <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARk" alt="Lightode" class="img-menu"/>
       </div>
     </div>
   </div>

@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import {apppearance, selectedProject, setSelectedProject} from '@/stores/store';
+import {appearance, selectedProject, setSelectedProject} from '@/stores/store';
 import CONTENT from "@/locales/content.json";
 
 const onClick = (project: string) => {
   setSelectedProject(project);
 };
 
-const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>

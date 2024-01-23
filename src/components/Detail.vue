@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {apppearance, selectedProject, setSelectedProject} from '@/stores/store';
+import {appearance, selectedProject, setSelectedProject} from '@/stores/store';
 import 'vue3-carousel/dist/carousel.css'
 import {Carousel, Navigation, Pagination, Slide} from 'vue3-carousel'
 import CONTENT from '../locales/content.json';
@@ -8,7 +8,7 @@ const clearSelection = () => {
   setSelectedProject(null);
 };
 
-const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' : 'content-light');
 
 export type ProjectKey =
     "ZPHERE"

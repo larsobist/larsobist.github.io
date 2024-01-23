@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import CONTENT from "@/locales/content.json";
-import {apppearance} from "@/stores/store";
+import {appearance} from "@/stores/store";
 
-const getAppearanceClass = () => (apppearance.value === 'Dark' ? 'content-dark' : 'content-light');
+const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>

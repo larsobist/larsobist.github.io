@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 
-import {apppearance} from "@/stores/store";
 </script>
 
 <template>
