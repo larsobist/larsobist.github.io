@@ -33,13 +33,16 @@ export type ProjectKey =
 <template>
   <div v-if="selectedProject" class="displayProject">
     <h2>{{ $t('DETAIL.TITLE') }}</h2>
-    <div class="grid">
-      <div :class="[getAppearanceClass(), 'full-width', 'header']">
-        <div>
+
+    <div class="full-width">
+
+        <div :class="[getAppearanceClass(), 'detail-title']">
           <h3>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h3>
           {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
         </div>
-        <div class="close-button" @click="clearSelection">
+
+      <div class="used-tools" >
+        <div :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'close-button']" @click="clearSelection">
           {{ $t('DETAIL.CLOSE') }}
           <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="close-img"/>
         </div>
@@ -71,18 +74,17 @@ export type ProjectKey =
         <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index"
              :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Logo"/>
       </div>
-
       <div class="buttons" >
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''" :class="[getAppearanceClass()]" class="button">
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{ $t('DETAIL.VIDEO') }}</a>
         </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" :class="[getAppearanceClass()]" class="button">
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{ $t('DETAIL.DOCU') }}</a>
         </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''" :class="[getAppearanceClass()]" class="button">
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{ $t('DETAIL.GITHUB') }}</a>
         </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''" :class="[getAppearanceClass()]" class="button">
+        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{ $t('DETAIL.LIVEDEMO') }}</a>
         </div>
       </div>
@@ -107,20 +109,42 @@ export type ProjectKey =
 }
 
 .full-width {
-  grid-column: span 7;
   display: flex;
-
   padding: 5px;
 }
 
-.header{
-  justify-content: space-between;
+.detail-title{
+  margin-right: 10px;
+  width: 100%;
+  padding-left: 5px;
 }
 
 .close-button {
+  width: 150px;
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.close-button-light {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.close-button-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close-button-light:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.close-button-dark:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.close-button:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
 }
 
 .close-img {
@@ -154,9 +178,35 @@ export type ProjectKey =
 }
 
 .button {
-  height: 75px;
   margin-right: 10px;
   width: 100%;
+  cursor: pointer;
+}
+
+.button-light {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.button-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button-light:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.button-dark:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.button a {
+  color: unset;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {

@@ -36,7 +36,6 @@ const scrollAndToggle = (sectionId: string) => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 
-const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' : 'content-light');
 </script>
 
 <template>
