@@ -130,7 +130,7 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
 }
 
 .profile-img{
-  width: 200px;
+  width: 300px;
   height: auto;
   max-width: 100%;
 }
@@ -169,6 +169,16 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
 
   .left, .right, .intro-left, .intro-right {
     grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .intro-left, .intro-right {
+    grid-column: span 1;
   }
 }
 
