@@ -87,7 +87,7 @@ export type ProjectKey =
              v-if="CONTENT.PROJECTS[selectedProject as ProjectKey][linkInfo.type] !== ''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
             <div class="button-content">
-              <img :src="appearance === 'Dark' ? CONTENT.DETAIL[linkInfo.darkIcon] : CONTENT.DETAIL[linkInfo.lightIcon]" alt="" class="links-img"/>
+              <img :src="appearance === 'Dark' ? CONTENT.DETAIL[linkInfo.lightIcon] : CONTENT.DETAIL[linkInfo.darkIcon]" alt="" class="links-img"/>
               <span>{{ linkInfo.label }}</span>
             </div>
           </a>
@@ -143,19 +143,19 @@ export type ProjectKey =
   margin-left: auto;
 }
 
-.close-button-light {
-  background-color: rgba(255, 255, 255, 0.4);
+.close-button-light, .button-light {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.close-button-dark {
-  background-color: rgba(0, 0, 0, 0.4);
+.close-button-dark, .button-dark {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.close-button-light:hover {
+.close-button-light:hover, .button-light:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.close-button-dark:hover {
+.close-button-dark:hover, .button-dark:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -207,22 +207,6 @@ export type ProjectKey =
   align-items: center;
   padding: 5px;
   padding-right: 10px;
-}
-
-.button-light {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.button-dark {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.button-light:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.button-dark:hover {
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .button:hover {
