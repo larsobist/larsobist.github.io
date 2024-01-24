@@ -74,20 +74,20 @@ export type ProjectKey =
       </div>
       <div class="buttons">
         <template v-for="linkInfo in [
-    { type: 'VIDEOLINK', label: $t('DETAIL.VIDEO') },
-    { type: 'DOCULINK', label: selectedProject === 'BACHELORTHESIS' ? $t('DETAIL.THESIS') : $t('DETAIL.DOCU') },
-    { type: 'PRESENTATION', label: selectedProject === 'BACHELORTHESIS' ? $t('DETAIL.COLLOQUIUM') : $t('DETAIL.PRESENTATION') },
-    { type: 'XDLINK', label: $t('DETAIL.XD') },
-    { type: 'GITHUBLINK1', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.LASTMINUTEGITHUB') : $t('DETAIL.GITHUB') },
-    { type: 'LIVELINK1', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.LASTMINUTELIVEDEMO') : $t('DETAIL.LIVEDEMO') },
-    { type: 'GITHUBLINK2', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.THROWBACKGITHUB') : $t('DETAIL.GITHUB') },
-    { type: 'LIVELINK2', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.THROWBACKLIVEDEMO') : $t('DETAIL.LIVEDEMO') }
+    { type: 'VIDEOLINK', label: $t('DETAIL.VIDEO'), lightIcon: 'VIDEOLIGHT', darkIcon: 'VIDEODARK' },
+    { type: 'DOCULINK', label: selectedProject === 'BACHELORTHESIS' ? $t('DETAIL.THESIS') : $t('DETAIL.DOCU'), lightIcon: 'DOCULIGHT', darkIcon: 'DOCUDARK' },
+    { type: 'PRESENTATION', label: selectedProject === 'BACHELORTHESIS' ? $t('DETAIL.COLLOQUIUM') : $t('DETAIL.PRESENTATION'), lightIcon: 'PRESENTATIONLIGHT', darkIcon: 'PRESENTATIONDARK' },
+    { type: 'XDLINK', label: $t('DETAIL.XD'), lightIcon: 'VIEWLIGHT', darkIcon: 'VIEWDARK' },
+    { type: 'GITHUBLINK1', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.LASTMINUTEGITHUB') : $t('DETAIL.GITHUB'), lightIcon: 'CODELIGHT', darkIcon: 'CODEDARK' },
+    { type: 'LIVELINK1', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.LASTMINUTELIVEDEMO') : $t('DETAIL.LIVEDEMO'), lightIcon: 'VIEWLIGHT', darkIcon: 'VIEWDARK' },
+    { type: 'GITHUBLINK2', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.THROWBACKGITHUB') : $t('DETAIL.GITHUB'), lightIcon: 'CODELIGHT', darkIcon: 'CODEDARK' },
+    { type: 'LIVELINK2', label: selectedProject === 'WEBGAMES' ? $t('DETAIL.THROWBACKLIVEDEMO') : $t('DETAIL.LIVEDEMO'), lightIcon: 'VIEWLIGHT', darkIcon: 'VIEWDARK' }
   ]">
           <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey][linkInfo.type]" target="_blank"
              v-if="CONTENT.PROJECTS[selectedProject as ProjectKey][linkInfo.type] !== ''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
             <div class="button-content">
-              <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="links-img"/>
+              <img :src="appearance === 'Dark' ? CONTENT.DETAIL[linkInfo.darkIcon] : CONTENT.DETAIL[linkInfo.lightIcon]" alt="" class="links-img"/>
               <span>{{ linkInfo.label }}</span>
             </div>
           </a>

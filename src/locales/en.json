@@ -141,12 +141,12 @@
     "LIVEDEMO": "Checkout",
     "LASTMINUTELIVEDEMO": "Checkout Last Minute!",
     "THROWBACKLIVEDEMO": "Checkout Throwback",
-    "CLOSE": "Close",
     "THESIS": "Thesis",
     "COLLOQUIUM": "Colloquium",
     "PRESENTATION": "Slides",
     "XD": "View design",
-    "VIDEO": "Watch"
+    "VIDEO": "Watch",
+    "CLOSE": "Close"
   },
   "GETINCONTACT": "Contact me",
   "SETTINGS": "Settings"

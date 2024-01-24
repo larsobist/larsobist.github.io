@@ -141,12 +141,12 @@
     "LIVEDEMO": "Ansehen",
     "LASTMINUTELIVEDEMO": "Last Minute! Ansehen",
     "THROWBACKLIVEDEMO": "Throwback Ansehen",
-    "CLOSE": "Schließen",
     "THESIS": "Thesis",
     "COLLOQUIUM": "Kolloquium",
     "PRESENTATION": "Präsentation",
     "XD": "Design ansehen",
-    "VIDEO": "Anschauen"
+    "VIDEO": "Anschauen",
+    "CLOSE": "Schließen"
   },
   "GETINCONTACT": "Kontaktmöglichkeiten",
   "SETTINGS": "Einstellungen"

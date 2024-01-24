@@ -606,6 +606,18 @@
       "XDLINK": ""
     }
   },
+  "DETAIL": {
+    "DOCULIGHT": "./pics/Logo/Docu-light.png",
+    "DOCUDARK": "./pics/Logo/Docu-dark.png",
+    "CODELIGHT": "./pics/Logo/Code-light.png",
+    "CODEDARK": "./pics/Logo/Code-dark.png",
+    "VIDEOLIGHT": "./pics/Logo/Video-light.png",
+    "VIDEODARK": "./pics/Logo/Video-dark.png",
+    "VIEWLIGHT": "./pics/Logo/View-light.png",
+    "VIEWDARK": "./pics/Logo/View-dark.png",
+    "PRESENTATIONLIGHT": "./pics/Logo/Presentation-light.png",
+    "PRESENTATIONDARK": "./pics/Logo/Presentation-dark.png"
+  },
   "CONTACT": {
     "LINKEDIN": {
       "TITLE": "LinkedIn",
