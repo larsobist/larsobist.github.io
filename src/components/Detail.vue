@@ -35,16 +35,15 @@ export type ProjectKey =
     <h2>{{ $t('DETAIL.TITLE') }}</h2>
 
     <div class="full-width">
-
       <div :class="[getAppearanceClass(), 'detail-title']">
         <h3>{{ CONTENT.PROJECTS[selectedProject as ProjectKey].TITLE }}</h3>
         {{ $t('PROJECTS.' + selectedProject + '.CATEGORY') }}
       </div>
-
-
       <div :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'close-button']" @click="clearSelection">
-        {{ $t('DETAIL.CLOSE') }}
-        <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="close-img"/>
+        <div class="button-content">
+          {{ $t('DETAIL.CLOSE') }}
+          <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="close-img"/>
+        </div>
       </div>
     </div>
 
@@ -76,27 +75,44 @@ export type ProjectKey =
       <div class="buttons">
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
-          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{
-              $t('DETAIL.VIDEO')
-            }}</a>
+          <div class="button-content">
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{
+                $t('DETAIL.VIDEO')
+              }}</a>
+          </div>
         </div>
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
-          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
-              $t('DETAIL.DOCU')
-            }}</a>
+          <div class="button-content">
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">{{
+                $t('DETAIL.DOCU')
+              }}</a>
+          </div>
         </div>
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK!=''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
-          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{
-              $t('DETAIL.GITHUB')
-            }}</a>
+          <div class="button-content">
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK" target="_blank">{{
+                $t('DETAIL.GITHUB')
+              }}</a>
+          </div>
         </div>
+
         <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK!=''"
              :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
-          <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{
-              $t('DETAIL.LIVEDEMO')
-            }}</a>
+          <div class="button-content">
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK" target="_blank">{{
+                $t('DETAIL.LIVEDEMO')
+              }}</a>
+          </div>
         </div>
       </div>
     </div>
@@ -105,6 +121,11 @@ export type ProjectKey =
 </template>
 
 <style scoped>
+
+.displayProject {
+  overflow-x: hidden;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -131,11 +152,16 @@ export type ProjectKey =
 }
 
 .close-button {
-  width: 150px;
+  width: 170px;
+  display: flex;
+  cursor: pointer;
+}
+
+.button-content {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .close-button-light {
@@ -161,6 +187,11 @@ export type ProjectKey =
 
 .close-img {
   height: 40px;
+  cursor: pointer;
+}
+
+.links-img {
+  height: 50px;
   cursor: pointer;
 }
 
@@ -193,6 +224,10 @@ export type ProjectKey =
   margin-right: 10px;
   width: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-right: 10px;
 }
 
 .button-light {
