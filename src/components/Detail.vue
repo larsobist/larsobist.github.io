@@ -73,83 +73,92 @@ export type ProjectKey =
              :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Logo"/>
       </div>
       <div class="buttons">
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''"
-             :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank">{{
-                $t('DETAIL.VIDEO')
-              }}</a>
+            <span>{{ $t('DETAIL.VIDEO') }}</span>
           </div>
-        </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''"
-             :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank">
-              {{
+            <span> {{
                 (selectedProject === 'BACHELORTHESIS' ? ($t('DETAIL.THESIS')) : ($t('DETAIL.DOCU')))
-              }}</a>
+              }}</span>
           </div>
-        </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION!=''"
-             :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION" target="_blank">{{
-                selectedProject === 'BACHELORTHESIS'
-                    ? $t('DETAIL.COLLOQUIUM')
-                    : (selectedProject === 'ZPHERE' ? $t('DETAIL.XD') : $t('DETAIL.PRESENTATION'))
-
-              }}</a>
+            <span> {{
+                (selectedProject === 'BACHELORTHESIS' ? ($t('DETAIL.COLLOQUIUM')) : ($t('DETAIL.PRESENTATION')))
+              }}</span>
           </div>
-        </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1!=''"
-             :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1" target="_blank">{{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 ? 'Last Minute! ' : '') + $t('DETAIL.GITHUB')
-              }}</a>
+            <span> {{
+                $t('DETAIL.XD')
+              }}</span>
           </div>
-        </div>
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1 !== ''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1" target="_blank">
-              {{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 ? 'Last Minute! ' : '') + ($t('DETAIL.LIVEDEMO'))
-              }}
-            </a>
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <span> {{
+                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1 ? 'Last Minute! ' : '') + $t('DETAIL.GITHUB')
+              }}</span>
           </div>
-        </div>
-
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 !== ''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode" class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2" target="_blank">
-              {{
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <span> {{
+                (CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1 ? 'Last Minute! ' : '') + ($t('DETAIL.LIVEDEMO'))
+              }}</span>
+          </div>
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+          <div class="button-content">
+            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+                 class="links-img"/>
+            <span> {{
                 (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 ? 'Throwback ' : '') + $t('DETAIL.GITHUB')
-              }}
-            </a>
+              }}</span>
           </div>
-        </div>
-
-        <div v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2!=''"
-             :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        </a>
+        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2" target="_blank"
+           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2!=''"
+           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
-            <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2" target="_blank">{{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 ? 'Throwback ' : '') + $t('DETAIL.LIVEDEMO')
-              }}</a>
+            <span> {{
+                (CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2 ? 'Throwback ' : '') + $t('DETAIL.GITHUB')
+              }}</span>
           </div>
-        </div>
-
+        </a>
       </div>
     </div>
 
@@ -287,7 +296,7 @@ export type ProjectKey =
   transition: transform 0.3s ease;
 }
 
-.button a {
+a {
   color: unset;
   text-decoration: none;
 }
