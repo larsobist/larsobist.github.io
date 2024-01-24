@@ -208,9 +208,12 @@
         "./pics/Projects/Zphere4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off",
       "DOCULINK": "https://drive.google.com/file/d/1StXNFRHP-FaxpYORqBntxAtmwgvvh4cC/view",
-      "GITHUBLINK": "https://github.com/larsobist/zphere",
-      "LIVELINK": "https://xd.adobe.com/view/4b631526-926d-4aa0-9a16-3932d47b1fe6-1e30/?hints=off"
+      "GITHUBLINK1": "https://github.com/larsobist/zphere",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "CIRCLEOFLIFE": {
       "KEY": "CIRCLEOFLIFE",
@@ -229,9 +232,12 @@
         "./pics/Projects/CircleOfLife4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
-      "GITHUBLINK": "",
-      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/"
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/",
+      "LIVELINK2": ""
     },
     "TRAVELBUCKET": {
       "KEY": "TRAVELBUCKET",
@@ -252,9 +258,12 @@
         "./pics/Projects/TravelBucket.mp4"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "https://drive.google.com/file/d/1HpgXEjnHKtrbpfk3nVOJBH0iye9KDHra/view?usp=sharing",
-      "GITHUBLINK": "https://github.com/larsobist/TravelBucket",
-      "LIVELINK": "https://drive.google.com/file/d/1iJdp5oeONBZS_YDUadep_EM-GOknhg1g/view?usp=sharing"
+      "GITHUBLINK1": "https://github.com/larsobist/TravelBucket",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "BACHELORTHESIS": {
       "KEY": "BACHELORTHESIS",
@@ -275,9 +284,12 @@
         "./pics/Projects/Bachelorthesis4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "https://drive.google.com/file/d/12hwc_3Q36J4-EKqg1F9EN8kRdbVp_By9/view?usp=sharing",
       "DOCULINK": "https://drive.google.com/file/d/17WMbMhXIKSi6gH7NUDFuPxPwlB--ZPI0/view?usp=sharing",
-      "GITHUBLINK": "https://drive.google.com/file/d/12hwc_3Q36J4-EKqg1F9EN8kRdbVp_By9/view?usp=sharing",
-      "LIVELINK": ""
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "CULINO": {
       "KEY": "CULINO",
@@ -297,9 +309,12 @@
         "./pics/Projects/culino4.png"
       ],
       "VIDEOLINK": "",
-      "DOCULINK": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
-      "GITHUBLINK": "https://github.com/larsobist/culino/",
-      "LIVELINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing"
+      "PRESENTATION": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
+      "DOCULINK": "https://drive.google.com/file/d/1jxzQkZreP0TPWcEEiNbojVJ6jJ5ERdQh/view?usp=sharing",
+      "GITHUBLINK1": "https://github.com/larsobist/culino/",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "USABILITY": {
       "KEY": "USABILITY",
@@ -317,9 +332,12 @@
         "./pics/Projects/Usability4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "https://drive.google.com/file/d/17hCBzQFX9Q6AQ_V7DqdBR6r1SU6blKzM/view?usp=sharing",
       "DOCULINK": "https://drive.google.com/file/d/1tTMj9fQJzL8gx3y7AEbWTrUvNZhjumsF/view?usp=sharing",
-      "GITHUBLINK": "https://drive.google.com/file/d/17hCBzQFX9Q6AQ_V7DqdBR6r1SU6blKzM/view?usp=sharing",
-      "LIVELINK": ""
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "LAGOM": {
       "KEY": "LAGOM",
@@ -339,9 +357,12 @@
         "./pics/Projects/Lagom4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "https://github.com/larsobist/LAGOM",
-      "LIVELINK": ""
+      "GITHUBLINK1": "https://github.com/larsobist/LAGOM",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "BUILDAR": {
       "KEY": "BUILDAR",
@@ -359,9 +380,12 @@
         "./pics/Projects/BuildAR4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "https://drive.google.com/file/d/1FAl0coSqSc6wdRMJlCh-Om5s42E5j3SM/view?usp=sharing",
-      "GITHUBLINK": "",
-      "LIVELINK": ""
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "RUNNERSHIGH": {
       "KEY": "RUNNERSHIGH",
@@ -380,9 +404,12 @@
         "./pics/Projects/RunnersHigh4.png"
       ],
       "VIDEOLINK": "https://vimeo.com/432268612",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": ""
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "TIMELESSTREASURES": {
       "KEY": "TIMELESSTREASURES",
@@ -402,9 +429,12 @@
         "./pics/Projects/TimelessTreasures4.png"
       ],
       "VIDEOLINK": "",
-      "DOCULINK": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
-      "GITHUBLINK": "https://github.com/larsobist/TimelessTreasures",
-      "LIVELINK": ""
+      "PRESENTATION": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
+      "DOCULINK": "",
+      "GITHUBLINK1": "https://github.com/larsobist/TimelessTreasures",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "WEBGAMES": {
       "KEY": "WEBGAMES",
@@ -427,10 +457,13 @@
         "./pics/Projects/LastMinute3.png",
         "./pics/Projects/LastMinute4.png"
       ],
-      "VIDEOLINK": "https://github.com/larsobist/LastMinute",
-      "DOCULINK": "https://github.com/larsobist/Throwback",
-      "GITHUBLINK": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
-      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html"
+      "VIDEOLINK": "",
+      "PRESENTATION": "",
+      "DOCULINK": "",
+      "GITHUBLINK1": "https://github.com/larsobist/LastMinute",
+      "GITHUBLINK2": "https://github.com/larsobist/Throwback",
+      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html",
+      "LIVELINK2": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html"
     },
     "SAVEATURTLE": {
       "KEY": "SAVEATURTLE",
@@ -449,9 +482,12 @@
         "./pics/Projects/SaveATurtle4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html"
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html",
+      "LIVELINK2":""
     },
     "EATABROAD": {
       "KEY": "EATABROAD",
@@ -471,9 +507,12 @@
         "./pics/Projects/Eatabroad4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html"
+      "GITHUBLINK1": "https://github.com/larsobist/eatabroad",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html",
+      "LIVELINK2": ""
     },
     "ESHOP": {
       "KEY": "ESHOP",
@@ -490,9 +529,12 @@
         "./pics/Projects/Eshop4.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "https://github.com/larsobist/E-SHOP",
-      "LIVELINK": ""
+      "GITHUBLINK1": "https://github.com/larsobist/E-SHOP",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     },
     "PORTFOLIO": {
       "KEY": "PORTFOLIO",
@@ -515,10 +557,14 @@
         "./pics/Projects/Portfolio8.png",
         "./pics/Projects/Portfolio9.png"
       ],
+      "TEST": "",
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY"
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY",
+      "LIVELINK2": ""
     },
     "UPCOMING": {
       "KEY": "UPCOMING",
@@ -536,9 +582,12 @@
         "./pics/Projects/Upcoming2.png"
       ],
       "VIDEOLINK": "",
+      "PRESENTATION": "",
       "DOCULINK": "",
-      "GITHUBLINK": "",
-      "LIVELINK": ""
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": ""
     }
   },
   "CONTACT": {

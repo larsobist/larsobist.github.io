@@ -137,7 +137,12 @@
     "DOCU": "Dokumentation",
     "GITHUB": "Code",
     "LIVEDEMO": "Ansehen",
-    "CLOSE": "Schließen"
+    "CLOSE": "Schließen",
+    "THESIS": "Thesis",
+    "COLLOQUIUM": "Kolloquium",
+    "PRESENTATION": "Präsentation",
+    "XD": "Design ansehen",
+    "VIDEO": "Anschauen"
   },
   "GETINCONTACT": "Kontaktmöglichkeiten",
   "SETTINGS": "Einstellungen"

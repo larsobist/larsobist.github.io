@@ -80,6 +80,7 @@
       "DESCRIPTION": "During the studies, various mobile apps were developed, covering different aspects of mobile development. Experience in cross-platform mobile app development was gained by creating simple apps with Flutter and React Native. Apps with SwiftUI and Kotlin were also developed for various use cases, such as accessing smartphone sensors or creating a travel plan. An AR app was developed, placing various 3D objects in space. Almost every application has an API interface. Using the OpenWeather API, a modern application was developed in this context. Within the links you will find documents for TravelBucket"
     },
     "BACHELORTHESIS": {
+      "CATEGORY": "Scientific work",
       "DESCRIPTION": "In an increasingly digital world, websites are a significant tool for companies, organizations, and individuals. They are essential for establishing an online presence and enabling digital education to take place fully. This bachelor thesis involved conceptualizing and evaluating a digital hybrid teaching model, using the example of an interactive learning environment for cultural education institutions. An in-depth requirements analysis was conducted, and important foundations were established. Based on the previous results, a detailed concept of a hybrid teaching model and a digital learning management system were developed. The concept was then prototypically implemented, evaluated with test users, and finally assessed."
     },
     "CULINO": {
@@ -135,8 +136,13 @@
     "TITLE": "Project Details",
     "DOCU": "Documentation",
     "GITHUB": "Code",
-    "LIVEDEMO": "View",
-    "CLOSE": "Close"
+    "LIVEDEMO": "Checkout",
+    "CLOSE": "Close",
+    "THESIS": "Thesis",
+    "COLLOQUIUM": "Colloquium",
+    "PRESENTATION": "Slides",
+    "XD": "View design",
+    "VIDEO": "Watch"
   },
   "GETINCONTACT": "Contact me",
   "SETTINGS": "Settings"
