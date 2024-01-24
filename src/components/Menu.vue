@@ -70,7 +70,7 @@ const scrollAndToggle = (sectionId: string) => {
   <div :class="[appearance === 'Dark' ? 'menu-dark' : 'menu-light', 'menu-right']">
     <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item']"
          @click="scrollToSection('home')">
-      <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
+      <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu-long"/>
     </div>
     <div class="spacer-right"></div>
     <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
@@ -178,7 +178,7 @@ const scrollAndToggle = (sectionId: string) => {
   <div>
     <div :class="[appearance === 'Dark' ? 'menu-responsive-dark' : 'menu-responsive-light', 'menu-responsive']">
       <div class="menu-item" @click="scrollToSection('home')">
-        <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu"/>
+        <img :src="CONTENT.LOGOLONG" alt=" Logo" class="img-menu-long"/>
       </div>
       <div class="menu-item spacer"></div>
       <div v-if="!isMenuOpen" class="menu-item" @click="toggleMenu">
@@ -298,6 +298,11 @@ const scrollAndToggle = (sectionId: string) => {
 .img-menu {
   height: 50px;
   width: 50px;
+  cursor: pointer;
+}
+
+.img-menu-long {
+  width: 120px;
   cursor: pointer;
 }
 
