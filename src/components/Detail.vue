@@ -237,7 +237,7 @@ export type ProjectKey =
 }
 
 .links-img {
-  height: 40px;
+  width: 30px;
   cursor: pointer;
 }
 
@@ -252,7 +252,7 @@ export type ProjectKey =
 .used-tools {
   display: flex;
   flex-direction: row;
-  
+
 }
 
 @media (max-width: 1050px) {
@@ -290,6 +290,21 @@ export type ProjectKey =
 .button:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
+}
+
+@media (max-width: 1050px) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .button {
+    min-width: 160px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+  }
 }
 
 a {
