@@ -75,8 +75,8 @@
       "CATEGORY": "Datenvisualisierung",
       "DESCRIPTION": "\"Cirlce of Life\" ist eine interaktive Webseite, die sich damit beschäftigt, komplexe Datensätze durch unterschiedliche Visualisierungen für den Endnutzer spannend zu visualisieren und interessante Themen hervorzuheben. \nDiese Seite hat einen Datensatz zu Geburtsdaten, welcher über 21 Jahre in den USA zusammengetragen wurde.\nEin spezielles Augenmerk sollte auf den Interaktionsmöglichkeiten liegen, über die man mehr Informationen zu dem Datenpunkt erhalten kann.  Beim Entwickeln des Designs habe ich versucht, so minimalistisch wie möglich vorzugehen. Es wurde jedoch auch die recht neue Technik einer variablen Fonts eingesetzt, mit welcher der Nutzer interagieren kann."
     },
-    "TRAVELBUCKET": {
-      "CATEGORY": "Programmierung",
+    "MOBILEAPPS": {
+      "CATEGORY": "Mobile Programmierung",
       "DESCRIPTION": "Während des Studiums wurden verschiedene Mobile Apps entwickelt, welche verschiedener Aspekte der mobilen Entwicklung beinhaltet haben. Durch die Erstellung einfacher Apps mit Flutter und React Native wurden weitere Erfahrungen mit plattformübergreifender Entwicklung mobiler Apps gesammelt. Ebenfalls wurden Apps mit SwiftUI und Kotlin für verschiedenste Anwendungsfälle entwickelt. Es wurden Apps entwickelt, welche beispielsweise auf die Sensoren des Smartphones zugreifen, oder welche wo ein Reiseplan erstellt werden konnte.\n\nEbenfalls wurde eine AR App entwickelt, wo verschiedene 3D Objekte in dem Raum platziert wurden. Praktisch jede Anwendung besitzt eine Schnittstelle zu einer API. Auch hier haben wir mithilfe der OpenWeather API eine moderne Anwendung entwickelt. In den Links finden Sie Dokumente für das TravelBucket Projekt."
     },
     "BACHELORTHESIS": {

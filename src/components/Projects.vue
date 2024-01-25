@@ -16,7 +16,7 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
       <div v-for="(project, index) in CONTENT.PROJECTS" :key="index"
            :class="[getAppearanceClass(), 'project-content', project.EXTRACLASS]"
            @click="onClick(project.KEY)">
-        <img :src="project.LOGO" alt="Logo" class="project-img"/>
+        <img :src="project.LOGO" alt="" class="project-img"/>
       </div>
     </div>
   </div>

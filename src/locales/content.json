@@ -224,7 +224,8 @@
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/JavaScript.png"
+        "./pics/Logo/JavaScript.png",
+        "./pics/Logo/Excel.png"
       ],
       "IMG": [
         "./pics/Projects/CircleOfLife1.png",
@@ -241,10 +242,10 @@
       "LIVELINK2": "",
       "XDLINK": ""
     },
-    "TRAVELBUCKET": {
-      "KEY": "TRAVELBUCKET",
-      "TITLE": "Travel Bucket",
-      "LOGO": "./pics/Logo/TravelBucket.png",
+    "MOBILEAPPS": {
+      "KEY": "MOBILEAPPS",
+      "TITLE": "Apps",
+      "LOGO": "./pics/Logo/MobileApps.png",
       "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Swift.png",
@@ -401,7 +402,6 @@
       "LOGO": "./pics/Logo/RunnersHigh.png",
       "EXTRACLASS": "",
       "TECH": [
-        "./pics/Logo/XD.png",
         "./pics/Logo/AfterEffects.png",
         "./pics/Logo/PremierePro.png"
       ],
@@ -484,7 +484,8 @@
       "TECH": [
         "./pics/Logo/HTML.png",
         "./pics/Logo/CSS.png",
-        "./pics/Logo/JavaScript.png"
+        "./pics/Logo/JavaScript.png",
+        "./pics/Logo/DesignThinking.png"
       ],
       "IMG": [
         "./pics/Projects/SaveATurtle1.png",
@@ -558,7 +559,8 @@
       "TECH": [
         "./pics/Logo/Photoshop.png",
         "./pics/Logo/Illustrator.png",
-        "./pics/Logo/InDesign.png"
+        "./pics/Logo/InDesign.png",
+        "./pics/Logo/XD.png"
       ],
       "IMG": [
         "./pics/Projects/Portfolio1.png",

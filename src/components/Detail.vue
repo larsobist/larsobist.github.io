@@ -26,7 +26,8 @@ export type ProjectKey =
     | "EATABROAD"
     | "ESHOP"
     | "PORTFOLIO"
-    | "UPCOMING";
+    | "SYNCSPORTS"
+    | "MASTERTHESIS";
 
 </script>
 
