@@ -581,11 +581,11 @@
       "LIVELINK2": "",
       "XDLINK": ""
     },
-    "UPCOMING": {
-      "KEY": "UPCOMING",
-      "TITLE": "In work...",
-      "LOGO": "./pics/Logo/Upcoming.png",
-      "EXTRACLASS": "rectangle",
+    "SYNCSPORTS": {
+      "KEY": "SYNCSPORTS",
+      "TITLE": "SyncSports.",
+      "LOGO": "./pics/Logo/SyncSports.png",
+      "EXTRACLASS": "",
       "TECH": [
         "./pics/Logo/Vue.png",
         "./pics/Logo/TypeScript.png",
@@ -595,6 +595,24 @@
       "IMG": [
         "./pics/Projects/Upcoming1.png",
         "./pics/Projects/Upcoming2.png"
+      ],
+      "VIDEOLINK": "",
+      "PRESENTATION": "placeholder",
+      "DOCULINK": "placeholder",
+      "GITHUBLINK1": "",
+      "GITHUBLINK2": "",
+      "LIVELINK1": "",
+      "LIVELINK2": "",
+      "XDLINK": ""
+    },
+    "MASTERTHESIS": {
+      "KEY": "MASTERTHESIS",
+      "TITLE": "Masterthesis",
+      "LOGO": "./pics/Logo/Masterthesis.png",
+      "EXTRACLASS": "",
+      "TECH": [],
+      "IMG": [
+        "./pics/Projects/Upcoming1.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",

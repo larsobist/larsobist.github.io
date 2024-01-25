@@ -127,9 +127,13 @@
       "CATEGORY": "Design Work",
       "DESCRIPTION": "In design, I have worked on many different smaller projects. For example, I have done retouching multiple times, redesigned logos and websites, or edited images using Lightroom. All of these works are summarized in a portfolio that showcases these projects."
     },
-    "UPCOMING": {
-      "CATEGORY": "Analysis",
+    "SYNCSPORTS": {
+      "CATEGORY": "Livestreaming platform with AI systems",
       "DESCRIPTION": "Currently, I am involved in another interesting project. In the master project, we are developing a live streaming platform with various AI models in a group of 10 people. Speech-to-text functionality and object recognition are to be integrated. In this project, I work as a Scrum Manager, assisting my team members when needed. Additionally, I will start my master's thesis in April 2024, focusing on data visualization."
+    },
+    "MASTERTHESIS": {
+      "CATEGORY": "Scientific Work",
+      "DESCRIPTION": ""
     }
   },
   "DETAIL": {

@@ -127,9 +127,13 @@
       "CATEGORY": "Gestaltungsarbeiten",
       "DESCRIPTION": "In der Gestaltung habe ich an vielen verschiedenen kleineren Projekten gearbeitet. Beispielsweise habe ich mehrmals Retuschen gemacht, ein Redesign von Logo und Webseite vollzogen oder mithilfe von Lightroom Bilder bearbeitet. All diese Arbeiten finden Sie in einem Portfolio, welches all diese Projekte zusammenfasst."
     },
-    "UPCOMING": {
-      "CATEGORY": "Analyse",
+    "SYNCSPORTS": {
+      "CATEGORY": "Livestreamingplattform mit KI-Systemen",
       "DESCRIPTION": "Aktuell befinde ich mich in einem weiteren interessanten Projekt. In dem Masterprojekt entwickeln wir aktuell in einer Gruppe von 10 Personen eine Livestreaming-Plattform mit verschiedenen KI-Modellen. Zum einen soll eine Speech-To-Text-Funktionalität und eine Objekterkennung eingebunden werden. Hierbei arbeite ich als Scrum Manager und helfe meinen Teammitgliedern bei Bedarf. Im April 2024 starte ich zudem meine Masterthesis, welche sich mit der Datenvisualisierung befassen wird."
+    },
+    "MASTERTHESIS": {
+      "CATEGORY": "Analyse",
+      "DESCRIPTION": ""
     }
   },
   "DETAIL": {
