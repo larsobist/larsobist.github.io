@@ -534,7 +534,8 @@
       "LOGO": "./pics/Logo/Eshop.png",
       "EXTRACLASS": "",
       "TECH": [
-        "./pics/Logo/Java.png"
+        "./pics/Logo/Java.png",
+        "./pics/Logo/CleanCode.png"
       ],
       "IMG": [
         "./pics/Projects/Eshop1.png",

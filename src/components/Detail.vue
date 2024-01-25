@@ -258,7 +258,7 @@ export type ProjectKey =
 @media (max-width: 1050px) {
   .used-tools {
     max-width: 170px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
 }
 
