@@ -159,9 +159,7 @@ export type ProjectKey =
           </div>
         </a>
       </div>
-
     </div>
-
   </div>
 </template>
 

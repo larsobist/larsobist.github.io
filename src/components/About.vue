@@ -126,13 +126,15 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
   grid-column: span 3;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
 }
 
-.profile-img{
-  width: 300px;
-  height: auto;
-  max-width: 100%;
+.profile-img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .logo-img{
