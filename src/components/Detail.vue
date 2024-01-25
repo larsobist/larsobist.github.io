@@ -55,8 +55,7 @@ export type ProjectKey =
       </div>
       <div :class="[getAppearanceClass(), 'bigger']">
         <carousel id="gallery" :autoplay="5000" :items-to-show="1" :wrap-around="true">
-          <slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index"
-                 class="slider">
+          <slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
             <img :src="image" alt=" Logo" class="slider-img"/>
           </slide>
           <template #addons>
@@ -70,7 +69,7 @@ export type ProjectKey =
     <div class="full-width">
       <div class="used-tools">
         <img v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].TECH" :key="index"
-             :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Logo"/>
+             :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Project Image"/>
       </div>
       <div class="buttons">
         <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank"
@@ -241,11 +240,8 @@ export type ProjectKey =
   cursor: pointer;
 }
 
-.slider {
-  width: 100%;
-}
-
 .slider-img {
+  margin-left: 100px;
   width: 100%;
 }
 
