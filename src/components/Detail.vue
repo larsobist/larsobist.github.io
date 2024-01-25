@@ -13,7 +13,7 @@ const getAppearanceClass = () => (appearance.value === 'Dark' ? 'content-dark' :
 export type ProjectKey =
     "ZPHERE"
     | "CIRCLEOFLIFE"
-    | "TRAVELBUCKET"
+    | "MOBILEAPPS"
     | "BACHELORTHESIS"
     | "CULINO"
     | "USABILITY"
@@ -28,7 +28,6 @@ export type ProjectKey =
     | "PORTFOLIO"
     | "SYNCSPORTS"
     | "MASTERTHESIS";
-
 </script>
 
 <template>
@@ -123,7 +122,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1 ? 'Last Minute! ' : '') + $t('DETAIL.GITHUB')
+                (selectedProject === 'WEBGAMES' ? ($t('DETAIL.LASTMINUTEGITHUB')) : ($t('DETAIL.GITHUB')))
               }}</span>
           </div>
         </a>
@@ -134,7 +133,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1 ? 'Last Minute! ' : '') + ($t('DETAIL.LIVEDEMO'))
+                (selectedProject === 'WEBGAMES' ? ($t('DETAIL.LASTMINUTELIVEDEMO')) : ($t('DETAIL.LIVEDEMO')))
               }}</span>
           </div>
         </a>
@@ -145,7 +144,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2 ? 'Throwback ' : '') + $t('DETAIL.GITHUB')
+                (selectedProject === 'WEBGAMES' ? ($t('DETAIL.THROWBACKGITHUB')) : ($t('DETAIL.GITHUB')))
               }}</span>
           </div>
         </a>
@@ -156,7 +155,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
-                (CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2 ? 'Throwback ' : '') + $t('DETAIL.GITHUB')
+                (selectedProject === 'WEBGAMES' ? ($t('DETAIL.THROWBACKLIVEDEMO')) : ($t('DETAIL.LIVEDEMO')))
               }}</span>
           </div>
         </a>
@@ -199,7 +198,7 @@ export type ProjectKey =
 }
 
 .close-button {
-  width: 170px;
+  width: 200px;
   display: flex;
   cursor: pointer;
 }
