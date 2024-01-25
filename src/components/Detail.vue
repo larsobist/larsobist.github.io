@@ -77,7 +77,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIDEOLIGHT : CONTENT.DETAIL.VIDEODARK" alt="Lightode"
                  class="links-img"/>
             <span>{{ $t('DETAIL.VIDEO') }}</span>
           </div>
@@ -86,7 +86,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.DOCULIGHT : CONTENT.DETAIL.DOCUDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'BACHELORTHESIS' ? ($t('DETAIL.THESIS')) : ($t('DETAIL.DOCU')))
@@ -97,7 +97,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.PRESENTATIONLIGHT : CONTENT.DETAIL.PRESENTATIONDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'BACHELORTHESIS' ? ($t('DETAIL.COLLOQUIUM')) : ($t('DETAIL.PRESENTATION')))
@@ -108,7 +108,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 $t('DETAIL.XD')
@@ -119,7 +119,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.CODELIGHT : CONTENT.DETAIL.CODEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'WEBGAMES' ? ($t('DETAIL.LASTMINUTEGITHUB')) : ($t('DETAIL.GITHUB')))
@@ -130,7 +130,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'WEBGAMES' ? ($t('DETAIL.LASTMINUTELIVEDEMO')) : ($t('DETAIL.LIVEDEMO')))
@@ -141,7 +141,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.CODELIGHT : CONTENT.DETAIL.CODEDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'WEBGAMES' ? ($t('DETAIL.THROWBACKGITHUB')) : ($t('DETAIL.GITHUB')))
@@ -152,7 +152,7 @@ export type ProjectKey =
            v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2!=''"
            :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.CLOSELIGHT : CONTENT.CLOSEDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'WEBGAMES' ? ($t('DETAIL.THROWBACKLIVEDEMO')) : ($t('DETAIL.LIVEDEMO')))
@@ -254,8 +254,16 @@ export type ProjectKey =
   flex-direction: row;
 }
 
+@media (max-width: 1050px) {
+  .used-tools {
+    max-width: 170px;
+    flex-wrap: wrap; /* Allow items to wrap into new rows */
+  }
+}
+
 .tools-img {
   margin-right: 10px;
+  margin-bottom: 10px;
   height: 75px;
 }
 
@@ -264,6 +272,7 @@ export type ProjectKey =
   flex-direction: row;
   width: 100%;
   margin-right: -10px;
+  margin-bottom: 10px;
 }
 
 .button {
