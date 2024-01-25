@@ -252,11 +252,12 @@ export type ProjectKey =
 .used-tools {
   display: flex;
   flex-direction: row;
-  min-width: 170px;
+  
 }
 
 @media (max-width: 1050px) {
   .used-tools {
+    min-width: 170px;
     max-width: 170px;
     flex-wrap: wrap;
   }
