@@ -47,22 +47,22 @@ export type ProjectKey =
       </div>
     </div>
 
-    <div class="grid">
+    <div class="detail-content flex-container">
       <div :class="[getAppearanceClass(), 'smaller']">
         <div class="text">
           {{ $t('PROJECTS.' + selectedProject + '.DESCRIPTION') }}<br>
         </div>
       </div>
       <div :class="[getAppearanceClass(), 'bigger']">
-        <carousel id="gallery" :autoplay="5000" :items-to-show="1" :wrap-around="true">
-          <slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
-            <img :src="image" alt=" Logo" class="slider-img"/>
-          </slide>
+        <Carousel :autoplay="5000" :items-to-show="1" :wrap-around="true">
+          <Slide v-for="(image, index) in CONTENT.PROJECTS[selectedProject as ProjectKey].IMG" :key="index">
+            <img :src="image" alt=" Logo" class="carousel__item"/>
+          </Slide>
           <template #addons>
             <navigation/>
-            <pagination/>
+            <Pagination/>
           </template>
-        </carousel>
+        </Carousel>
       </div>
     </div>
 
@@ -72,18 +72,18 @@ export type ProjectKey =
              :class="[getAppearanceClass(), 'tools-img']" :src="image" alt="Project Image"/>
       </div>
       <div class="buttons">
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].VIDEOLINK"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIDEOLIGHT : CONTENT.DETAIL.VIDEODARK" alt=""
                  class="links-img"/>
             <span>{{ $t('DETAIL.VIDEO') }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].DOCULINK"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.DOCULIGHT : CONTENT.DETAIL.DOCUDARK" alt=""
                  class="links-img"/>
@@ -92,20 +92,21 @@ export type ProjectKey =
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].PRESENTATION"
+           target="_blank">
           <div class="button-content">
-            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.PRESENTATIONLIGHT : CONTENT.DETAIL.PRESENTATIONDARK" alt="Lightode"
+            <img :src="appearance === 'Dark' ? CONTENT.DETAIL.PRESENTATIONLIGHT : CONTENT.DETAIL.PRESENTATIONDARK"
+                 alt="Lightode"
                  class="links-img"/>
             <span> {{
                 (selectedProject === 'BACHELORTHESIS' ? ($t('DETAIL.COLLOQUIUM')) : ($t('DETAIL.PRESENTATION')))
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].XDLINK"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt=""
                  class="links-img"/>
@@ -114,9 +115,9 @@ export type ProjectKey =
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK1"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.CODELIGHT : CONTENT.DETAIL.CODEDARK" alt=""
                  class="links-img"/>
@@ -125,9 +126,9 @@ export type ProjectKey =
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK1"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt=""
                  class="links-img"/>
@@ -136,9 +137,9 @@ export type ProjectKey =
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].GITHUBLINK2"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.CODELIGHT : CONTENT.DETAIL.CODEDARK" alt=""
                  class="links-img"/>
@@ -147,9 +148,9 @@ export type ProjectKey =
               }}</span>
           </div>
         </a>
-        <a :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2" target="_blank"
-           v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2!=''"
-           :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']">
+        <a v-if="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2!=''" :class="[appearance === 'Dark' ? 'button-dark' : 'button-light', 'button']"
+           :href="CONTENT.PROJECTS[selectedProject as ProjectKey].LIVELINK2"
+           target="_blank">
           <div class="button-content">
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt=""
                  class="links-img"/>
@@ -165,22 +166,43 @@ export type ProjectKey =
 
 <style scoped>
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel__item {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__slide {
+  padding: 10px;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: 5px solid white;
+}
+
 .displayProject {
   overflow-x: hidden;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+.detail-content{
+  padding: 5px
 }
 
 .smaller {
-  grid-column: span 3;
+  width: calc(43% - 10px);
 }
 
 .bigger {
-  grid-column: span 4;
+  width: 57%;
+  margin-left: 10px;
 }
 
 .full-width {
@@ -236,11 +258,6 @@ export type ProjectKey =
 .links-img {
   width: 30px;
   cursor: pointer;
-}
-
-.slider-img {
-  margin-left: 100px;
-  width: 100%;
 }
 
 .used-tools {
@@ -312,18 +329,16 @@ a {
     max-height: initial;
   }
 
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .smaller, .bigger {
-    grid-column: span 2;
+    width: 100%;
   }
-}
 
-@media screen and (max-width: 800px) {
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
+  .smaller{
+    margin-bottom: 10px;
+  }
+
+  .bigger{
+    margin-left: 0;
   }
 }
 </style>
