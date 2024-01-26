@@ -204,8 +204,7 @@
       "IMG": [
         "./pics/Projects/Zphere1.png",
         "./pics/Projects/Zphere2.png",
-        "./pics/Projects/Zphere3.png",
-        "./pics/Projects/Zphere4.png"
+        "./pics/Projects/Zphere3.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",
@@ -231,14 +230,16 @@
         "./pics/Projects/CircleOfLife1.png",
         "./pics/Projects/CircleOfLife2.png",
         "./pics/Projects/CircleOfLife3.png",
-        "./pics/Projects/CircleOfLife4.png"
+        "./pics/Projects/CircleOfLife4.png",
+        "./pics/Projects/CircleOfLife5.png",
+        "./pics/Projects/CircleOfLife6.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",
       "DOCULINK": "https://drive.google.com/file/d/1G1Lx72oPI1s_u89NmqmGZ-5kVHDrxKf-/view",
       "GITHUBLINK1": "",
       "GITHUBLINK2": "",
-      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/CircleOfLife/",
+      "LIVELINK1": "https://larsobist.github.io/portfolio-projects/Projekte/CircleOfLife/",
       "LIVELINK2": "",
       "XDLINK": ""
     },
@@ -254,11 +255,11 @@
         "./pics/Logo/Flutter.png"
       ],
       "IMG": [
-        "./pics/Projects/TravelBucket1.png",
-        "./pics/Projects/TravelBucket2.png",
-        "./pics/Projects/TravelBucket3.png",
-        "./pics/Projects/TravelBucket4.png",
-        "./pics/Projects/TravelBucket.mp4"
+        "./pics/Projects/App1.png",
+        "./pics/Projects/App2.png",
+        "./pics/Projects/App3.png",
+        "./pics/Projects/App4.png",
+        "./pics/Projects/App5.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",
@@ -281,10 +282,16 @@
         "./pics/Logo/Vimeo.png"
       ],
       "IMG": [
+        "./pics/Projects/Bachelorthesis.png",
         "./pics/Projects/Bachelorthesis1.png",
         "./pics/Projects/Bachelorthesis2.png",
         "./pics/Projects/Bachelorthesis3.png",
-        "./pics/Projects/Bachelorthesis4.png"
+        "./pics/Projects/Bachelorthesis4.png",
+        "./pics/Projects/Bachelorthesis5.png",
+        "./pics/Projects/Bachelorthesis6.png",
+        "./pics/Projects/Bachelorthesis7.png",
+        "./pics/Projects/Bachelorthesis8.png",
+        "./pics/Projects/Bachelorthesis9.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "https://drive.google.com/file/d/12hwc_3Q36J4-EKqg1F9EN8kRdbVp_By9/view?usp=sharing",
@@ -307,10 +314,16 @@
         "./pics/Logo/Springboot.png"
       ],
       "IMG": [
-        "./pics/Projects/culino1.png",
-        "./pics/Projects/culino2.png",
-        "./pics/Projects/culino3.png",
-        "./pics/Projects/culino4.png"
+        "./pics/Projects/Culino1.png",
+        "./pics/Projects/Culino2.png",
+        "./pics/Projects/Culino3.png",
+        "./pics/Projects/Culino4.png",
+        "./pics/Projects/Culino5.png",
+        "./pics/Projects/Culino6.png",
+        "./pics/Projects/Culino7.png",
+        "./pics/Projects/Culino8.png",
+        "./pics/Projects/Culino9.png"
+
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "https://drive.google.com/file/d/1WU15if3hj4hjCmr-EawtxqWY0UiMPUyA/view?usp=sharing",
@@ -331,10 +344,12 @@
         "./pics/Logo/Excel.png"
       ],
       "IMG": [
-        "./pics/Projects/Usability1.png",
-        "./pics/Projects/Usability2.png",
-        "./pics/Projects/Usability3.png",
-        "./pics/Projects/Usability4.png"
+        "./pics/Projects/UsabilityEngineering1.png",
+        "./pics/Projects/UsabilityEngineering2.png",
+        "./pics/Projects/UsabilityEngineering3.png",
+        "./pics/Projects/UsabilityEngineering4.png",
+        "./pics/Projects/UsabilityEngineering5.png",
+        "./pics/Projects/UsabilityEngineering6.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "https://drive.google.com/file/d/17hCBzQFX9Q6AQ_V7DqdBR6r1SU6blKzM/view?usp=sharing",
@@ -431,10 +446,15 @@
         "./pics/Logo/Springboot.png"
       ],
       "IMG": [
+        "./pics/Projects/TimelessTreasures.png",
         "./pics/Projects/TimelessTreasures1.png",
         "./pics/Projects/TimelessTreasures2.png",
         "./pics/Projects/TimelessTreasures3.png",
-        "./pics/Projects/TimelessTreasures4.png"
+        "./pics/Projects/TimelessTreasures4.png",
+        "./pics/Projects/TimelessTreasures5.png",
+        "./pics/Projects/TimelessTreasures6.png",
+        "./pics/Projects/TimelessTreasures7.png",
+        "./pics/Projects/TimelessTreasures8.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "https://drive.google.com/file/d/1-fsjuOG7gJamJHRZKlFSyDEndlr4RGx7/view?usp=sharing",
@@ -461,6 +481,8 @@
         "./pics/Projects/Throwback2.png",
         "./pics/Projects/Throwback3.png",
         "./pics/Projects/Throwback4.png",
+        "./pics/Projects/Throwback5.png",
+        "./pics/Projects/Throwback6.png",
         "./pics/Projects/LastMinute1.png",
         "./pics/Projects/LastMinute2.png",
         "./pics/Projects/LastMinute3.png",
@@ -471,8 +493,8 @@
       "DOCULINK": "",
       "GITHUBLINK1": "https://github.com/larsobist/LastMinute",
       "GITHUBLINK2": "https://github.com/larsobist/Throwback",
-      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/LastMinute!/index.html",
-      "LIVELINK2": "https://larsobist.github.io/portfolio/Projekte/Throwback/index.html",
+      "LIVELINK1": "https://larsobist.github.io/portfolio-projects/Projekte/LastMinute!/index.html",
+      "LIVELINK2": "https://larsobist.github.io/portfolio-projects/Projekte/Throwback/index.html",
       "XDLINK": ""
     },
     "SAVEATURTLE": {
@@ -490,14 +512,15 @@
         "./pics/Projects/SaveATurtle1.png",
         "./pics/Projects/SaveATurtle2.png",
         "./pics/Projects/SaveATurtle3.png",
-        "./pics/Projects/SaveATurtle4.png"
+        "./pics/Projects/SaveATurtle4.png",
+        "./pics/Projects/SaveATurtle5.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",
       "DOCULINK": "",
       "GITHUBLINK1": "",
       "GITHUBLINK2": "",
-      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/Schildkroete/Home.html",
+      "LIVELINK1": "https://larsobist.github.io/portfolio-projects/Projekte/Schildkroete/Home.html",
       "LIVELINK2":"",
       "XDLINK": ""
     },
@@ -516,14 +539,16 @@
         "./pics/Projects/Eatabroad1.png",
         "./pics/Projects/Eatabroad2.png",
         "./pics/Projects/Eatabroad3.png",
-        "./pics/Projects/Eatabroad4.png"
+        "./pics/Projects/Eatabroad4.png",
+        "./pics/Projects/Eatabroad5.png",
+        "./pics/Projects/Eatabroad6.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",
       "DOCULINK": "",
       "GITHUBLINK1": "https://github.com/larsobist/eatabroad",
       "GITHUBLINK2": "",
-      "LIVELINK1": "https://larsobist.github.io/portfolio/Projekte/eatabroad/index.html",
+      "LIVELINK1": "https://larsobist.github.io/portfolio-projects/Projekte/eatabroad/index.html",
       "LIVELINK2": "",
       "XDLINK": ""
     },
@@ -563,15 +588,12 @@
         "./pics/Logo/XD.png"
       ],
       "IMG": [
-        "./pics/Projects/Portfolio1.png",
-        "./pics/Projects/Portfolio2.png",
-        "./pics/Projects/Portfolio3.png",
-        "./pics/Projects/Portfolio4.png",
-        "./pics/Projects/Portfolio5.png",
-        "./pics/Projects/Portfolio6.png",
-        "./pics/Projects/Portfolio7.png",
-        "./pics/Projects/Portfolio8.png",
-        "./pics/Projects/Portfolio9.png"
+        "./pics/Projects/Ryanair1.png",
+        "./pics/Projects/Ryanair2.png",
+        "./pics/Projects/Ryanair3.png",
+        "./pics/Projects/Ryanair4.png",
+        "./pics/Projects/Ryanair5.png",
+        "./pics/Projects/Ryanair6.png"
       ],
       "TEST": "",
       "VIDEOLINK": "",
@@ -581,7 +603,7 @@
       "GITHUBLINK2": "",
       "LIVELINK1": "https://drive.google.com/open?id=1jghdwxDxOW1ZDOwJyikJ0llNTGgiRkwY",
       "LIVELINK2": "",
-      "XDLINK": ""
+      "XDLINK": "https://www.behance.net/gallery/190027039/RYANAIR-Renewal"
     },
     "SYNCSPORTS": {
       "KEY": "SYNCSPORTS",
@@ -595,12 +617,14 @@
         "./pics/Logo/Nanocosmos.png"
       ],
       "IMG": [
-        "./pics/Projects/Upcoming1.png",
-        "./pics/Projects/Upcoming2.png"
+        "./pics/Projects/SyncSports1.png",
+        "./pics/Projects/SyncSports2.png",
+        "./pics/Projects/SyncSports3.png",
+        "./pics/Projects/SyncSports4.png"
       ],
       "VIDEOLINK": "",
-      "PRESENTATION": "placeholder",
-      "DOCULINK": "placeholder",
+      "PRESENTATION": "https://drive.google.com/file/d/1miGY6xgBT3WXUwd_uFx-obJdhN8DzmV2/view?usp=sharing",
+      "DOCULINK": "https://drive.google.com/file/d/16yQHoypfne4dJOoW17rr-aI-XzR_TBE3/view?usp=sharing",
       "GITHUBLINK1": "",
       "GITHUBLINK2": "",
       "LIVELINK1": "",
@@ -614,7 +638,7 @@
       "EXTRACLASS": "",
       "TECH": [],
       "IMG": [
-        "./pics/Projects/Upcoming1.png"
+        "./pics/Projects/Masterthesis.png"
       ],
       "VIDEOLINK": "",
       "PRESENTATION": "",

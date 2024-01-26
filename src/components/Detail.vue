@@ -111,7 +111,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt=""
                  class="links-img"/>
             <span> {{
-                $t('DETAIL.XD')
+                (selectedProject === 'PORTFOLIO' ? ($t('DETAIL.BEHANCE')) : ($t('DETAIL.XD')))
               }}</span>
           </div>
         </a>
@@ -133,7 +133,7 @@ export type ProjectKey =
             <img :src="appearance === 'Dark' ? CONTENT.DETAIL.VIEWLIGHT : CONTENT.DETAIL.VIEWDARK" alt=""
                  class="links-img"/>
             <span> {{
-                (selectedProject === 'WEBGAMES' ? ($t('DETAIL.LASTMINUTELIVEDEMO')) : ($t('DETAIL.LIVEDEMO')))
+                selectedProject === 'WEBGAMES' ? $t('DETAIL.LASTMINUTELIVEDEMO') : (selectedProject === 'PORTFOLIO' ? $t('DETAIL.PORTFOLIO') : $t('DETAIL.LIVEDEMO'))
               }}</span>
           </div>
         </a>
