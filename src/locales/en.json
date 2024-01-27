@@ -69,15 +69,15 @@
     "TITLE": "Projects",
     "ZPHERE": {
       "CATEGORY": "Bachelor Project",
-      "DESCRIPTION": "Zphere is a sports platform that depicts sports that have been poorly represented in the media. It aims to provide fans interested in such sports with a centralized online platform. Through a collaboration between the university and Radio Bremen, we had the opportunity to prototype this idea as part of our bachelor project. The web app's functionality and content were defined in the concept phase by our group. To further define the platform, we conducted sports and target audience identification. During the implementation phase, we performed a competitive analysis, created mood boards, and designed the platform's branding. In the design development, wireframes were initially designed and later defined more precisely by me and Yuliya Litvin using Adobe XD. Meanwhile, the rest of the team developed a prototype."
+      "DESCRIPTION": "Zphere is a sports platform that focuses on previously underrepresented sports in the media and offers fans a central hub. The idea arose from a cooperation between HSB and Radio Bremen, which was prototypically implemented as part of our bachelor project. Together, we defined the functionality and content of the web app in the conception phase. We then carried out a sports and target group search in order to specify the platform more precisely. During the implementation phase, we carried out a competitor analysis, created mood boards and designed the branding of the platform. The result was an innovative platform that not only presents a wide range of sports, but also promotes the passion of the fans."
     },
     "CIRCLEOFLIFE": {
       "CATEGORY": "Data Visualization",
-      "DESCRIPTION": "\"Circle of Life\" is an interactive website that focuses on visually representing complex datasets through various visualizations, making them engaging for end-users and highlighting interesting topics. This site features a dataset of birth dates collected over 21 years in the USA. Special emphasis was placed on interaction possibilities, allowing users to obtain more information about data points. In designing the interface, I aimed for minimalism but also incorporated the relatively new technique of variable fonts, allowing user interaction."
+      "DESCRIPTION": "Cirlce of Life is a fascinating interactive website that presents complex data sets to the end user through a variety of visualizations. The focus is on a comprehensive 21-year dataset of birth data in the USA. Special attention is paid to the interaction possibilities to retrieve comprehensive information on each data point. The minimalist design was deliberately emphasized, with innovative variable fonts technology integrated to ensure a unique user experience. Overall, care was taken to ensure that the site was not only informative, but also aesthetically pleasing to appeal to users of all types and the user has a unique experience."
     },
     "MOBILEAPPS": {
       "CATEGORY": "Mobile Programming",
-      "DESCRIPTION": "During the studies, various mobile apps were developed, covering different aspects of mobile development. Experience in cross-platform mobile app development was gained by creating simple apps with Flutter and React Native. Apps with SwiftUI and Kotlin were also developed for various use cases, such as accessing smartphone sensors or creating a travel plan. An AR app was developed, placing various 3D objects in space. Almost every application has an API interface. Using the OpenWeather API, a modern application was developed in this context. Within the links you will find documents for TravelBucket"
+      "DESCRIPTION": "During the course, various mobile apps were developed, which included different aspects of mobile development. By creating simple apps with Flutter and React Native, experience was gained with cross-platform mobile app development. Apps were also developed with SwiftUI and Kotlin for various use cases. Apps were developed that access the smartphone's sensors, for example. An AR app was also developed in which various 3D objects were placed in the room. The most impressive project is TravelBucket, where a travel plan can be created. You can find more Information about the project in the documentation."
     },
     "BACHELORTHESIS": {
       "CATEGORY": "Scientific work",
@@ -85,7 +85,7 @@
     },
     "CULINO": {
       "CATEGORY": "Fullstack Web Application",
-      "DESCRIPTION": "\"Culino\" is a full-stack app where users can share their favorite recipes on a reputable and visually appealing platform, allowing other food enthusiasts to experience their favorite recipes. At the project's inception, a concept for the project idea was developed, on which the branding was subsequently built. Finally, the application was prototypically developed and filled with content."
+      "DESCRIPTION": "Culino is a comprehensive full-stack app that allows cooking enthusiasts to share their favorite recipes on a reputable and visually appealing platform. The project concept was carefully developed and formed the basis for the professional branding and architecture of the application. The visual identity exudes professionalism and creativity. The application was then prototyped using the React framework and Spring Boot and filled with appropriate content to ensure an engaging user experience. Culino creates a vibrant community of people sharing their culinary passion."
     },
     "USABILITY": {
       "CATEGORY": "Analysis",
@@ -93,27 +93,27 @@
     },
     "LAGOM": {
       "CATEGORY": "Data-Based Web Application",
-      "DESCRIPTION": "\"LAGOM\" is a digital bullet journal that offers users a way to structure and organize their lives in a personal and individual workspace using reminders, to-do lists, and more. The application is designed to update data stored in a database in the browser as soon as new entries are modified. Thao Nguyen, Yuliya Litvin, and I developed the entire web application together, with each contributing to all parts of the project."
+      "DESCRIPTION": "Lagom is more than just a digital bullet journal - it's a personal and individual workspace that allows users to structure their lives through reminders, to-do lists and more. The application was developed with a focus on a seamless user experience, where data is updated in real-time in the browser as new entries are made or modified. The entire web application was developed in a collaborative effort between Thao Nguyen, Yuliya Litvin and myself. Each of us was involved in all parts of the project to ensure that Lagom is a holistic and effective tool for personal organization."
     },
     "BUILDAR": {
       "CATEGORY": "Prototyping & Study",
-      "DESCRIPTION": "Together with Moumita Ahmad and Tabea Schuster, I analyzed alternatives to traditional paper instructions through the project \"buildAR.\" In an era of technological progress and digitization, instructions, whether for games or furniture, have changed very little. This motivated us to analyze options for modernizing instructions. In a user test, we compared two prototype instructions against traditional paper instructions and analyzed the results using a questionnaire. The documentation provides a detailed account of our approach and the findings of the user test."
+      "DESCRIPTION": "Together with Moumita Ahmad and Tabea Schuster, I analyzed alternatives to traditional paper instructions through the project BuildAR. In an era of technological progress and digitization, instructions, whether for games or furniture, have changed very little. This motivated us to analyze options for modernizing instructions. In a user test, we compared two prototype instructions against traditional paper instructions and analyzed the results using a questionnaire. The documentation provides a detailed account of our approach and the findings of the user test."
     },
     "RUNNERSHIGH": {
       "CATEGORY": "Animation Video",
-      "DESCRIPTION": "In collaboration with Tabea Schuster, I developed an animation video on the topic of \"Runner's High.\" We followed a systematic approach by first sketching and designing the content of the short video within a storyboard. Subsequently, we designed and perfected the video in cycles using Adobe After Effects. You can view the animation video on Vimeo through the following link."
+      "DESCRIPTION": "Together with Tabea Schuster, I developed an animated video about the Runner's High. Our systematic approach began with the creation of a detailed storyboard that encompassed the entire content of the short video. This allowed for a clear structure before we moved into the animation phase using Adobe After Effects. We designed and refined the video in cycles. Special care was taken to authentically capture the scientific component of the Runner's High and integrate it into the animation. You can view the final product on Vimeo via the following link. "
     },
     "TIMELESSTREASURES": {
       "CATEGORY": "Fullstack Web Application",
-      "DESCRIPTION": "\"Timeless Treasures\" is a full-stack app that allows users to bring their jewelry to the secondhand market, giving new life to necklaces, rings, and watches. At the beginning of the project, a problem analysis was developed for a project idea. The potential value of this application was then presented to startup enthusiasts through a presentation. Finally, the application was prototypically developed and filled with content."
+      "DESCRIPTION": "Timeless Treasures is an innovative full-stack app that enables users to offer their jewelry on the second-hand market and thus give their necklaces, rings and watches a new lease of life. The starting point of the project was a thorough problem analysis, during which a clear vision for the project idea was developed. The idea behind the project goes beyond the mere sale of jewelry. The platform creates a sustainable way of circulating high-quality jewelry on the second-hand market and giving it a longer life. The presentation was followed by the prototypical development of the application, which ensured that user-friendliness was at the forefront."
     },
     "WEBGAMES": {
       "CATEGORY": "Jump'n'Run and Point & Click Web Games",
-      "DESCRIPTION": "During my bachelor's studies, I, along with Thao Nguyen, Moumita Ahmad, and Yuliya Litvin, developed two games to explore the game development aspect of media informatics. One game is a Point and Click Adventure developed only with HTML, JavaScript, and CSS. This game is titled \"Last Minute!\" and revolves around a student stressed in the final stages of their bachelor's thesis. The player assists the protagonist in successfully submitting the thesis to the professor. The second developed game is called \"Throwback.\" Throwback is a Jump & Run game where the protagonist travels through the last century, prompted by the grandmother's claim that things were better in the past. The game was designed and programmed using Tiled and Phaser 3."
+      "DESCRIPTION": "During my bachelor's studies, I, along with Thao Nguyen, Moumita Ahmad, and Yuliya Litvin, developed two games to explore the game development aspect of media informatics. One game is a Point and Click Adventure developed only with HTML, JavaScript, and CSS. This game is titled Last Minute! and revolves around a student stressed in the final stages of their bachelor's thesis. The player assists the protagonist in successfully submitting the thesis to the professor. The second developed game is called Throwback. Throwback is a Jump & Run game where the protagonist travels through the last century, prompted by the grandmother's claim that things were better in the past. The game was designed and programmed using Tiled and Phaser 3."
     },
     "SAVEATURTLE": {
       "CATEGORY": "Website",
-      "DESCRIPTION": "At the beginning of the first semester, I designed an information-based website. The website informs visitors about sea turtles and their threats. It also provides a gallery and links to partners where money can be donated to help the turtles. Additionally, there is information about a partner program where one can sign up as a sponsor for a sea turtle."
+      "DESCRIPTION": "At the beginning of my studies, I designed an informative website about sea turtles. It informs visitors about these fascinating animals, their habits and the threats they face. The website includes a gallery and links to partner organizations where donations for marine conservation can be made. There is also the opportunity to register as a sponsor for a sea turtle. The website serves as a platform for disseminating knowledge, collecting donations and promoting personal commitment to the protection of sea turtles. "
     },
     "EATABROAD": {
       "CATEGORY": "Design and Web Development",
@@ -125,15 +125,15 @@
     },
     "PORTFOLIO": {
       "CATEGORY": "Design Work",
-      "DESCRIPTION": "In design, I have worked on many different smaller projects. For example, I have done retouching multiple times, redesigned logos and websites, or edited images using Lightroom. All of these works are summarized in a portfolio that showcases these projects."
+      "DESCRIPTION": "I have worked on many different smaller design projects. For example, I have done retouching several times, redesigned the logo and website or edited images using Lightroom. You can find all this work in a portfolio that summarizes all these projects.\nI have also worked on more complex projects, such as improving the Ryanair website. This involved paying attention to many different details such as the menu structure and the purchase process. Subsequently, an interactive XD version was designed as a prototype, which can be viewed on the Behance site."
     },
     "SYNCSPORTS": {
       "CATEGORY": "Livestreaming platform with AI systems",
-      "DESCRIPTION": "Currently, I am involved in another interesting project. In the master project, we are developing a live streaming platform with various AI models in a group of 10 people. Speech-to-text functionality and object recognition are to be integrated. In this project, I work as a Scrum Manager, assisting my team members when needed. Additionally, I will start my master's thesis in April 2024, focusing on data visualization."
+      "DESCRIPTION": "Last semester, I worked on another interesting project in a large group of 10 people. In the master's project, we developed a livestreaming platform that integrated various AI models. On the one hand, a speech-to-text functionality and object recognition were integrated. These two models should help to reduce the language and visual barrier. I worked as a scrum manager and helped my team members with a wide range of activities as required. The result was a responsive product that can be a good basis for many other projects with other use cases, as we designed the product to be as modular as possible."
     },
     "MASTERTHESIS": {
       "CATEGORY": "Scientific Work",
-      "DESCRIPTION": ""
+      "DESCRIPTION": "I am currently in the exciting phase of writing my master's thesis, which deals with the development of intelligent spatial planning software. The focus is on an innovative approach, namely the integration of chatbot technology in conjunction with language modeling models (LLM). This software should not only cover conventional room planning functions, but also enable more natural and user-friendly interaction through the use of LLM models. The combination of chatbot and LLM promises to revolutionize the way spatial planning is done and I look forward to contributing to this emerging field through my Master's thesis."
     }
   },
   "DETAIL": {
