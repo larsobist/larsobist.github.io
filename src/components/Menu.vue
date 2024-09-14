@@ -75,19 +75,15 @@ const scrollAndToggle = (sectionId: string) => {
     <div class="spacer-right"></div>
     <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
       <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
-                                                                alt="XING"
+                                                                alt="Mail"
                                                                 class="img-menu"/></a>
     </div>
     <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
       <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
-                                                                    alt="XING"
+                                                                    alt="Linkedin"
                                                                     class="img-menu"/></a>
     </div>
-    <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon', 'right']">
-      <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
-                                                                alt="XING"
-                                                                class="img-menu"/></a>
-    </div>
+   
     <div class="spacer-right"></div>
     <div>
       <div v-if="$i18n.locale !== 'en'"
@@ -130,20 +126,14 @@ const scrollAndToggle = (sectionId: string) => {
         <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
              @click="toggleMenu">
           <a :href="CONTENT.CONTACT.MAIL.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.MAIL.IMGDARK : CONTENT.CONTACT.MAIL.IMGLIGHT"
-                                                                    alt="XING"
+                                                                    alt="MAIL"
                                                                     class="img-menu"/></a>
         </div>
         <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
              @click="toggleMenu">
           <a :href="CONTENT.CONTACT.LINKEDIN.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.LINKEDIN.IMGDARK : CONTENT.CONTACT.LINKEDIN.IMGLIGHT"
-                                                                        alt="XING"
+                                                                        alt="LinkedIn"
                                                                         class="img-menu"/></a>
-        </div>
-        <div :class="[appearance === 'Dark' ? 'menu-item-dark' : 'menu-item-light', 'menu-item', 'icon']"
-             @click="toggleMenu">
-          <a :href="CONTENT.CONTACT.XING.LINK" target="_blank"><img :src="appearance === 'Light' ? CONTENT.CONTACT.XING.IMGDARK : CONTENT.CONTACT.XING.IMGLIGHT"
-                                                                    alt="XING"
-                                                                    class="img-menu"/></a>
         </div>
       </div>
       <div class="menu-item menu-spacer"></div>
